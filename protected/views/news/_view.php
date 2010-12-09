@@ -1,0 +1,2 @@
+<span class="date"><?php echo CHtml::encode($data->date); ?></span> <?php echo CHtml::link($data->title, array('news/view', 'id'=>$data->id), array ("class"=>"news_title"));?><br />
+<?php echo CHtml::encode($data->text); ?><br /><br />
