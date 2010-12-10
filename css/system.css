@@ -1,0 +1,54 @@
+div.adminPanel{
+height:50px;
+background:#fff;
+}
+
+div.adminDiv{
+border:1px dashed #338dfd;
+}
+
+ul.adminUl{
+padding:0;
+list-style:none;
+position:absolute;
+//margin-top:-1px;
+}
+
+ul.adminUl li{
+float:left;
+width:15px;
+background:red;
+height:15px;
+margin-right:1px;
+border:1px solid #c7c7c7;
+}
+
+ul.adminUl li a div{
+width:15px;
+height:15px;
+cursor:pointer;
+}
+
+ul.adminUl li.adminCreate{
+background:url('../images/system/create.png') left top no-repeat;
+}
+
+ul.adminUl li.adminDelete{
+background:url('../images/system/delete.png') left top no-repeat;
+}
+
+ul.adminUl li.adminManage{
+background:url('../images/system/manage.png') left top no-repeat;
+}
+
+ul.adminUl li.adminList{
+background:url('../images/system/list.png') left top no-repeat;
+}
+
+ul.adminUl li.adminUpdate{
+background:url('../images/system/update.png') left top no-repeat;
+}
+
+a.search-button{
+line-height:25px;
+}
