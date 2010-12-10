@@ -9237,6 +9237,7 @@ Stack trace:
 #3 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
 #4 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
 #5 {main} REQUEST_URI=/users/news
+<<<<<<< HEAD
 2010/12/11 00:16:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection не удалось открыть соединение с базой данных: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in C:\apache\yiinka.yii\www\framework\db\CDbConnection.php:269
 Stack trace:
 #0 C:\apache\yiinka.yii\www\framework\db\CDbConnection.php(242): CDbConnection->open()
@@ -9474,3 +9475,32 @@ REQUEST_URI=/site/login
 in C:\apache\yiinka.yii\www\protected\components\views\topMenu.php (6)
 in C:\apache\yiinka.yii\www\protected\components\TopMenu.php (16)
 in C:\apache\yiinka.yii\www\framework\zii\widgets\CPortlet.php (95)
+=======
+>>>>>>> origin/master
+2010/12/11 00:32:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection не удалось открыть соединение с базой данных: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in C:\apache\yiinka.yii\www\framework\db\CDbConnection.php:269
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\db\CDbConnection.php(242): CDbConnection->open()
+#1 C:\apache\yiinka.yii\www\framework\db\CDbConnection.php(221): CDbConnection->setActive(true)
+#2 C:\apache\yiinka.yii\www\framework\base\CModule.php(372): CDbConnection->init()
+#3 C:\apache\yiinka.yii\www\framework\base\CApplication.php(406): CModule->getComponent('db')
+#4 C:\apache\yiinka.yii\www\framework\db\ar\CActiveRecord.php(589): CApplication->getDb()
+#5 C:\apache\yiinka.yii\www\framework\db\ar\CActiveRecord.php(2167): CActiveRecord->getDbConnection()
+#6 C:\apache\yiinka.yii\www\framework\db\ar\CActiveRecord.php(353): CActiveRecordMetaData->__construct(Object(Pages))
+#7 C:\apache\yiinka.yii\www\protected\models\Pages.php(25): CActiveRecord::model('Pages')
+#8 C:\apache\yiinka.yii\www\protected\controllers\PagesController.php(156): Pages::model()
+#9 C:\apache\yiinka.yii\www\protected\controllers\PagesController.php(50): PagesController->loadModel('2')
+#10 [internal function]: PagesController->actionView('2')
+#11 C:\apache\yiinka.yii\www\framework\web\actions\CInlineAction.php(54): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#12 C:\apache\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#13 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\apache\yiinka.yii\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 C:\apache\yiinka.yii\www\framework\web\CController.php(1084): CFilter->filter(Object(CFilterChain))
+#16 C:\apache\yiinka.yii\www\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\apache\yiinka.yii\www\framework\web\CController.php(283): CFilterChain->run()
+#19 C:\apache\yiinka.yii\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(324): CController->run('view')
+#21 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('pages/view')
+#22 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#23 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#24 {main} REQUEST_URI=/pages/view/2/services
