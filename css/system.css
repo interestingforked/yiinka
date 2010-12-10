@@ -48,3 +48,7 @@ background:url('../images/system/list.png') left top no-repeat;
 ul.adminUl li.adminUpdate{
 background:url('../images/system/update.png') left top no-repeat;
 }
+
+a.search-button{
+line-height:25px;
+}

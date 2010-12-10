@@ -9110,3 +9110,130 @@ Stack trace:
 #1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
 #2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
 #3 {main} REQUEST_URI=/favicon.ico
+2010/12/10 14:38:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in Y:\home\yiinka.yii\www\protected\controllers\UsersController.php:174
+Stack trace:
+#0 Y:\home\yiinka.yii\www\protected\controllers\UsersController.php(92): UsersController->loadModel('1')
+#1 [internal function]: UsersController->actionUpdate('1')
+#2 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(54): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#4 Y:\home\yiinka.yii\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 Y:\home\yiinka.yii\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#6 Y:\home\yiinka.yii\www\framework\web\CController.php(1084): CFilter->filter(Object(CFilterChain))
+#7 Y:\home\yiinka.yii\www\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#8 Y:\home\yiinka.yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 Y:\home\yiinka.yii\www\framework\web\CController.php(283): CFilterChain->run()
+#10 Y:\home\yiinka.yii\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(324): CController->run('update')
+#12 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('users/update')
+#13 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#14 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#15 {main} REQUEST_URI=/users/update/1
+2010/12/10 14:38:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/10 15:26:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/10 15:26:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/10 15:26:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/10 15:26:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/10 15:55:50 [warning] [application] Не удалось присвоить небезопасный атрибут "content".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (67)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:55:50 [warning] [application] Не удалось присвоить небезопасный атрибут "keywords".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (67)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:55:50 [warning] [application] Не удалось присвоить небезопасный атрибут "description".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (67)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:55:58 [warning] [application] Не удалось присвоить небезопасный атрибут "content".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (67)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:55:58 [warning] [application] Не удалось присвоить небезопасный атрибут "keywords".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (67)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:55:58 [warning] [application] Не удалось присвоить небезопасный атрибут "description".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (67)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:56:06 [warning] [application] Не удалось присвоить небезопасный атрибут "content".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (67)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:56:06 [warning] [application] Не удалось присвоить небезопасный атрибут "keywords".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (67)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:56:06 [warning] [application] Не удалось присвоить небезопасный атрибут "description".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (67)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:56:16 [warning] [application] Не удалось присвоить небезопасный атрибут "content".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (67)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:56:16 [warning] [application] Не удалось присвоить небезопасный атрибут "keywords".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (67)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:56:16 [warning] [application] Не удалось присвоить небезопасный атрибут "description".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (67)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:56:32 [warning] [application] Не удалось присвоить небезопасный атрибут "content".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (67)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:56:32 [warning] [application] Не удалось присвоить небезопасный атрибут "keywords".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (67)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:56:32 [warning] [application] Не удалось присвоить небезопасный атрибут "description".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (67)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:56:38 [warning] [application] Не удалось присвоить небезопасный атрибут "content".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (67)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:56:38 [warning] [application] Не удалось присвоить небезопасный атрибут "keywords".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (67)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:56:38 [warning] [application] Не удалось присвоить небезопасный атрибут "description".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (67)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:57:14 [warning] [application] Не удалось присвоить небезопасный атрибут "content".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (91)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:57:14 [warning] [application] Не удалось присвоить небезопасный атрибут "keywords".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (91)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:57:14 [warning] [application] Не удалось присвоить небезопасный атрибут "description".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (91)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 16:12:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "list".' in Y:\home\yiinka.yii\www\framework\web\CController.php:444
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CController.php(262): CController->missingAction('list')
+#1 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(324): CController->run('list')
+#2 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('news/list')
+#3 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/news/list
+2010/12/10 16:15:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "news".' in Y:\home\yiinka.yii\www\framework\web\CController.php:444
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CController.php(262): CController->missingAction('news')
+#1 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(324): CController->run('news')
+#2 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('users/news')
+#3 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/users/news

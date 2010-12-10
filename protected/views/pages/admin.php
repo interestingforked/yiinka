@@ -4,10 +4,10 @@ $this->breadcrumbs=array(
 	Yii::t('yiinka', 'Manage'),
 );
 
-$this->menu=array(
+/*$this->menu=array(
 	array('label'=>Yii::t('yiinka', 'List').' Pages', 'url'=>array('index')),
 	array('label'=>Yii::t('yiinka', 'Create').' Pages', 'url'=>array('create')),
-);
+);*/
 
 Yii::app()->clientScript->registerScript('search', "
 $('.search-button').click(function(){
@@ -36,7 +36,7 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 	'model'=>$model,
 )); ?>
 </div><!-- search-form -->
-
+<div class="adminDiv">
 <?php $this->widget('zii.widgets.grid.CGridView', array(
 	'id'=>'pages-grid',
 	'dataProvider'=>$model->search(),
@@ -57,4 +57,16 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 			'class'=>'CButtonColumn',
 		),
 	),
-)); ?>
+)); 
+?>
+</div>
+<?php
+$this->widget('zii.widgets.CMenu', array(
+	'items'=>array(
+		array('url'=>array('index'), 'itemOptions'=>array('class'=>'adminList', 'title'=>Yii::t('yiinka', 'List'))),
+		array('url'=>array('create'), 'itemOptions'=>array('class'=>'adminCreate', 'title'=>Yii::t('yiinka', 'Create'))),
+	),
+	'htmlOptions'=>array('class'=>'adminUl'),
+	'linkLabelWrapper'=>'div',
+));
+?>

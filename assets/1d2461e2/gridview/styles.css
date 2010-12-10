@@ -51,12 +51,12 @@
 
 .grid-view table.items tr.even
 {
-	background: #F8F8F8;
+	background: #fff;
 }
 
 .grid-view table.items tr.odd
 {
-	background: #E5F1F4;
+	background: #ECFBD4;
 }
 
 .grid-view table.items tr.selected
@@ -66,7 +66,7 @@
 
 .grid-view table.items tr:hover
 {
-	background: #ECFBD4;
+	background: #cffda3;
 }
 
 .grid-view .link-column img
