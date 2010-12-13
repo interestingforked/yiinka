@@ -1,8 +1,50 @@
+/* begin admin panel styles */
+
 div.adminPanel{
 height:50px;
 background:#fff;
 }
 
+div.adminPanelLeft{
+height:36px;
+float:left;
+padding:12px 0 0 15px;
+}
+
+div.adminPanelRight{
+height:32px;
+float:right;
+text-align:right;
+padding:16px 15px 0 0;
+}
+
+div.adminPanelClear{
+height:2px;
+line-height:2px;
+font-size:2px;
+clear:both;
+}
+
+div.adminPanelUsers{
+float:right;
+background:url('../images/system/icons.gif') left top no-repeat #fff;
+width:13px;
+height:14px;
+cursor:pointer;
+margin-right:10px;
+}
+
+div.adminPanelGii{
+float:right;
+background:url('../images/system/icons.gif') -13px top no-repeat #fff;
+width:15px;
+height:14px;
+cursor:pointer;
+}
+
+/* end admin panel styles */
+
+/* begin admin models menu */
 div.adminDiv{
 border:1px dashed #338dfd;
 }
@@ -52,3 +94,5 @@ background:url('../images/system/update.png') left top no-repeat;
 a.search-button{
 line-height:25px;
 }
+
+/* end admin models menu */

@@ -3,7 +3,7 @@ $n=1;
 if(!Yii::app()->user->isGuest && Yii::app()->user->getState('role')==1) echo ('<div class="adminDiv">');
 
 foreach($this->getTopMenu() as $page) {
-	$active = (CHtml::encode($_GET['id'])==$page->id && Yii::app()->controller->id=="pages") ? "_active" : "";
+	$active = (isset($_GET['id']) && CHtml::encode($_GET['id'])==$page->id && Yii::app()->controller->id=="pages") ? "_active" : "";
 	if($n==1) {
 		echo CHtml::link($page->title, array('pages/view', 'id'=>$page->id, 'url'=>$page->url), array ("class"=>"top_menu2".$active)); 
 	}

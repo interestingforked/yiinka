@@ -13,17 +13,9 @@ echo "\$this->breadcrumbs=array(
 	\$model->{$nameColumn},
 );\n";
 ?>
-
-$this->menu=array(
-	array('label'=>'List <?php echo $this->modelClass; ?>', 'url'=>array('index')),
-	array('label'=>'Create <?php echo $this->modelClass; ?>', 'url'=>array('create')),
-	array('label'=>'Update <?php echo $this->modelClass; ?>', 'url'=>array('update', 'id'=>$model-><?php echo $this->tableSchema->primaryKey; ?>)),
-	array('label'=>'Delete <?php echo $this->modelClass; ?>', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model-><?php echo $this->tableSchema->primaryKey; ?>),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage <?php echo $this->modelClass; ?>', 'url'=>array('admin')),
-);
 ?>
 
-<h1>View <?php echo $this->modelClass." #<?php echo \$model->{$this->tableSchema->primaryKey}; ?>"; ?></h1>
+<h1><?php echo "<?php"; ?> echo Yii::t('yiinka', 'View'); ?> <?php echo $this->modelClass." #<?php echo \$model->{$this->tableSchema->primaryKey}; ?>"; ?></h1>
 
 <?php echo "<?php"; ?> $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
@@ -33,4 +25,17 @@ foreach($this->tableSchema->columns as $column)
 	echo "\t\t'".$column->name."',\n";
 ?>
 	),
-)); ?>
+)); 
+
+$this->widget('zii.widgets.CMenu', array(
+		'items'=>array(
+			array('url'=>array('index'), 'itemOptions'=>array('class'=>'adminList', 'title'=>Yii::t('yiinka', 'List'))),
+			array('url'=>array('create'), 'itemOptions'=>array('class'=>'adminCreate', 'title'=>Yii::t('yiinka', 'Create'))),
+			array('url'=>array('update', 'id'=>$model-><?php echo $this->tableSchema->primaryKey; ?>), 'itemOptions'=>array('class'=>'adminUpdate', 'title'=>Yii::t('yiinka', 'Update'))),
+			array('url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model-><?php echo $this->tableSchema->primaryKey; ?>),'confirm'=>Yii::t('zii', 'Are you sure you want to delete this item?')), 'itemOptions'=>array('class'=>'adminDelete', 'title'=>Yii::t('yiinka', 'Delete'))),
+			array('url'=>array('admin'), 'itemOptions'=>array('class'=>'adminManage', 'title'=>Yii::t('yiinka', 'Manage'))),
+		),
+		'htmlOptions'=>array('class'=>'adminUl'),
+		'linkLabelWrapper'=>'div',
+	));
+?>

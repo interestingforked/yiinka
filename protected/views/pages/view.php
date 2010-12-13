@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $this->pageTitle=$model->meta_title;
 
 $this->breadcrumbs=array(

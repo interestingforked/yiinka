@@ -54,3 +54,9 @@
 	background:url(down.gif) right center no-repeat;
 	padding-right: 10px;
 }
+
+.view{
+padding:8px;
+margin-bottom:5px;
+border:1px solid #CCCCCC;
+}

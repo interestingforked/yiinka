@@ -11,7 +11,7 @@
 	'enableAjaxValidation'=>false,
 )); ?>\n"; ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+	<p class="note"><?php echo "<?php ";?> echo(Yii::t('yiinka', 'Fields with <span class="required">*</span> are required'));?></p>
 
 	<?php echo "<?php echo \$form->errorSummary(\$model); ?>\n"; ?>
 
@@ -31,7 +31,7 @@ foreach($this->tableSchema->columns as $column)
 }
 ?>
 	<div class="row buttons">
-		<?php echo "<?php echo CHtml::submitButton(\$model->isNewRecord ? 'Create' : 'Save'); ?>\n"; ?>
+		<?php echo "<?php echo CHtml::submitButton(\$model->isNewRecord ? Yii::t('yiinka', 'Create') : Yii::t('yiinka', 'Save')); ?>\n"; ?>
 	</div>
 
 <?php echo "<?php \$this->endWidget(); ?>\n"; ?>

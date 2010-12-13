@@ -4,11 +4,6 @@ $this->breadcrumbs=array(
 	Yii::t('yiinka', 'Manage'),
 );
 
-/*$this->menu=array(
-	array('label'=>Yii::t('yiinka', 'List').' News', 'url'=>array('index')),
-	array('label'=>Yii::t('yiinka', 'Create').' News', 'url'=>array('create')),
-);*/
-
 Yii::app()->clientScript->registerScript('search', "
 $('.search-button').click(function(){
 	$('.search-form').toggle();

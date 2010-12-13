@@ -23,7 +23,7 @@
 		<?php if(!Yii::app()->user->isGuest && Yii::app()->user->getState('role')==1)  $this->widget('AdminPanel'); ?>
 		<header>
 			<div class="headerLeft">
-				<a href="/"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo.png" alt="" border="0"/></a>
+				<a href="/"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pageProof/logo.png" alt="" border="0"/></a>
 			</div>
 			<div class="headerRight">
 				phone.: <span class="size16">(000) 000-00-00 (000)</span><br/>
