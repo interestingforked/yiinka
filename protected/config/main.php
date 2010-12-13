@@ -57,7 +57,7 @@ return array(
 			'connectionString' => 'mysql:host=localhost;dbname=primex_yii',
 			'emulatePrepare' => true,
 			'username' => 'root',
-			'password' => '',
+			'password' => '123',
 			'charset' => 'utf8',
 			'tablePrefix'=>'yiinka_',
 		),

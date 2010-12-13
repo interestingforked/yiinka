@@ -264,3 +264,994 @@ Stack trace:
 #1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
 #2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
 #3 {main} REQUEST_URI=/favicon.ico
+<<<<<<< HEAD
+=======
+2010/12/10 15:55:50 [warning] [application] Не удалось присвоить небезопасный атрибут "content".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (67)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:55:50 [warning] [application] Не удалось присвоить небезопасный атрибут "keywords".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (67)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:55:50 [warning] [application] Не удалось присвоить небезопасный атрибут "description".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (67)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:55:58 [warning] [application] Не удалось присвоить небезопасный атрибут "content".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (67)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:55:58 [warning] [application] Не удалось присвоить небезопасный атрибут "keywords".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (67)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:55:58 [warning] [application] Не удалось присвоить небезопасный атрибут "description".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (67)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:56:06 [warning] [application] Не удалось присвоить небезопасный атрибут "content".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (67)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:56:06 [warning] [application] Не удалось присвоить небезопасный атрибут "keywords".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (67)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:56:06 [warning] [application] Не удалось присвоить небезопасный атрибут "description".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (67)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:56:16 [warning] [application] Не удалось присвоить небезопасный атрибут "content".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (67)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:56:16 [warning] [application] Не удалось присвоить небезопасный атрибут "keywords".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (67)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:56:16 [warning] [application] Не удалось присвоить небезопасный атрибут "description".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (67)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:56:32 [warning] [application] Не удалось присвоить небезопасный атрибут "content".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (67)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:56:32 [warning] [application] Не удалось присвоить небезопасный атрибут "keywords".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (67)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:56:32 [warning] [application] Не удалось присвоить небезопасный атрибут "description".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (67)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:56:38 [warning] [application] Не удалось присвоить небезопасный атрибут "content".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (67)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:56:38 [warning] [application] Не удалось присвоить небезопасный атрибут "keywords".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (67)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:56:38 [warning] [application] Не удалось присвоить небезопасный атрибут "description".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (67)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:57:14 [warning] [application] Не удалось присвоить небезопасный атрибут "content".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (91)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:57:14 [warning] [application] Не удалось присвоить небезопасный атрибут "keywords".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (91)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 15:57:14 [warning] [application] Не удалось присвоить небезопасный атрибут "description".
+in Y:\home\yiinka.yii\www\protected\controllers\PagesController.php (91)
+in Y:\home\yiinka.yii\www\index.php (13)
+2010/12/10 16:12:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "list".' in Y:\home\yiinka.yii\www\framework\web\CController.php:444
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CController.php(262): CController->missingAction('list')
+#1 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(324): CController->run('list')
+#2 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('news/list')
+#3 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/news/list
+2010/12/10 16:15:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "news".' in Y:\home\yiinka.yii\www\framework\web\CController.php:444
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CController.php(262): CController->missingAction('news')
+#1 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(324): CController->run('news')
+#2 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('users/news')
+#3 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/users/news
+<<<<<<< HEAD
+2010/12/11 00:16:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection не удалось открыть соединение с базой данных: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in C:\apache\yiinka.yii\www\framework\db\CDbConnection.php:269
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\db\CDbConnection.php(242): CDbConnection->open()
+#1 C:\apache\yiinka.yii\www\framework\db\CDbConnection.php(221): CDbConnection->setActive(true)
+#2 C:\apache\yiinka.yii\www\framework\base\CModule.php(372): CDbConnection->init()
+#3 C:\apache\yiinka.yii\www\framework\base\CApplication.php(406): CModule->getComponent('db')
+#4 C:\apache\yiinka.yii\www\framework\db\ar\CActiveRecord.php(589): CApplication->getDb()
+#5 C:\apache\yiinka.yii\www\framework\db\ar\CActiveRecord.php(2167): CActiveRecord->getDbConnection()
+#6 C:\apache\yiinka.yii\www\framework\db\ar\CActiveRecord.php(353): CActiveRecordMetaData->__construct(Object(Pages))
+#7 C:\apache\yiinka.yii\www\protected\models\Pages.php(25): CActiveRecord::model('Pages')
+#8 C:\apache\yiinka.yii\www\protected\controllers\PagesController.php(156): Pages::model()
+#9 C:\apache\yiinka.yii\www\protected\controllers\PagesController.php(50): PagesController->loadModel(1)
+#10 C:\apache\yiinka.yii\www\protected\controllers\PagesController.php(131): PagesController->actionView(1)
+#11 C:\apache\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): PagesController->actionIndex()
+#12 C:\apache\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#13 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\apache\yiinka.yii\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 C:\apache\yiinka.yii\www\framework\web\CController.php(1084): CFilter->filter(Object(CFilterChain))
+#16 C:\apache\yiinka.yii\www\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\apache\yiinka.yii\www\framework\web\CController.php(283): CFilterChain->run()
+#19 C:\apache\yiinka.yii\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(324): CController->run('')
+#21 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('')
+#22 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#23 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#24 {main} REQUEST_URI=/
+2010/12/11 00:17:39 [error] [php] Undefined index:  id (C:\apache\yiinka.yii\www\protected\components\views\topMenu.php:6)
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\widgets\CWidget.php(230): TopMenu->renderFile()
+#1 C:\apache\yiinka.yii\www\protected\components\TopMenu.php(16): TopMenu->render()
+#2 C:\apache\yiinka.yii\www\framework\zii\widgets\CPortlet.php(95): TopMenu->renderContent()
+#3 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(166): TopMenu->run()
+#4 C:\apache\yiinka.yii\www\protected\views\layouts\main.php(33): PagesController->widget()
+#5 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(119): require()
+#6 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(88): PagesController->renderInternal()
+#7 C:\apache\yiinka.yii\www\framework\web\widgets\CContentDecorator.php(78): PagesController->renderFile()
+#8 C:\apache\yiinka.yii\www\framework\web\widgets\CContentDecorator.php(56): CContentDecorator->decorate()
+#9 C:\apache\yiinka.yii\www\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput()
+#10 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(199): CContentDecorator->run()
+#11 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(294): PagesController->endWidget()
+#12 C:\apache\yiinka.yii\www\protected\views\layouts\column2.php(23): PagesController->endContent()
+#13 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(119): require()
+#14 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(88): PagesController->renderInternal()
+#15 C:\apache\yiinka.yii\www\framework\web\CController.php(748): PagesController->renderFile()
+#16 C:\apache\yiinka.yii\www\protected\controllers\PagesController.php(51): PagesController->render()
+#17 C:\apache\yiinka.yii\www\protected\controllers\PagesController.php(131): PagesController->actionView()
+#18 C:\apache\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): PagesController->actionIndex()
+#19 C:\apache\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#20 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(133): PagesController->runAction()
+#21 C:\apache\yiinka.yii\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#22 C:\apache\yiinka.yii\www\framework\web\CController.php(1084): CAccessControlFilter->filter()
+#23 C:\apache\yiinka.yii\www\framework\web\filters\CInlineFilter.php(59): PagesController->filterAccessControl()
+#24 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#25 C:\apache\yiinka.yii\www\framework\web\CController.php(283): CFilterChain->run()
+#26 C:\apache\yiinka.yii\www\framework\web\CController.php(257): PagesController->runActionWithFilters()
+#27 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(324): PagesController->run()
+#28 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#29 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#30 C:\apache\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in C:\apache\yiinka.yii\www\protected\components\views\topMenu.php (6)
+in C:\apache\yiinka.yii\www\protected\components\TopMenu.php (16)
+in C:\apache\yiinka.yii\www\framework\zii\widgets\CPortlet.php (95)
+2010/12/11 00:17:57 [error] [php] Undefined index:  id (C:\apache\yiinka.yii\www\protected\components\views\topMenu.php:6)
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\widgets\CWidget.php(230): TopMenu->renderFile()
+#1 C:\apache\yiinka.yii\www\protected\components\TopMenu.php(16): TopMenu->render()
+#2 C:\apache\yiinka.yii\www\framework\zii\widgets\CPortlet.php(95): TopMenu->renderContent()
+#3 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(166): TopMenu->run()
+#4 C:\apache\yiinka.yii\www\protected\views\layouts\main.php(33): PagesController->widget()
+#5 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(119): require()
+#6 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(88): PagesController->renderInternal()
+#7 C:\apache\yiinka.yii\www\framework\web\widgets\CContentDecorator.php(78): PagesController->renderFile()
+#8 C:\apache\yiinka.yii\www\framework\web\widgets\CContentDecorator.php(56): CContentDecorator->decorate()
+#9 C:\apache\yiinka.yii\www\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput()
+#10 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(199): CContentDecorator->run()
+#11 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(294): PagesController->endWidget()
+#12 C:\apache\yiinka.yii\www\protected\views\layouts\column2.php(23): PagesController->endContent()
+#13 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(119): require()
+#14 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(88): PagesController->renderInternal()
+#15 C:\apache\yiinka.yii\www\framework\web\CController.php(748): PagesController->renderFile()
+#16 C:\apache\yiinka.yii\www\protected\controllers\PagesController.php(51): PagesController->render()
+#17 C:\apache\yiinka.yii\www\protected\controllers\PagesController.php(131): PagesController->actionView()
+#18 C:\apache\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): PagesController->actionIndex()
+#19 C:\apache\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#20 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(133): PagesController->runAction()
+#21 C:\apache\yiinka.yii\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#22 C:\apache\yiinka.yii\www\framework\web\CController.php(1084): CAccessControlFilter->filter()
+#23 C:\apache\yiinka.yii\www\framework\web\filters\CInlineFilter.php(59): PagesController->filterAccessControl()
+#24 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#25 C:\apache\yiinka.yii\www\framework\web\CController.php(283): CFilterChain->run()
+#26 C:\apache\yiinka.yii\www\framework\web\CController.php(257): PagesController->runActionWithFilters()
+#27 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(324): PagesController->run()
+#28 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#29 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#30 C:\apache\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in C:\apache\yiinka.yii\www\protected\components\views\topMenu.php (6)
+in C:\apache\yiinka.yii\www\protected\components\TopMenu.php (16)
+in C:\apache\yiinka.yii\www\framework\zii\widgets\CPortlet.php (95)
+2010/12/11 00:18:03 [error] [php] Undefined index:  id (C:\apache\yiinka.yii\www\protected\components\views\topMenu.php:6)
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\widgets\CWidget.php(230): TopMenu->renderFile()
+#1 C:\apache\yiinka.yii\www\protected\components\TopMenu.php(16): TopMenu->render()
+#2 C:\apache\yiinka.yii\www\framework\zii\widgets\CPortlet.php(95): TopMenu->renderContent()
+#3 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(166): TopMenu->run()
+#4 C:\apache\yiinka.yii\www\protected\views\layouts\main.php(33): PagesController->widget()
+#5 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(119): require()
+#6 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(88): PagesController->renderInternal()
+#7 C:\apache\yiinka.yii\www\framework\web\widgets\CContentDecorator.php(78): PagesController->renderFile()
+#8 C:\apache\yiinka.yii\www\framework\web\widgets\CContentDecorator.php(56): CContentDecorator->decorate()
+#9 C:\apache\yiinka.yii\www\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput()
+#10 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(199): CContentDecorator->run()
+#11 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(294): PagesController->endWidget()
+#12 C:\apache\yiinka.yii\www\protected\views\layouts\column2.php(23): PagesController->endContent()
+#13 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(119): require()
+#14 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(88): PagesController->renderInternal()
+#15 C:\apache\yiinka.yii\www\framework\web\CController.php(748): PagesController->renderFile()
+#16 C:\apache\yiinka.yii\www\protected\controllers\PagesController.php(51): PagesController->render()
+#17 C:\apache\yiinka.yii\www\protected\controllers\PagesController.php(131): PagesController->actionView()
+#18 C:\apache\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): PagesController->actionIndex()
+#19 C:\apache\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#20 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(133): PagesController->runAction()
+#21 C:\apache\yiinka.yii\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#22 C:\apache\yiinka.yii\www\framework\web\CController.php(1084): CAccessControlFilter->filter()
+#23 C:\apache\yiinka.yii\www\framework\web\filters\CInlineFilter.php(59): PagesController->filterAccessControl()
+#24 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#25 C:\apache\yiinka.yii\www\framework\web\CController.php(283): CFilterChain->run()
+#26 C:\apache\yiinka.yii\www\framework\web\CController.php(257): PagesController->runActionWithFilters()
+#27 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(324): PagesController->run()
+#28 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#29 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#30 C:\apache\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/pages/
+in C:\apache\yiinka.yii\www\protected\components\views\topMenu.php (6)
+in C:\apache\yiinka.yii\www\protected\components\TopMenu.php (16)
+in C:\apache\yiinka.yii\www\framework\zii\widgets\CPortlet.php (95)
+2010/12/11 00:18:20 [error] [php] Undefined index:  id (C:\apache\yiinka.yii\www\protected\components\views\topMenu.php:6)
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\widgets\CWidget.php(230): TopMenu->renderFile()
+#1 C:\apache\yiinka.yii\www\protected\components\TopMenu.php(16): TopMenu->render()
+#2 C:\apache\yiinka.yii\www\framework\zii\widgets\CPortlet.php(95): TopMenu->renderContent()
+#3 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(166): TopMenu->run()
+#4 C:\apache\yiinka.yii\www\protected\views\layouts\main.php(33): PagesController->widget()
+#5 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(119): require()
+#6 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(88): PagesController->renderInternal()
+#7 C:\apache\yiinka.yii\www\framework\web\widgets\CContentDecorator.php(78): PagesController->renderFile()
+#8 C:\apache\yiinka.yii\www\framework\web\widgets\CContentDecorator.php(56): CContentDecorator->decorate()
+#9 C:\apache\yiinka.yii\www\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput()
+#10 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(199): CContentDecorator->run()
+#11 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(294): PagesController->endWidget()
+#12 C:\apache\yiinka.yii\www\protected\views\layouts\column2.php(23): PagesController->endContent()
+#13 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(119): require()
+#14 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(88): PagesController->renderInternal()
+#15 C:\apache\yiinka.yii\www\framework\web\CController.php(748): PagesController->renderFile()
+#16 C:\apache\yiinka.yii\www\protected\controllers\PagesController.php(51): PagesController->render()
+#17 C:\apache\yiinka.yii\www\protected\controllers\PagesController.php(131): PagesController->actionView()
+#18 C:\apache\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): PagesController->actionIndex()
+#19 C:\apache\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#20 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(133): PagesController->runAction()
+#21 C:\apache\yiinka.yii\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#22 C:\apache\yiinka.yii\www\framework\web\CController.php(1084): CAccessControlFilter->filter()
+#23 C:\apache\yiinka.yii\www\framework\web\filters\CInlineFilter.php(59): PagesController->filterAccessControl()
+#24 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#25 C:\apache\yiinka.yii\www\framework\web\CController.php(283): CFilterChain->run()
+#26 C:\apache\yiinka.yii\www\framework\web\CController.php(257): PagesController->runActionWithFilters()
+#27 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(324): PagesController->run()
+#28 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#29 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#30 C:\apache\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in C:\apache\yiinka.yii\www\protected\components\views\topMenu.php (6)
+in C:\apache\yiinka.yii\www\protected\components\TopMenu.php (16)
+in C:\apache\yiinka.yii\www\framework\zii\widgets\CPortlet.php (95)
+2010/12/11 00:20:05 [error] [php] Undefined index:  id (C:\apache\yiinka.yii\www\protected\components\views\topMenu.php:6)
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\widgets\CWidget.php(230): TopMenu->renderFile()
+#1 C:\apache\yiinka.yii\www\protected\components\TopMenu.php(16): TopMenu->render()
+#2 C:\apache\yiinka.yii\www\framework\zii\widgets\CPortlet.php(95): TopMenu->renderContent()
+#3 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(166): TopMenu->run()
+#4 C:\apache\yiinka.yii\www\protected\views\layouts\main.php(33): SiteController->widget()
+#5 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(119): require()
+#6 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(88): SiteController->renderInternal()
+#7 C:\apache\yiinka.yii\www\framework\web\widgets\CContentDecorator.php(78): SiteController->renderFile()
+#8 C:\apache\yiinka.yii\www\framework\web\widgets\CContentDecorator.php(56): CContentDecorator->decorate()
+#9 C:\apache\yiinka.yii\www\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput()
+#10 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(199): CContentDecorator->run()
+#11 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(294): SiteController->endWidget()
+#12 C:\apache\yiinka.yii\www\protected\views\layouts\column1.php(7): SiteController->endContent()
+#13 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(119): require()
+#14 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(88): SiteController->renderInternal()
+#15 C:\apache\yiinka.yii\www\framework\web\CController.php(748): SiteController->renderFile()
+#16 C:\apache\yiinka.yii\www\protected\controllers\SiteController.php(95): SiteController->render()
+#17 C:\apache\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): SiteController->actionLogin()
+#18 C:\apache\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#19 C:\apache\yiinka.yii\www\framework\web\CController.php(278): SiteController->runAction()
+#20 C:\apache\yiinka.yii\www\framework\web\CController.php(257): SiteController->runActionWithFilters()
+#21 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(324): SiteController->run()
+#22 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#23 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#24 C:\apache\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/login
+in C:\apache\yiinka.yii\www\protected\components\views\topMenu.php (6)
+in C:\apache\yiinka.yii\www\protected\components\TopMenu.php (16)
+in C:\apache\yiinka.yii\www\framework\zii\widgets\CPortlet.php (95)
+2010/12/11 00:21:28 [error] [php] Undefined variable: active (C:\apache\yiinka.yii\www\protected\components\views\topMenu.php:6)
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\widgets\CWidget.php(230): TopMenu->renderFile()
+#1 C:\apache\yiinka.yii\www\protected\components\TopMenu.php(16): TopMenu->render()
+#2 C:\apache\yiinka.yii\www\framework\zii\widgets\CPortlet.php(95): TopMenu->renderContent()
+#3 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(166): TopMenu->run()
+#4 C:\apache\yiinka.yii\www\protected\views\layouts\main.php(33): SiteController->widget()
+#5 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(119): require()
+#6 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(88): SiteController->renderInternal()
+#7 C:\apache\yiinka.yii\www\framework\web\widgets\CContentDecorator.php(78): SiteController->renderFile()
+#8 C:\apache\yiinka.yii\www\framework\web\widgets\CContentDecorator.php(56): CContentDecorator->decorate()
+#9 C:\apache\yiinka.yii\www\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput()
+#10 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(199): CContentDecorator->run()
+#11 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(294): SiteController->endWidget()
+#12 C:\apache\yiinka.yii\www\protected\views\layouts\column1.php(7): SiteController->endContent()
+#13 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(119): require()
+#14 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(88): SiteController->renderInternal()
+#15 C:\apache\yiinka.yii\www\framework\web\CController.php(748): SiteController->renderFile()
+#16 C:\apache\yiinka.yii\www\protected\controllers\SiteController.php(95): SiteController->render()
+#17 C:\apache\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): SiteController->actionLogin()
+#18 C:\apache\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#19 C:\apache\yiinka.yii\www\framework\web\CController.php(278): SiteController->runAction()
+#20 C:\apache\yiinka.yii\www\framework\web\CController.php(257): SiteController->runActionWithFilters()
+#21 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(324): SiteController->run()
+#22 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#23 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#24 C:\apache\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/login
+in C:\apache\yiinka.yii\www\protected\components\views\topMenu.php (6)
+in C:\apache\yiinka.yii\www\protected\components\TopMenu.php (16)
+in C:\apache\yiinka.yii\www\framework\zii\widgets\CPortlet.php (95)
+=======
+>>>>>>> origin/master
+2010/12/11 00:32:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection не удалось открыть соединение с базой данных: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in C:\apache\yiinka.yii\www\framework\db\CDbConnection.php:269
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\db\CDbConnection.php(242): CDbConnection->open()
+#1 C:\apache\yiinka.yii\www\framework\db\CDbConnection.php(221): CDbConnection->setActive(true)
+#2 C:\apache\yiinka.yii\www\framework\base\CModule.php(372): CDbConnection->init()
+#3 C:\apache\yiinka.yii\www\framework\base\CApplication.php(406): CModule->getComponent('db')
+#4 C:\apache\yiinka.yii\www\framework\db\ar\CActiveRecord.php(589): CApplication->getDb()
+#5 C:\apache\yiinka.yii\www\framework\db\ar\CActiveRecord.php(2167): CActiveRecord->getDbConnection()
+#6 C:\apache\yiinka.yii\www\framework\db\ar\CActiveRecord.php(353): CActiveRecordMetaData->__construct(Object(Pages))
+#7 C:\apache\yiinka.yii\www\protected\models\Pages.php(25): CActiveRecord::model('Pages')
+#8 C:\apache\yiinka.yii\www\protected\controllers\PagesController.php(156): Pages::model()
+#9 C:\apache\yiinka.yii\www\protected\controllers\PagesController.php(50): PagesController->loadModel('2')
+#10 [internal function]: PagesController->actionView('2')
+#11 C:\apache\yiinka.yii\www\framework\web\actions\CInlineAction.php(54): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#12 C:\apache\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#13 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\apache\yiinka.yii\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 C:\apache\yiinka.yii\www\framework\web\CController.php(1084): CFilter->filter(Object(CFilterChain))
+#16 C:\apache\yiinka.yii\www\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\apache\yiinka.yii\www\framework\web\CController.php(283): CFilterChain->run()
+#19 C:\apache\yiinka.yii\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(324): CController->run('view')
+#21 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('pages/view')
+#22 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#23 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#24 {main} REQUEST_URI=/pages/view/2/services
+2010/12/11 00:38:00 [error] [php] Undefined index:  label (C:\apache\yiinka.yii\www\framework\zii\widgets\CMenu.php:236)
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(165): PagesController->createWidget()
+#1 C:\apache\yiinka.yii\www\protected\views\pages\view.php(28): PagesController->widget()
+#2 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(119): require()
+#3 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(88): PagesController->renderInternal()
+#4 C:\apache\yiinka.yii\www\framework\web\CController.php(833): PagesController->renderFile()
+#5 C:\apache\yiinka.yii\www\framework\web\CController.php(746): PagesController->renderPartial()
+#6 C:\apache\yiinka.yii\www\protected\controllers\PagesController.php(51): PagesController->render()
+#7 C:\apache\yiinka.yii\www\protected\controllers\PagesController.php(131): PagesController->actionView()
+#8 C:\apache\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): PagesController->actionIndex()
+#9 C:\apache\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#10 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(133): PagesController->runAction()
+#11 C:\apache\yiinka.yii\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 C:\apache\yiinka.yii\www\framework\web\CController.php(1084): CAccessControlFilter->filter()
+#13 C:\apache\yiinka.yii\www\framework\web\filters\CInlineFilter.php(59): PagesController->filterAccessControl()
+#14 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#15 C:\apache\yiinka.yii\www\framework\web\CController.php(283): CFilterChain->run()
+#16 C:\apache\yiinka.yii\www\framework\web\CController.php(257): PagesController->runActionWithFilters()
+#17 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(324): PagesController->run()
+#18 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#19 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#20 C:\apache\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in C:\apache\yiinka.yii\www\framework\zii\widgets\CMenu.php (236)
+in C:\apache\yiinka.yii\www\framework\zii\widgets\CMenu.php (141)
+in C:\apache\yiinka.yii\www\protected\views\pages\view.php (28)
+2010/12/11 00:39:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "returements".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('returements')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/returements
+2010/12/11 00:39:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "retirements".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('retirements')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/retirements
+2010/12/11 00:41:10 [error] [php] Undefined index:  label (C:\apache\yiinka.yii\www\framework\zii\widgets\CMenu.php:236)
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(165): NewsController->createWidget()
+#1 C:\apache\yiinka.yii\www\protected\views\news\view.php(31): NewsController->widget()
+#2 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(119): require()
+#3 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(88): NewsController->renderInternal()
+#4 C:\apache\yiinka.yii\www\framework\web\CController.php(833): NewsController->renderFile()
+#5 C:\apache\yiinka.yii\www\framework\web\CController.php(746): NewsController->renderPartial()
+#6 C:\apache\yiinka.yii\www\protected\controllers\NewsController.php(51): NewsController->render()
+#7 unknown(0): NewsController->actionView()
+#8 C:\apache\yiinka.yii\www\framework\web\actions\CInlineAction.php(54): ReflectionMethod->invokeArgs()
+#9 C:\apache\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#10 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(133): NewsController->runAction()
+#11 C:\apache\yiinka.yii\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 C:\apache\yiinka.yii\www\framework\web\CController.php(1084): CAccessControlFilter->filter()
+#13 C:\apache\yiinka.yii\www\framework\web\filters\CInlineFilter.php(59): NewsController->filterAccessControl()
+#14 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#15 C:\apache\yiinka.yii\www\framework\web\CController.php(283): CFilterChain->run()
+#16 C:\apache\yiinka.yii\www\framework\web\CController.php(257): NewsController->runActionWithFilters()
+#17 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(324): NewsController->run()
+#18 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#19 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#20 C:\apache\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/news/view/1
+in C:\apache\yiinka.yii\www\framework\zii\widgets\CMenu.php (236)
+in C:\apache\yiinka.yii\www\framework\zii\widgets\CMenu.php (141)
+in C:\apache\yiinka.yii\www\protected\views\news\view.php (31)
+2010/12/11 00:41:13 [error] [php] Undefined index:  label (C:\apache\yiinka.yii\www\framework\zii\widgets\CMenu.php:236)
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(165): NewsController->createWidget()
+#1 C:\apache\yiinka.yii\www\protected\views\news\view.php(31): NewsController->widget()
+#2 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(119): require()
+#3 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(88): NewsController->renderInternal()
+#4 C:\apache\yiinka.yii\www\framework\web\CController.php(833): NewsController->renderFile()
+#5 C:\apache\yiinka.yii\www\framework\web\CController.php(746): NewsController->renderPartial()
+#6 C:\apache\yiinka.yii\www\protected\controllers\NewsController.php(51): NewsController->render()
+#7 unknown(0): NewsController->actionView()
+#8 C:\apache\yiinka.yii\www\framework\web\actions\CInlineAction.php(54): ReflectionMethod->invokeArgs()
+#9 C:\apache\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#10 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(133): NewsController->runAction()
+#11 C:\apache\yiinka.yii\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 C:\apache\yiinka.yii\www\framework\web\CController.php(1084): CAccessControlFilter->filter()
+#13 C:\apache\yiinka.yii\www\framework\web\filters\CInlineFilter.php(59): NewsController->filterAccessControl()
+#14 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#15 C:\apache\yiinka.yii\www\framework\web\CController.php(283): CFilterChain->run()
+#16 C:\apache\yiinka.yii\www\framework\web\CController.php(257): NewsController->runActionWithFilters()
+#17 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(324): NewsController->run()
+#18 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#19 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#20 C:\apache\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/news/view/1
+in C:\apache\yiinka.yii\www\framework\zii\widgets\CMenu.php (236)
+in C:\apache\yiinka.yii\www\framework\zii\widgets\CMenu.php (141)
+in C:\apache\yiinka.yii\www\protected\views\news\view.php (31)
+2010/12/11 00:41:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "retirements".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('retirements')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/retirements
+2010/12/11 00:41:20 [error] [php] Undefined index:  label (C:\apache\yiinka.yii\www\framework\zii\widgets\CMenu.php:236)
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(165): PagesController->createWidget()
+#1 C:\apache\yiinka.yii\www\protected\views\pages\view.php(28): PagesController->widget()
+#2 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(119): require()
+#3 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(88): PagesController->renderInternal()
+#4 C:\apache\yiinka.yii\www\framework\web\CController.php(833): PagesController->renderFile()
+#5 C:\apache\yiinka.yii\www\framework\web\CController.php(746): PagesController->renderPartial()
+#6 C:\apache\yiinka.yii\www\protected\controllers\PagesController.php(51): PagesController->render()
+#7 unknown(0): PagesController->actionView()
+#8 C:\apache\yiinka.yii\www\framework\web\actions\CInlineAction.php(54): ReflectionMethod->invokeArgs()
+#9 C:\apache\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#10 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(133): PagesController->runAction()
+#11 C:\apache\yiinka.yii\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 C:\apache\yiinka.yii\www\framework\web\CController.php(1084): CAccessControlFilter->filter()
+#13 C:\apache\yiinka.yii\www\framework\web\filters\CInlineFilter.php(59): PagesController->filterAccessControl()
+#14 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#15 C:\apache\yiinka.yii\www\framework\web\CController.php(283): CFilterChain->run()
+#16 C:\apache\yiinka.yii\www\framework\web\CController.php(257): PagesController->runActionWithFilters()
+#17 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(324): PagesController->run()
+#18 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#19 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#20 C:\apache\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/pages/view/3/cost
+in C:\apache\yiinka.yii\www\framework\zii\widgets\CMenu.php (236)
+in C:\apache\yiinka.yii\www\framework\zii\widgets\CMenu.php (141)
+in C:\apache\yiinka.yii\www\protected\views\pages\view.php (28)
+2010/12/11 00:41:32 [error] [php] Undefined index:  label (C:\apache\yiinka.yii\www\framework\zii\widgets\CMenu.php:236)
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(165): PagesController->createWidget()
+#1 C:\apache\yiinka.yii\www\protected\views\pages\view.php(28): PagesController->widget()
+#2 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(119): require()
+#3 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(88): PagesController->renderInternal()
+#4 C:\apache\yiinka.yii\www\framework\web\CController.php(833): PagesController->renderFile()
+#5 C:\apache\yiinka.yii\www\framework\web\CController.php(746): PagesController->renderPartial()
+#6 C:\apache\yiinka.yii\www\protected\controllers\PagesController.php(51): PagesController->render()
+#7 unknown(0): PagesController->actionView()
+#8 C:\apache\yiinka.yii\www\framework\web\actions\CInlineAction.php(54): ReflectionMethod->invokeArgs()
+#9 C:\apache\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#10 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(133): PagesController->runAction()
+#11 C:\apache\yiinka.yii\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 C:\apache\yiinka.yii\www\framework\web\CController.php(1084): CAccessControlFilter->filter()
+#13 C:\apache\yiinka.yii\www\framework\web\filters\CInlineFilter.php(59): PagesController->filterAccessControl()
+#14 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#15 C:\apache\yiinka.yii\www\framework\web\CController.php(283): CFilterChain->run()
+#16 C:\apache\yiinka.yii\www\framework\web\CController.php(257): PagesController->runActionWithFilters()
+#17 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(324): PagesController->run()
+#18 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#19 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#20 C:\apache\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/pages/view/3/cost
+in C:\apache\yiinka.yii\www\framework\zii\widgets\CMenu.php (236)
+in C:\apache\yiinka.yii\www\framework\zii\widgets\CMenu.php (141)
+in C:\apache\yiinka.yii\www\protected\views\pages\view.php (28)
+2010/12/11 00:42:00 [error] [php] Undefined index:  label (C:\apache\yiinka.yii\www\framework\zii\widgets\CMenu.php:236)
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(165): PagesController->createWidget()
+#1 C:\apache\yiinka.yii\www\protected\views\pages\view.php(28): PagesController->widget()
+#2 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(119): require()
+#3 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(88): PagesController->renderInternal()
+#4 C:\apache\yiinka.yii\www\framework\web\CController.php(833): PagesController->renderFile()
+#5 C:\apache\yiinka.yii\www\framework\web\CController.php(746): PagesController->renderPartial()
+#6 C:\apache\yiinka.yii\www\protected\controllers\PagesController.php(51): PagesController->render()
+#7 unknown(0): PagesController->actionView()
+#8 C:\apache\yiinka.yii\www\framework\web\actions\CInlineAction.php(54): ReflectionMethod->invokeArgs()
+#9 C:\apache\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#10 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(133): PagesController->runAction()
+#11 C:\apache\yiinka.yii\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 C:\apache\yiinka.yii\www\framework\web\CController.php(1084): CAccessControlFilter->filter()
+#13 C:\apache\yiinka.yii\www\framework\web\filters\CInlineFilter.php(59): PagesController->filterAccessControl()
+#14 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#15 C:\apache\yiinka.yii\www\framework\web\CController.php(283): CFilterChain->run()
+#16 C:\apache\yiinka.yii\www\framework\web\CController.php(257): PagesController->runActionWithFilters()
+#17 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(324): PagesController->run()
+#18 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#19 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#20 C:\apache\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/pages/view/3/cost
+in C:\apache\yiinka.yii\www\framework\zii\widgets\CMenu.php (236)
+in C:\apache\yiinka.yii\www\framework\zii\widgets\CMenu.php (141)
+in C:\apache\yiinka.yii\www\protected\views\pages\view.php (28)
+2010/12/11 00:42:37 [error] [php] Undefined index:  label (C:\apache\yiinka.yii\www\framework\zii\widgets\CMenu.php:236)
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(165): PagesController->createWidget()
+#1 C:\apache\yiinka.yii\www\protected\views\pages\view.php(28): PagesController->widget()
+#2 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(119): require()
+#3 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(88): PagesController->renderInternal()
+#4 C:\apache\yiinka.yii\www\framework\web\CController.php(833): PagesController->renderFile()
+#5 C:\apache\yiinka.yii\www\framework\web\CController.php(746): PagesController->renderPartial()
+#6 C:\apache\yiinka.yii\www\protected\controllers\PagesController.php(51): PagesController->render()
+#7 unknown(0): PagesController->actionView()
+#8 C:\apache\yiinka.yii\www\framework\web\actions\CInlineAction.php(54): ReflectionMethod->invokeArgs()
+#9 C:\apache\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#10 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(133): PagesController->runAction()
+#11 C:\apache\yiinka.yii\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 C:\apache\yiinka.yii\www\framework\web\CController.php(1084): CAccessControlFilter->filter()
+#13 C:\apache\yiinka.yii\www\framework\web\filters\CInlineFilter.php(59): PagesController->filterAccessControl()
+#14 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#15 C:\apache\yiinka.yii\www\framework\web\CController.php(283): CFilterChain->run()
+#16 C:\apache\yiinka.yii\www\framework\web\CController.php(257): PagesController->runActionWithFilters()
+#17 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(324): PagesController->run()
+#18 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#19 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#20 C:\apache\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/pages/view/3/cost
+in C:\apache\yiinka.yii\www\framework\zii\widgets\CMenu.php (236)
+in C:\apache\yiinka.yii\www\framework\zii\widgets\CMenu.php (141)
+in C:\apache\yiinka.yii\www\protected\views\pages\view.php (28)
+2010/12/11 00:42:58 [error] [php] Undefined index:  label (C:\apache\yiinka.yii\www\framework\zii\widgets\CMenu.php:236)
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(165): PagesController->createWidget()
+#1 C:\apache\yiinka.yii\www\protected\views\pages\view.php(28): PagesController->widget()
+#2 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(119): require()
+#3 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(88): PagesController->renderInternal()
+#4 C:\apache\yiinka.yii\www\framework\web\CController.php(833): PagesController->renderFile()
+#5 C:\apache\yiinka.yii\www\framework\web\CController.php(746): PagesController->renderPartial()
+#6 C:\apache\yiinka.yii\www\protected\controllers\PagesController.php(51): PagesController->render()
+#7 unknown(0): PagesController->actionView()
+#8 C:\apache\yiinka.yii\www\framework\web\actions\CInlineAction.php(54): ReflectionMethod->invokeArgs()
+#9 C:\apache\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#10 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(133): PagesController->runAction()
+#11 C:\apache\yiinka.yii\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 C:\apache\yiinka.yii\www\framework\web\CController.php(1084): CAccessControlFilter->filter()
+#13 C:\apache\yiinka.yii\www\framework\web\filters\CInlineFilter.php(59): PagesController->filterAccessControl()
+#14 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#15 C:\apache\yiinka.yii\www\framework\web\CController.php(283): CFilterChain->run()
+#16 C:\apache\yiinka.yii\www\framework\web\CController.php(257): PagesController->runActionWithFilters()
+#17 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(324): PagesController->run()
+#18 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#19 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#20 C:\apache\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/pages/view/3/cost
+in C:\apache\yiinka.yii\www\framework\zii\widgets\CMenu.php (236)
+in C:\apache\yiinka.yii\www\framework\zii\widgets\CMenu.php (141)
+in C:\apache\yiinka.yii\www\protected\views\pages\view.php (28)
+2010/12/11 00:42:59 [error] [php] Undefined index:  label (C:\apache\yiinka.yii\www\framework\zii\widgets\CMenu.php:236)
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(165): PagesController->createWidget()
+#1 C:\apache\yiinka.yii\www\protected\views\pages\view.php(28): PagesController->widget()
+#2 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(119): require()
+#3 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(88): PagesController->renderInternal()
+#4 C:\apache\yiinka.yii\www\framework\web\CController.php(833): PagesController->renderFile()
+#5 C:\apache\yiinka.yii\www\framework\web\CController.php(746): PagesController->renderPartial()
+#6 C:\apache\yiinka.yii\www\protected\controllers\PagesController.php(51): PagesController->render()
+#7 unknown(0): PagesController->actionView()
+#8 C:\apache\yiinka.yii\www\framework\web\actions\CInlineAction.php(54): ReflectionMethod->invokeArgs()
+#9 C:\apache\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#10 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(133): PagesController->runAction()
+#11 C:\apache\yiinka.yii\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 C:\apache\yiinka.yii\www\framework\web\CController.php(1084): CAccessControlFilter->filter()
+#13 C:\apache\yiinka.yii\www\framework\web\filters\CInlineFilter.php(59): PagesController->filterAccessControl()
+#14 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#15 C:\apache\yiinka.yii\www\framework\web\CController.php(283): CFilterChain->run()
+#16 C:\apache\yiinka.yii\www\framework\web\CController.php(257): PagesController->runActionWithFilters()
+#17 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(324): PagesController->run()
+#18 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#19 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#20 C:\apache\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/pages/view/3/cost
+in C:\apache\yiinka.yii\www\framework\zii\widgets\CMenu.php (236)
+in C:\apache\yiinka.yii\www\framework\zii\widgets\CMenu.php (141)
+in C:\apache\yiinka.yii\www\protected\views\pages\view.php (28)
+2010/12/11 00:45:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/11 00:45:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/11 00:45:15 [error] [php] Undefined index:  label (C:\apache\yiinka.yii\www\framework\zii\widgets\CMenu.php:236)
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(165): PagesController->createWidget()
+#1 C:\apache\yiinka.yii\www\protected\views\pages\view.php(28): PagesController->widget()
+#2 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(119): require()
+#3 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(88): PagesController->renderInternal()
+#4 C:\apache\yiinka.yii\www\framework\web\CController.php(833): PagesController->renderFile()
+#5 C:\apache\yiinka.yii\www\framework\web\CController.php(746): PagesController->renderPartial()
+#6 C:\apache\yiinka.yii\www\protected\controllers\PagesController.php(51): PagesController->render()
+#7 C:\apache\yiinka.yii\www\protected\controllers\PagesController.php(131): PagesController->actionView()
+#8 C:\apache\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): PagesController->actionIndex()
+#9 C:\apache\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#10 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(133): PagesController->runAction()
+#11 C:\apache\yiinka.yii\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 C:\apache\yiinka.yii\www\framework\web\CController.php(1084): CAccessControlFilter->filter()
+#13 C:\apache\yiinka.yii\www\framework\web\filters\CInlineFilter.php(59): PagesController->filterAccessControl()
+#14 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#15 C:\apache\yiinka.yii\www\framework\web\CController.php(283): CFilterChain->run()
+#16 C:\apache\yiinka.yii\www\framework\web\CController.php(257): PagesController->runActionWithFilters()
+#17 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(324): PagesController->run()
+#18 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#19 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#20 C:\apache\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in C:\apache\yiinka.yii\www\framework\zii\widgets\CMenu.php (236)
+in C:\apache\yiinka.yii\www\framework\zii\widgets\CMenu.php (141)
+in C:\apache\yiinka.yii\www\protected\views\pages\view.php (28)
+2010/12/11 00:45:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/11 12:22:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/11 12:24:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/11 12:24:27 [error] [php] Undefined index:  label (C:\apache\yiinka.yii\www\framework\zii\widgets\CMenu.php:236)
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(165): PagesController->createWidget()
+#1 C:\apache\yiinka.yii\www\protected\views\pages\view.php(28): PagesController->widget()
+#2 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(119): require()
+#3 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(88): PagesController->renderInternal()
+#4 C:\apache\yiinka.yii\www\framework\web\CController.php(833): PagesController->renderFile()
+#5 C:\apache\yiinka.yii\www\framework\web\CController.php(746): PagesController->renderPartial()
+#6 C:\apache\yiinka.yii\www\protected\controllers\PagesController.php(51): PagesController->render()
+#7 C:\apache\yiinka.yii\www\protected\controllers\PagesController.php(131): PagesController->actionView()
+#8 C:\apache\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): PagesController->actionIndex()
+#9 C:\apache\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#10 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(133): PagesController->runAction()
+#11 C:\apache\yiinka.yii\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 C:\apache\yiinka.yii\www\framework\web\CController.php(1084): CAccessControlFilter->filter()
+#13 C:\apache\yiinka.yii\www\framework\web\filters\CInlineFilter.php(59): PagesController->filterAccessControl()
+#14 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#15 C:\apache\yiinka.yii\www\framework\web\CController.php(283): CFilterChain->run()
+#16 C:\apache\yiinka.yii\www\framework\web\CController.php(257): PagesController->runActionWithFilters()
+#17 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(324): PagesController->run()
+#18 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#19 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#20 C:\apache\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in C:\apache\yiinka.yii\www\framework\zii\widgets\CMenu.php (236)
+in C:\apache\yiinka.yii\www\framework\zii\widgets\CMenu.php (141)
+in C:\apache\yiinka.yii\www\protected\views\pages\view.php (28)
+2010/12/11 12:24:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/11 22:27:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/11 22:27:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/11 22:27:35 [error] [php] Undefined index:  label (C:\apache\yiinka.yii\www\framework\zii\widgets\CMenu.php:236)
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(165): PagesController->createWidget()
+#1 C:\apache\yiinka.yii\www\protected\views\pages\view.php(28): PagesController->widget()
+#2 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(119): require()
+#3 C:\apache\yiinka.yii\www\framework\web\CBaseController.php(88): PagesController->renderInternal()
+#4 C:\apache\yiinka.yii\www\framework\web\CController.php(833): PagesController->renderFile()
+#5 C:\apache\yiinka.yii\www\framework\web\CController.php(746): PagesController->renderPartial()
+#6 C:\apache\yiinka.yii\www\protected\controllers\PagesController.php(51): PagesController->render()
+#7 C:\apache\yiinka.yii\www\protected\controllers\PagesController.php(131): PagesController->actionView()
+#8 C:\apache\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): PagesController->actionIndex()
+#9 C:\apache\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#10 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(133): PagesController->runAction()
+#11 C:\apache\yiinka.yii\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 C:\apache\yiinka.yii\www\framework\web\CController.php(1084): CAccessControlFilter->filter()
+#13 C:\apache\yiinka.yii\www\framework\web\filters\CInlineFilter.php(59): PagesController->filterAccessControl()
+#14 C:\apache\yiinka.yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#15 C:\apache\yiinka.yii\www\framework\web\CController.php(283): CFilterChain->run()
+#16 C:\apache\yiinka.yii\www\framework\web\CController.php(257): PagesController->runActionWithFilters()
+#17 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(324): PagesController->run()
+#18 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#19 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#20 C:\apache\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in C:\apache\yiinka.yii\www\framework\zii\widgets\CMenu.php (236)
+in C:\apache\yiinka.yii\www\framework\zii\widgets\CMenu.php (141)
+in C:\apache\yiinka.yii\www\protected\views\pages\view.php (28)
+2010/12/11 22:27:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/11 22:32:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "requrements".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('requrements')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/requrements
+2010/12/11 22:32:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/11 22:32:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "requrements".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('requrements')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/requrements/
+2010/12/11 22:32:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/11 22:35:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "requrements".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('requrements')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/requrements/
+2010/12/11 22:35:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/11 22:35:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/11 22:35:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/11 22:35:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/11 22:37:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/11 22:37:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/11 22:37:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/11 22:37:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/11 22:37:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/11 22:37:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/11 22:37:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/11 22:37:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/11 22:37:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/12 00:30:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/12 00:30:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/12 00:30:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/12 00:30:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/12 00:31:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/12 00:32:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/12 00:35:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/12 00:35:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/12 00:35:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/12 00:36:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/12 00:36:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/12 00:36:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/12 00:37:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/12 00:37:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/12 00:44:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/12 00:44:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/12 00:45:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/12 00:45:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/12 00:45:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/12 00:58:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/12 00:58:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/12 01:56:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/12 01:56:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\apache\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\apache\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 C:\apache\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\apache\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+>>>>>>> c6f71aaaa0e213a6848a7eca2f21767314fa2d38
