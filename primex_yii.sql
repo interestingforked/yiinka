@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Dec 09, 2010 at 06:36 PM
+-- Generation Time: Dec 14, 2010 at 06:24 PM
 -- Server version: 5.1.40
 -- PHP Version: 5.2.12
 
@@ -61,7 +61,7 @@ CREATE TABLE IF NOT EXISTS `yiinka_pages` (
   `url` varchar(255) NOT NULL,
   `visible` tinyint(1) NOT NULL DEFAULT '1',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=9 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=15 ;
 
 --
 -- Dumping data for table `yiinka_pages`
@@ -72,7 +72,34 @@ INSERT INTO `yiinka_pages` (`id`, `title`, `content`, `meta_title`, `keywords`, 
 (2, 'Услуги', 'это текст об услугах', 'Услуги', 'Услуги', 'Услуги', 0, 2, 'services', 1),
 (3, 'Цены', 'это текст о стоимости', 'Цены', 'Цены', 'Цены', 0, 3, 'cost', 1),
 (4, 'Контакты', 'это текст контактов', 'Контакты', 'Контакты', 'Контакты', 0, 4, 'contacts', 1),
-(7, 'Вакансии', 'контент', 'Вакансии', 'Вакансии', 'Вакансии', 4, 1, 'vacancy', 1);
+(7, 'Вакансии', 'контент', 'Вакансии', 'Вакансии', 'Вакансии', 4, 1, 'vacancy', 1),
+(9, '234234', '', '', '', '', 0, 0, 'wer', 1),
+(10, 'wewer', '', '', '', '', 0, 0, 'werwerwer', 1),
+(11, 'werwerwer', '', '', '', '', 0, 0, 'werwer', 1),
+(12, 'werwer', '', '', '', '', 0, 0, 'werwerwer', 1),
+(13, 'sdfsdf', '', '', '', '', 0, 0, 'sdf', 1),
+(14, 'sdfsdfsdf', '', '', '', '', 0, 0, 'sdfsdf', 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `yiinka_test`
+--
+
+CREATE TABLE IF NOT EXISTS `yiinka_test` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `text` text NOT NULL,
+  `title` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
+
+--
+-- Dumping data for table `yiinka_test`
+--
+
+INSERT INTO `yiinka_test` (`id`, `text`, `title`) VALUES
+(1, 'text1', 'title1'),
+(2, 'text2', 'title2');
 
 -- --------------------------------------------------------
 
@@ -88,6 +115,7 @@ CREATE TABLE IF NOT EXISTS `yiinka_users` (
   `visible` tinyint(1) NOT NULL DEFAULT '1',
   `salt` varchar(32) NOT NULL,
   `role` tinyint(1) NOT NULL DEFAULT '0',
+  `mode` tinyint(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=32 ;
 
@@ -95,6 +123,6 @@ CREATE TABLE IF NOT EXISTS `yiinka_users` (
 -- Dumping data for table `yiinka_users`
 --
 
-INSERT INTO `yiinka_users` (`id`, `name`, `password`, `email`, `visible`, `salt`, `role`) VALUES
-(31, 'admin', '10d27b606b26be23da1d485f7a1f48e9', 'lunoxot@mail.ru', 1, 'axmocn87kd5qmwopihp5wskgu25oyxp8', 1),
-(30, '123', '5e106659a57111b5083844df7a38b494', '312', 0, 'i2vu8qckrijuuoxqq3ju33ta4hpnjoo0', 0);
+INSERT INTO `yiinka_users` (`id`, `name`, `password`, `email`, `visible`, `salt`, `role`, `mode`) VALUES
+(31, 'admin', '10d27b606b26be23da1d485f7a1f48e9', 'lunoxot@mail.ru', 1, 'axmocn87kd5qmwopihp5wskgu25oyxp8', 1, 1),
+(30, '123', '5e106659a57111b5083844df7a38b494', '312', 0, 'i2vu8qckrijuuoxqq3ju33ta4hpnjoo0', 0, 0);
