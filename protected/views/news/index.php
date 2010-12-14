@@ -6,14 +6,14 @@ $this->breadcrumbs=array(
 );
 
 
-if(!Yii::app()->user->isGuest && Yii::app()->user->getState('role')==1) echo ('<div class="adminDiv">');
+if(!Yii::app()->user->isGuest && Yii::app()->user->getState('role')==1 && Yii::app()->user->getState('mode')==1) echo ('<div class="adminDiv">');
 
 $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,
 	'itemView'=>'_view',
 )); 
 
-if(!Yii::app()->user->isGuest && Yii::app()->user->getState('role')==1) {
+if(!Yii::app()->user->isGuest && Yii::app()->user->getState('role')==1 && Yii::app()->user->getState('mode')==1) {
 	echo ('</div>');
 	$controllerId = "news";
 	$positionId = $model->id;

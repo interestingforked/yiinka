@@ -1,6 +1,6 @@
 <?php 
 foreach($this->getShortNews() as $news) {
-	if(!Yii::app()->user->isGuest && Yii::app()->user->getState('role')==1) { 
+	if(!Yii::app()->user->isGuest && Yii::app()->user->getState('role')==1 && Yii::app()->user->getState('mode')==1) { 
 		echo ('<div class="adminDiv">'); 
 		$controllerId = "news";
 		$positionId = $news->id;
@@ -22,6 +22,6 @@ foreach($this->getShortNews() as $news) {
 	echo CHtml::link(Yii::t('yiinka', 'more'), array('news/view', 'id'=>$news->id)); 
 	echo ("<br/><br/>");
 	
-	if(!Yii::app()->user->isGuest && Yii::app()->user->getState('role')==1) echo ('</div>');
+	if(!Yii::app()->user->isGuest && Yii::app()->user->getState('role')==1 && Yii::app()->user->getState('mode')==1) echo ('</div>');
 }
 ?>

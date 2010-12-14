@@ -6,9 +6,9 @@ background:#fff;
 }
 
 div.adminPanelLeft{
-height:36px;
+height:39px;
 float:left;
-padding:12px 0 0 15px;
+padding:9px 0 0 15px;
 }
 
 div.adminPanelRight{
@@ -16,6 +16,7 @@ height:32px;
 float:right;
 text-align:right;
 padding:16px 15px 0 0;
+width:150px;
 }
 
 div.adminPanelClear{
@@ -40,6 +41,24 @@ background:url('../images/system/icons.gif') -13px top no-repeat #fff;
 width:15px;
 height:14px;
 cursor:pointer;
+}
+
+div.adminPanelEdit{
+float:right;
+background:url('../images/system/icons.gif') -28px top no-repeat #fff;
+width:14px;
+height:14px;
+cursor:pointer;
+margin-right:10px;
+}
+
+div.adminPanelView{
+float:right;
+background:url('../images/system/icons.gif') -42px top no-repeat #fff;
+width:12px;
+height:14px;
+cursor:pointer;
+margin-right:10px;
 }
 
 /* end admin panel styles */

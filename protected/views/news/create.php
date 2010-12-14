@@ -10,6 +10,7 @@ $this->breadcrumbs=array(
 
 <?php 
 echo $this->renderPartial('_form', array('model'=>$model)); 
+
 $this->widget('zii.widgets.CMenu', array(
 		'items'=>array(
 			array('url'=>array('index'), 'itemOptions'=>array('class'=>'adminList', 'title'=>Yii::t('yiinka', 'List'))),

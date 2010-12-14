@@ -5,13 +5,13 @@ $this->breadcrumbs=array(
 	$model->title,
 );
 
-if(!Yii::app()->user->isGuest && Yii::app()->user->getState('role')==1) echo ('<div class="adminDiv">');
+if(!Yii::app()->user->isGuest && Yii::app()->user->getState('role')==1 && Yii::app()->user->getState('mode')==1) echo ('<div class="adminDiv">');
 
 echo('<h1>'.$model->title.'</h1>'.$model->content.'<br/><br/>');
 
-if(!Yii::app()->user->isGuest && Yii::app()->user->getState('role')==1) echo ('</div>');
+if(!Yii::app()->user->isGuest && Yii::app()->user->getState('role')==1 && Yii::app()->user->getState('mode')==1) echo ('</div>');
 
-if(!Yii::app()->user->isGuest && Yii::app()->user->getState('role')==1) {
+if(!Yii::app()->user->isGuest && Yii::app()->user->getState('role')==1 && Yii::app()->user->getState('mode')==1) {
 	$controllerId = "pages";
 	$positionId = $model->id;
 		

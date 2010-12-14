@@ -16,15 +16,17 @@ $this->breadcrumbs=array(
 	),
 )); 
 
-$this->widget('zii.widgets.CMenu', array(
-		'items'=>array(
-			array('url'=>array('index'), 'itemOptions'=>array('class'=>'adminList', 'title'=>Yii::t('yiinka', 'List'))),
-			array('url'=>array('create'), 'itemOptions'=>array('class'=>'adminCreate', 'title'=>Yii::t('yiinka', 'Create'))),
-			array('url'=>array('update', 'id'=>$model->id), 'itemOptions'=>array('class'=>'adminUpdate', 'title'=>Yii::t('yiinka', 'Update'))),
-			array('url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>Yii::t('zii', 'Are you sure you want to delete this item?')), 'itemOptions'=>array('class'=>'adminDelete', 'title'=>Yii::t('yiinka', 'Delete'))),
-			array('url'=>array('admin'), 'itemOptions'=>array('class'=>'adminManage', 'title'=>Yii::t('yiinka', 'Manage'))),
-		),
-		'htmlOptions'=>array('class'=>'adminUl'),
-		'linkLabelWrapper'=>'div',
-	));
+if(Yii::app()->user->getState('mode')==1) {
+	$this->widget('zii.widgets.CMenu', array(
+			'items'=>array(
+				array('url'=>array('index'), 'itemOptions'=>array('class'=>'adminList', 'title'=>Yii::t('yiinka', 'List'))),
+				array('url'=>array('create'), 'itemOptions'=>array('class'=>'adminCreate', 'title'=>Yii::t('yiinka', 'Create'))),
+				array('url'=>array('update', 'id'=>$model->id), 'itemOptions'=>array('class'=>'adminUpdate', 'title'=>Yii::t('yiinka', 'Update'))),
+				array('url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>Yii::t('zii', 'Are you sure you want to delete this item?')), 'itemOptions'=>array('class'=>'adminDelete', 'title'=>Yii::t('yiinka', 'Delete'))),
+				array('url'=>array('admin'), 'itemOptions'=>array('class'=>'adminManage', 'title'=>Yii::t('yiinka', 'Manage'))),
+			),
+			'htmlOptions'=>array('class'=>'adminUl'),
+			'linkLabelWrapper'=>'div',
+		));
+}
 ?>

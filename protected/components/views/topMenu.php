@@ -1,6 +1,6 @@
 <?php
 $n=1;
-if(!Yii::app()->user->isGuest && Yii::app()->user->getState('role')==1) echo ('<div class="adminDiv">');
+if(!Yii::app()->user->isGuest && Yii::app()->user->getState('role')==1 && Yii::app()->user->getState('mode')==1) echo ('<div class="adminDiv">');
 
 foreach($this->getTopMenu() as $page) {
 	$active = (isset($_GET['id']) && CHtml::encode($_GET['id'])==$page->id && Yii::app()->controller->id=="pages") ? "_active" : "";
@@ -14,9 +14,9 @@ foreach($this->getTopMenu() as $page) {
 	$n++;
 }
 
-if(!Yii::app()->user->isGuest && Yii::app()->user->getState('role')==1) echo ('</div>');
+if(!Yii::app()->user->isGuest && Yii::app()->user->getState('role')==1 && Yii::app()->user->getState('mode')==1) echo ('</div>');
 
-if(!Yii::app()->user->isGuest && Yii::app()->user->getState('role')==1) {
+if(!Yii::app()->user->isGuest && Yii::app()->user->getState('role')==1 && Yii::app()->user->getState('mode')==1) {
 	$controllerId = "pages";
 	$positionId = $model->id;
 		

@@ -13,7 +13,7 @@ height:100%;
 body{
 margin:0;
 padding:0px;
-background:#fff url('/images/pageProof/bg.gif') left top repeat-x;
+background:#fff url('/images/siteProof/bg.gif') left top repeat-x;
 }
 
 header, nav, section, footer{
@@ -64,7 +64,7 @@ div.all{
 
 header{
 height:172px;
-background:#fff url('/images/pageProof/headbg.jpg') left top no-repeat;
+background:#fff url('/images/siteProof/headbg.jpg') left top no-repeat;
 }
 
 div.headerLeft{
@@ -102,7 +102,7 @@ text-decoration:none;
 font-size:11px;
 line-height:11px;
 text-transform:uppercase;
-background:url('/images/pageProof/point.png') left 5px no-repeat;
+background:url('/images/siteProof/point.png') left 5px no-repeat;
 padding-left:14px;
 margin-left:5px;
 font-weight:bold;

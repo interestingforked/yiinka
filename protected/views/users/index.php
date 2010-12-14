@@ -11,12 +11,14 @@ $this->breadcrumbs=array(
 	'itemView'=>'_view',
 )); 
 
-$this->widget('zii.widgets.CMenu', array(
-		'items'=>array(
-			array('url'=>array('admin'), 'itemOptions'=>array('class'=>'adminManage', 'title'=>Yii::t('yiinka', 'Manage'))),
-			array('url'=>array('create'), 'itemOptions'=>array('class'=>'adminCreate', 'title'=>Yii::t('yiinka', 'Create'))),
-		),
-		'htmlOptions'=>array('class'=>'adminUl'),
-		'linkLabelWrapper'=>'div',
-	));
+if(Yii::app()->user->getState('mode')==1) {
+	$this->widget('zii.widgets.CMenu', array(
+			'items'=>array(
+				array('url'=>array('admin'), 'itemOptions'=>array('class'=>'adminManage', 'title'=>Yii::t('yiinka', 'Manage'))),
+				array('url'=>array('create'), 'itemOptions'=>array('class'=>'adminCreate', 'title'=>Yii::t('yiinka', 'Create'))),
+			),
+			'htmlOptions'=>array('class'=>'adminUl'),
+			'linkLabelWrapper'=>'div',
+		));
+}
 ?>

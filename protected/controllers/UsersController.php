@@ -161,6 +161,19 @@ class UsersController extends Controller
 			'model'=>$model,
 		));
 	}
+	
+	/**
+	 * Manages user's mode
+	 */
+	public function actionMode($id)
+	{
+		$post=Users::model()->findByPk(Yii::app()->user->id);
+		$post->mode=$id;
+		$post->save();
+		Yii::app()->user->setState('mode', $id);
+		
+		header("Location: ".$_SERVER['HTTP_REFERER']);
+	}
 
 	/**
 	 * Returns the data model based on the primary key given in the GET variable.
