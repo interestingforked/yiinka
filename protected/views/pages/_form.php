@@ -14,11 +14,29 @@
 		<?php echo $form->textField($model,'title',array('size'=>60,'maxlength'=>255)); ?>
 		<?php echo $form->error($model,'title'); ?>
 	</div>
+	
+	<div class="row">
+		<?php echo $form->labelEx($model,'url'); ?>
+		<?php echo $form->textField($model,'url',array('size'=>60,'maxlength'=>255)); ?>
+		<?php echo $form->error($model,'url'); ?>
+	</div>
+	
+	<div class="row">
+		<?php echo $form->labelEx($model,'parent'); ?>
+		<?php echo $form->textField($model,'parent'); ?>
+		<?php echo $form->error($model,'parent'); ?>
+	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'content'); ?>
-		<?php echo $form->textArea($model,'content',array('rows'=>6, 'cols'=>50)); ?>
-		<?php echo $form->error($model,'content'); ?>
+		<?php echo $form->labelEx($model,'number'); ?>
+		<?php echo $form->textField($model,'number'); ?>
+		<?php echo $form->error($model,'number'); ?>
+	</div>
+	
+	<div class="row">
+		<?php echo $form->labelEx($model,'visible'); ?>
+		<?php echo $form->textField($model,'visible'); ?>
+		<?php echo $form->error($model,'visible'); ?>
 	</div>
 
 	<div class="row">
@@ -38,23 +56,24 @@
 		<?php echo $form->textArea($model,'description',array('rows'=>6, 'cols'=>50)); ?>
 		<?php echo $form->error($model,'description'); ?>
 	</div>
-
+	
 	<div class="row">
-		<?php echo $form->labelEx($model,'parent'); ?>
-		<?php echo $form->textField($model,'parent'); ?>
-		<?php echo $form->error($model,'parent'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'number'); ?>
-		<?php echo $form->textField($model,'number'); ?>
-		<?php echo $form->error($model,'number'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'url'); ?>
-		<?php echo $form->textField($model,'url',array('size'=>60,'maxlength'=>255)); ?>
-		<?php echo $form->error($model,'url'); ?>
+		<?php  echo $form->labelEx($model,'content'); ?>
+		<?php $this->widget('ext.fckeditor.FCKEditorWidget', array(
+		  "model"=>$model,
+		  "attribute"=>'content',
+		  "height"=>'400px',
+		  "width"=>'100%',
+		  "toolbarSet"=>'MyToolbar',
+		  "fckeditor"=>Yii::app()->basePath."/../fckeditor/fckeditor.php",
+		  "fckBasePath"=>Yii::app()->baseUrl."/fckeditor/",
+		  "config" => array(
+			"EditorAreaCSS"=>Yii::app()->baseUrl.'/css/main.css',),
+			# http://docs.fckeditor.net/FCKeditor_2.x/Developers_Guide/Configuration/Configuration_Options
+		  )
+		);?>
+		<?php /* echo $form->textArea($model,'content',array('rows'=>6, 'cols'=>50)); */?>
+		<?php echo $form->error($model,'content'); ?>
 	</div>
 
 	<div class="row buttons">

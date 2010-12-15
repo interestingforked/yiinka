@@ -13,6 +13,7 @@ $this->breadcrumbs=array(
 		'id',
 		'name',
 		'email',
+		'role',
 	),
 )); 
 

@@ -39,6 +39,7 @@ class News extends CActiveRecord
 			array('title, text, date', 'required'),
 			array('title', 'length', 'max'=>255),
 			array('visible', 'numerical', 'integerOnly'=>true),
+			array('text', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('id, title, text, date, visible', 'safe', 'on'=>'search'),

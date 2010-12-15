@@ -122,8 +122,16 @@ class NewsController extends Controller
 	 * Lists all models.
 	 */
 	public function actionIndex()
-	{
-		$dataProvider=new CActiveDataProvider('News');
+	{	
+		$dataProvider=new CActiveDataProvider('News', array(
+			'criteria'=>array(
+				'condition'=>'visible=1',
+				'order'=>'id DESC',
+			),
+			'pagination'=>array(
+				'pageSize'=>15,
+			),
+		));
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));

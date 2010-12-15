@@ -39,7 +39,8 @@ class Users extends CActiveRecord
 			array('name, email', 'required'),
 			array('password', 'required', 'on'=>'insert'),
 			array('name, password, email', 'length', 'max'=>128),
-			array('visible', 'numerical', 'integerOnly'=>true),
+			array('visible, role', 'numerical', 'integerOnly'=>true),
+			array('email', 'email'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('id, name, password, email, visible', 'safe', 'on'=>'search'),
@@ -68,6 +69,7 @@ class Users extends CActiveRecord
 			'password' => 'Пароль',
 			'email' => 'Email',
 			'visible' => 'Видимость',
+			'role' => 'Группа',
 		);
 	}
 

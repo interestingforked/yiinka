@@ -1,5 +1,9 @@
 ﻿<?php
+/* register Meta Tags for page */
 $this->pageTitle=$model->meta_title;
+Yii::app()->clientScript->registerMetaTag($model->keywords, 'keywords');
+Yii::app()->clientScript->registerMetaTag($model->description, 'description');
+/* */
 
 $this->breadcrumbs=array(
 	$model->title,

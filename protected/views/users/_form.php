@@ -31,6 +31,18 @@
 		<?php echo $form->textField($model,'email',array('size'=>60,'maxlength'=>128)); ?>
 		<?php echo $form->error($model,'email'); ?>
 	</div>
+	
+	<div class="row">
+		<?php echo $form->labelEx($model,'visible'); ?>
+		<?php echo $form->textField($model,'visible'); ?>
+		<?php echo $form->error($model,'visible'); ?>
+	</div>
+	
+	<div class="row">
+		<?php echo $form->labelEx($model,'role'); ?>
+		<?php echo $form->textField($model,'role'); ?>
+		<?php echo $form->error($model,'role'); ?>
+	</div>
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? Yii::t('yiinka', 'Create') : Yii::t('yiinka', 'Save')); ?>

@@ -44,6 +44,7 @@ class Pages extends CActiveRecord
 			array('title, url', 'required'),
 			array('parent, number, visible', 'numerical', 'integerOnly'=>true),
 			array('title, meta_title, url', 'length', 'max'=>255),
+			array('content, description, keywords', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('id, title, content, meta_title, keywords, description, parent, number, url, visible', 'safe', 'on'=>'search'),
@@ -115,6 +116,7 @@ class Pages extends CActiveRecord
 			'select'=>'id, title, url, meta_title',
 			'condition'=>'parent=:parent AND visible=:visible',
 			'params'=>array(':parent'=>$parentPage, ':visible'=>1),
+			'order'=>'number',
 		));
 	}
 }
