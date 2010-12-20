@@ -20,6 +20,7 @@ return array(
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
+		'application.extensions.*',
 	),
 
 	'modules'=>array(
@@ -80,6 +81,10 @@ return array(
 				),
 				*/
 			),
+		),
+		
+		'file'=>array(
+			'class'=>'application.extensions.file.CFile',
 		),
 	),
 

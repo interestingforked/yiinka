@@ -34,13 +34,13 @@
 	
 	<div class="row">
 		<?php echo $form->labelEx($model,'visible'); ?>
-		<?php echo $form->textField($model,'visible'); ?>
+		<?php  echo CHtml::activeDropDownList($model, 'visible', array(Yii::t('yiinka', 'Noactive'), Yii::t('yiinka', 'Active'))); ?>
 		<?php echo $form->error($model,'visible'); ?>
 	</div>
 	
 	<div class="row">
 		<?php echo $form->labelEx($model,'role'); ?>
-		<?php echo $form->textField($model,'role'); ?>
+		<?php  echo CHtml::activeDropDownList($model, 'role', array(Yii::t('yiinka', 'User'), Yii::t('yiinka', 'Administrator'))); ?>
 		<?php echo $form->error($model,'role'); ?>
 	</div>
 

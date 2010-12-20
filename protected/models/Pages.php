@@ -41,7 +41,7 @@ class Pages extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('title, url', 'required'),
+			array('title', 'required'),
 			array('parent, number, visible', 'numerical', 'integerOnly'=>true),
 			array('title, meta_title, url', 'length', 'max'=>255),
 			array('content, description, keywords', 'safe'),
@@ -101,7 +101,7 @@ class Pages extends CActiveRecord
 		$criteria->compare('parent',$this->parent);
 		$criteria->compare('number',$this->number);
 		$criteria->compare('url',$this->url,true);
-		$criteria->compare('visible',$this->visible,true);
+		$criteria->compare('visible', ($this->visible=='') ? $this->visible : (($this->visible==Yii::t("yiinka", "Noactive")) ? 0 : 1), true);
 
 		return new CActiveDataProvider(get_class($this), array(
 			'criteria'=>$criteria,

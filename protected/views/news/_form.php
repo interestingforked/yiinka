@@ -23,7 +23,7 @@
 	
 	<div class="row">
 		<?php echo $form->labelEx($model,'visible'); ?>
-		<?php echo $form->textField($model,'visible'); ?>
+		<?php  echo CHtml::activeDropDownList($model, 'visible', array(Yii::t('yiinka', 'Noactive'), Yii::t('yiinka', 'Active'))); ?>
 		<?php echo $form->error($model,'visible'); ?>
 	</div>
 

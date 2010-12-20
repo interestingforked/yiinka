@@ -86,9 +86,9 @@ class Users extends CActiveRecord
 
 		$criteria->compare('id',$this->id);
 		$criteria->compare('name',$this->name,true);
-		$criteria->compare('password',$this->password,true);
 		$criteria->compare('email',$this->email,true);
-		$criteria->compare('visible',$this->visible,true);
+		$criteria->compare('visible', ($this->visible=='') ? $this->visible : (($this->visible==Yii::t("yiinka", "Noactive")) ? 0 : 1), true);
+		$criteria->compare('role', ($this->role=='') ? $this->role : (($this->role==Yii::t("yiinka", "User")) ? 0 : 1), true);
 
 		return new CActiveDataProvider(get_class($this), array(
 			'criteria'=>$criteria,

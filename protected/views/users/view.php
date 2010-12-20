@@ -13,7 +13,16 @@ $this->breadcrumbs=array(
 		'id',
 		'name',
 		'email',
-		'role',
+		array(
+            'label'=>$model->getAttributeLabel('visible'),
+            'type'=>'raw',
+            'value'=>(CHtml::encode($model->visible)==0) ? Yii::t('yiinka', 'Noactive') : Yii::t('yiinka', 'Active'),
+        ),
+		array(
+            'label'=>$model->getAttributeLabel('role'),
+            'type'=>'raw',
+            'value'=>(CHtml::encode($model->role)==0) ? Yii::t('yiinka', 'User') : Yii::t('yiinka', 'Administrator'),
+        ),
 	),
 )); 
 

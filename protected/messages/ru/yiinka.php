@@ -1,18 +1,24 @@
 <?php
 /* Yiinka russian messages */
 return array (
+	'Active' => 'Да',
+	'Administrator' => 'Администратор',
     'Advanced Search' => 'Расширенный поиск',
 	'Create' => 'Создать элемент',
 	'Delete' => 'Удалить элемент',
 	'Edit mode' => 'Включить режим редактирования',
+	'Exit' => 'Выйти',
     'Fields with <span class="required">*</span> are required' => 'Поля, помеченные знаком <span class="required">*</span> обязательны для заполнения',
 	'Gii' => 'Кодогенератор Gii',
     'List' => 'Список элементов',
 	'Manage' => 'Управление элементами',
+	'Noactive' => 'Нет',
 	'more' => 'подробнее',
 	'Save' => 'Сохранить изменения',
 	'Search' => 'Найти',
+	'Select Model' => 'Выберите модель',
 	'Update' => 'Редактировать элемент',
+	'User' => 'Пользователь',
 	'View' => 'Просмотр элемента',
 	'View mode' => 'Включить режим просмотра',
 	'You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>

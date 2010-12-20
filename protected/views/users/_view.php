@@ -13,7 +13,11 @@
 	<br />
 	
 	<b><?php echo CHtml::encode($data->getAttributeLabel('role')); ?>:</b>
-	<?php echo CHtml::encode($data->role); ?>
+	<?php echo (CHtml::encode($data->role)==0) ? Yii::t('yiinka', 'User') : Yii::t('yiinka', 'Administrator'); ?>
+	<br />
+	
+	<b><?php echo CHtml::encode($data->getAttributeLabel('visible')); ?>:</b>
+	<?php echo (CHtml::encode($data->visible)==0) ? Yii::t('yiinka', 'Noactive') : Yii::t('yiinka', 'Active'); ?>
 	<br />
 
 

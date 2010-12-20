@@ -36,16 +36,6 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'parent'); ?>
-		<?php echo $form->textField($model,'parent'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'number'); ?>
-		<?php echo $form->textField($model,'number'); ?>
-	</div>
-
-	<div class="row">
 		<?php echo $form->label($model,'url'); ?>
 		<?php echo $form->textField($model,'url',array('size'=>60,'maxlength'=>255)); ?>
 	</div>

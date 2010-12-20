@@ -86,7 +86,7 @@ class News extends CActiveRecord
 		$criteria->compare('title',$this->title,true);
 		$criteria->compare('text',$this->text,true);
 		$criteria->compare('date',$this->date,true);
-		$criteria->compare('visible',$this->visible,true);
+		$criteria->compare('visible', ($this->visible=='') ? $this->visible : (($this->visible==Yii::t("yiinka", "Noactive")) ? 0 : 1), true);
 
 		return new CActiveDataProvider(get_class($this), array(
 			'criteria'=>$criteria,

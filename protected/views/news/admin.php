@@ -42,6 +42,10 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'title',
 		'date',
 		array(
+            'name'=>'visible',
+            'value'=>'(CHtml::encode($data->visible)==0) ? Yii::t("yiinka", "Noactive") : Yii::t("yiinka", "Active")',
+        ),
+		array(
 			'class'=>'CButtonColumn',
 		),
 	),

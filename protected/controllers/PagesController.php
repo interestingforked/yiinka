@@ -64,7 +64,13 @@ class PagesController extends Controller
 
 		if(isset($_POST['Pages']))
 		{
-			$model->attributes=$_POST['Pages'];
+			$model->attributes = $_POST['Pages'];
+			
+			if($model->url=='')
+				$model->url = Translite::rusencode($model->title);
+			else
+				$model->url = Translite::rusencode($model->url);
+				
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -89,6 +95,12 @@ class PagesController extends Controller
 		if(isset($_POST['Pages']))
 		{
 			$model->attributes=$_POST['Pages'];
+			
+			if($model->url=='')
+				$model->url = Translite::rusencode($model->title);
+			else
+				$model->url = Translite::rusencode($model->url);
+				
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
