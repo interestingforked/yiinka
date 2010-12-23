@@ -1,6 +1,7 @@
 <?php
 /* Yiinka russian messages */
 return array (
+	'About Yiinka' => 'О системе Yiinka',
 	'Active' => 'Да',
 	'Administrator' => 'Администратор',
     'Advanced Search' => 'Расширенный поиск',
@@ -10,6 +11,7 @@ return array (
 	'Exit' => 'Выйти',
     'Fields with <span class="required">*</span> are required' => 'Поля, помеченные знаком <span class="required">*</span> обязательны для заполнения',
 	'Gii' => 'Кодогенератор Gii',
+	'Instruments' => 'Инструменты',
     'List' => 'Список элементов',
 	'Manage' => 'Управление элементами',
 	'Noactive' => 'Нет',
@@ -19,6 +21,7 @@ return array (
 	'Select Model' => 'Выберите модель',
 	'Update' => 'Редактировать элемент',
 	'User' => 'Пользователь',
+	'User files' => 'Файлы пользователя',
 	'View' => 'Просмотр элемента',
 	'View mode' => 'Включить режим просмотра',
 	'You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>

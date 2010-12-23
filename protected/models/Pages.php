@@ -44,6 +44,7 @@ class Pages extends CActiveRecord
 			array('title', 'required'),
 			array('parent, number, visible', 'numerical', 'integerOnly'=>true),
 			array('title, meta_title, url', 'length', 'max'=>255),
+			array('url', 'unique'),
 			array('content, description, keywords', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.

@@ -41,17 +41,19 @@
 			<br/>
 			<?php echo $content; ?>
 		</div>
+		<?php if(Yii::app()->controller->id!="files") {?>
 		<div class="contentRight">
 			<strong>Новости</strong><br/><br/>
 			<?php $this->widget('ShortNews');?>
 		</div>
+		<? }?>
 		<div class="push">&nbsp;</div>	
 	</section>
 	<footer>
 		<div class="footerLeft">
 			<?php $this->widget('zii.widgets.CMenu',array(
 				'items'=>array(
-					array('label'=>'Вакансии', 'url'=>array('/pages/view', 'id'=>7)),
+					array('label'=>'Вакансии', 'url'=>array('/pages/view', 'url'=>'vacancy')),
 					array('label'=>'Новости', 'url'=>array('/news/index')),
 					array('label'=>'Войти', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
 					array('label'=>'Выйти ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)

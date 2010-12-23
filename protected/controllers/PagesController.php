@@ -44,10 +44,10 @@ class PagesController extends Controller
 	 * Displays a particular model.
 	 * @param integer $id the ID of the model to be displayed
 	 */
-	public function actionView($id)
+	public function actionView($url)
 	{
 		$this->render('view',array(
-			'model'=>$this->loadModel($id),
+			'model'=>$this->loadViewModel($url),
 		));
 	}
 
@@ -140,7 +140,7 @@ class PagesController extends Controller
 			'dataProvider'=>$dataProvider,
 		));*/
 		
-		$this->actionView(1);
+		$this->actionView("about");
 	}
 
 	/**
@@ -166,6 +166,17 @@ class PagesController extends Controller
 	public function loadModel($id)
 	{
 		$model=Pages::model()->findByPk((int)$id);
+		if($model===null)
+			throw new CHttpException(404,'The requested page does not exist.');
+		return $model;
+	}
+	
+	/**
+	* For models loading we use page url
+	*/
+	public function loadViewModel($url)
+	{
+		$model=Pages::model()->find('url=:url', array(':url'=>$url));
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;

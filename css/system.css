@@ -51,6 +51,7 @@ background:url('../images/system/icons.gif') -13px top no-repeat #fff;
 width:15px;
 height:14px;
 cursor:pointer;
+margin-right:10px;
 }
 
 div.adminPanelEdit{
@@ -71,6 +72,32 @@ cursor:pointer;
 margin-right:10px;
 }
 
+div.adminPanelFiles{
+float:right;
+background:url('../images/system/icons.gif') -54px top no-repeat #fff;
+width:15px;
+height:14px;
+cursor:pointer;
+margin-right:10px;
+}
+
+div.adminPanelInstruments{
+float:right;
+background:url('../images/system/icons.gif') -77px top no-repeat #fff;
+width:16px;
+height:14px;
+cursor:pointer;
+margin-right:10px;
+}
+
+div.adminPanelAbout{
+float:right;
+background:url('../images/system/icons.gif') -69px top no-repeat #fff;
+width:8px;
+height:14px;
+cursor:pointer;
+}
+
 a.adminPanelExit{
 margin-left:20px;
 }
@@ -88,6 +115,24 @@ width:140px;
 
 span.redVisible{
 color:#FF0000;
+}
+
+div.adminPanelOneInstrument{
+float:left;
+width:150px;
+text-align:left;
+}
+
+div.adminPanelClear{
+clear:both;
+font-size:1px;
+height:1px;
+line-height:1px;
+}
+
+img.adminPanelInstrumentImage{
+padding:2px;
+border:1px solid #CCCCCC;
 }
 
 /* end admin panel styles */

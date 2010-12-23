@@ -1,7 +1,7 @@
 <?php
 
 class SiteController extends Controller
-{
+{	
 	/**
 	 * Declares class-based actions.
 	 */
@@ -18,8 +18,22 @@ class SiteController extends Controller
 			'page'=>array(
 				'class'=>'CViewAction',
 			),
+			// Обработчик сообщений от файл-менеджера
+            'fileManager'=>array(
+                'class'=>'ext.elfinder.ElFinderAction',
+            ),
 		);
 	}
+	
+	/*public function actions()
+    {
+        return array(
+			// Обработчик сообщений от файл-менеджера
+            'fileManager'=>array(
+                'class'=>'ext.elfinder.ElFinderAction',
+            ),
+        );
+    }*/
 
 	/**
 	 * This is the default 'index' action that is invoked
@@ -102,5 +116,13 @@ class SiteController extends Controller
 	{
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
+	}
+	
+	/**
+	* about site action
+	*/
+	public function actionAbout()
+	{
+		$this->render('about');
 	}
 }

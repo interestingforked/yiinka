@@ -29,20 +29,16 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'text'); ?>
-		<?php $this->widget('ext.fckeditor.FCKEditorWidget', array(
-		  "model"=>$model,
-		  "attribute"=>'text',
-		  "height"=>'400px',
-		  "width"=>'100%',
-		  "toolbarSet"=>'MyToolbar',
-		  "fckeditor"=>Yii::app()->basePath."/../fckeditor/fckeditor.php",
-		  "fckBasePath"=>Yii::app()->baseUrl."/fckeditor/",
-		  "config" => array(
-			"EditorAreaCSS"=>Yii::app()->baseUrl.'/css/main.css',),
-			# http://docs.fckeditor.net/FCKeditor_2.x/Developers_Guide/Configuration/Configuration_Options
-		  )
-		);?>
-		<?php // echo $form->textArea($model,'text',array('rows'=>6, 'cols'=>50)); ?>
+		<?php $this->widget('application.extensions.ckeditor.ECKEditor', array(
+				'model'=>$model,
+				'attribute'=>'text',
+				'language'=>'ru',
+				'editorTemplate'=>'full',
+				'options'=>array(
+					'filebrowserBrowseUrl'=>CHtml::normalizeUrl(array('files/browse')),
+				),
+			)); 
+		?>
 		<?php echo $form->error($model,'text'); ?>
 	</div>
 
