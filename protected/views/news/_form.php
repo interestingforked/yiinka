@@ -29,7 +29,24 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'text'); ?>
-		<?php $this->widget('application.extensions.ckeditor.ECKEditor', array(
+		<?php echo CHtml::activeTextArea($model,'text',array('rows'=>6, 'cols'=>57)); ?>
+		<?php $this->widget('application.extensions.elrte.elRTE', array( 
+			// required object CModel 
+			'model'=>$model, 
+			// reqired attribute of model 
+			'attribute'=>'text', 
+			// see available languages on elRTE documentation site 
+			'lang'=>'ru', 
+			// editor height in pixels 
+			'height'=>300, 
+			// see available toolbars on elRTE documentation site 
+			'toolbar'=>'maxi', 
+			// use <span> with style or HTML tags 
+			'styleWithCss'=>true, 
+			// allow user to edit source 
+			'allowSource'=>true,
+		)); ?>
+		<?php /*$this->widget('application.extensions.ckeditor.ECKEditor', array(
 				'model'=>$model,
 				'attribute'=>'text',
 				'language'=>'ru',
@@ -37,12 +54,13 @@
 				'options'=>array(
 					'filebrowserBrowseUrl'=>CHtml::normalizeUrl(array('files/browse')),
 				),
-			)); 
+			)); */
 		?>
 		<?php echo $form->error($model,'text'); ?>
 	</div>
 
 	<div class="row buttons">
+		<?php echo CHtml::hiddenField('referer', Yii::app()->request->getUrlReferrer()); ?>
 		<?php echo CHtml::submitButton($model->isNewRecord ? Yii::t('yiinka', 'Create') : Yii::t('yiinka', 'Save')); ?>
 	</div>
 

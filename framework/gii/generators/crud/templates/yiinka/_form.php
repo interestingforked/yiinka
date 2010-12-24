@@ -31,6 +31,7 @@ foreach($this->tableSchema->columns as $column)
 }
 ?>
 	<div class="row buttons">
+		<?php echo "<?php echo CHtml::hiddenField('referer', Yii::app()->request->getUrlReferrer()); ?>\n"; ?>
 		<?php echo "<?php echo CHtml::submitButton(\$model->isNewRecord ? Yii::t('yiinka', 'Create') : Yii::t('yiinka', 'Save')); ?>\n"; ?>
 	</div>
 

@@ -72,7 +72,7 @@ class PagesController extends Controller
 				$model->url = Translite::rusencode($model->url);
 				
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+				$this->redirect(array('view','url'=>$model->url));
 		}
 
 		$this->render('create',array(
@@ -102,7 +102,7 @@ class PagesController extends Controller
 				$model->url = Translite::rusencode($model->url);
 				
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+				$this->redirect(($_POST['referer']!='') ? $_POST['referer'] : array('view','url'=>$model->url));
 		}
 
 		$this->render('update',array(

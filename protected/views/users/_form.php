@@ -45,6 +45,7 @@
 	</div>
 
 	<div class="row buttons">
+		<?php echo CHtml::hiddenField('referer', Yii::app()->request->getUrlReferrer()); ?>
 		<?php echo CHtml::submitButton($model->isNewRecord ? Yii::t('yiinka', 'Create') : Yii::t('yiinka', 'Save')); ?>
 	</div>
 

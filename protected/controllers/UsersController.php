@@ -107,7 +107,7 @@ class UsersController extends Controller
 					unset($model->password);
 
 				if($model->save())
-					$this->redirect(array('view','id'=>$model->id));
+					$this->redirect(($_POST['referer']!='') ? $_POST['referer'] : array('view','id'=>$model->id));
 			}
 		}
 

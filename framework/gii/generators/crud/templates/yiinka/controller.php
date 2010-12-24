@@ -97,7 +97,7 @@ class <?php echo $this->controllerClass; ?> extends <?php echo $this->baseContro
 		{
 			$model->attributes=$_POST['<?php echo $this->modelClass; ?>'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model-><?php echo $this->tableSchema->primaryKey; ?>));
+				$this->redirect(($_POST['referer']!='') ? $_POST['referer'] : array('view','id'=>$model-><?php echo $this->tableSchema->primaryKey; ?>));
 		}
 
 		$this->render('update',array(
