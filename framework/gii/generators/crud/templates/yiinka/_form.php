@@ -8,7 +8,11 @@
 
 <?php echo "<?php \$form=\$this->beginWidget('CActiveForm', array(
 	'id'=>'".$this->class2id($this->modelClass)."-form',
-	'enableAjaxValidation'=>false,
+	'enableAjaxValidation'=>true,
+        'clientOptions' => array(
+          'validateOnSubmit' => true,
+          'validateOnChange' => false,
+        ),
 )); ?>\n"; ?>
 
 	<p class="note"><?php echo "<?php ";?> echo(Yii::t('yiinka', 'Fields with <span class="required">*</span> are required'));?></p>

@@ -60,13 +60,13 @@ class NewsController extends Controller
 		$model=new News;
 
 		// Uncomment the following line if AJAX validation is needed
-		// $this->performAjaxValidation($model);
+		$this->performAjaxValidation($model);
 
 		if(isset($_POST['News']))
 		{
 			$model->attributes=$_POST['News'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+				$this->redirect(($_POST['referer']!='') ? $_POST['referer'] : array('view','id'=>$model->id));
 		}
 
 		$this->render('create',array(
@@ -84,7 +84,7 @@ class NewsController extends Controller
 		$model=$this->loadModel($id);
 
 		// Uncomment the following line if AJAX validation is needed
-		// $this->performAjaxValidation($model);
+		$this->performAjaxValidation($model);
 
 		if(isset($_POST['News']))
 		{

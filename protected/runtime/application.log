@@ -3466,3 +3466,741 @@ Stack trace:
 #1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
 #2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
 #3 {main} REQUEST_URI=/favicon.ico
+2010/12/24 18:18:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/24 18:19:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/24 18:21:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/24 18:21:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/24 18:21:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/24 18:22:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/24 18:25:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/24 18:25:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/24 18:25:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/24 18:25:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/27 15:23:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/27 15:23:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/27 15:23:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/27 15:23:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/27 15:23:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/27 15:23:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/27 15:23:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:05:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:09:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:11:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:11:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:12:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:12:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:12:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:12:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:12:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:18:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:25:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:25:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:27:07 [error] [exception.CException] exception 'CException' with message 'Компоненту CHttpRequest не удалось определить URI запроса.' in Y:\home\yiinka.yii\www\framework\web\CHttpRequest.php:378
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CHttpRequest.php(325): CHttpRequest->getRequestUri()
+#1 Y:\home\yiinka.yii\www\framework\web\CUrlManager.php(310): CHttpRequest->getPathInfo()
+#2 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(120): CUrlManager->parseUrl(Object(CHttpRequest))
+#3 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#5 {main}
+2010/12/28 14:32:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:37:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:40:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:41:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:46:44 [error] [exception.CException] exception 'CException' with message 'Свойство "dataProvider" не может быть пустым.' in Y:\home\yiinka.yii\www\framework\zii\widgets\CBaseListView.php:103
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\zii\widgets\CListView.php(156): CBaseListView->init()
+#1 Y:\home\yiinka.yii\www\framework\web\CBaseController.php(140): CListView->init()
+#2 Y:\home\yiinka.yii\www\framework\web\CBaseController.php(165): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#3 Y:\home\yiinka.yii\www\protected\views\pages\admin.php(37): CBaseController->widget('zii.widgets.CLi...', Array)
+#4 Y:\home\yiinka.yii\www\framework\web\CBaseController.php(119): require('Y:\home\yiinka....')
+#5 Y:\home\yiinka.yii\www\framework\web\CBaseController.php(88): CBaseController->renderInternal('Y:\home\yiinka....', Array, true)
+#6 Y:\home\yiinka.yii\www\framework\web\CController.php(833): CBaseController->renderFile('Y:\home\yiinka....', Array, true)
+#7 Y:\home\yiinka.yii\www\framework\web\CController.php(746): CController->renderPartial('admin', Array, true)
+#8 Y:\home\yiinka.yii\www\protected\controllers\PagesController.php(158): CController->render('admin', Array)
+#9 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): PagesController->actionAdmin()
+#10 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#11 Y:\home\yiinka.yii\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 Y:\home\yiinka.yii\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 Y:\home\yiinka.yii\www\framework\web\CController.php(1084): CFilter->filter(Object(CFilterChain))
+#14 Y:\home\yiinka.yii\www\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 Y:\home\yiinka.yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 Y:\home\yiinka.yii\www\framework\web\CController.php(283): CFilterChain->run()
+#17 Y:\home\yiinka.yii\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(324): CController->run('admin')
+#19 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('pages/admin')
+#20 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#21 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#22 {main} REQUEST_URI=/pages/admin
+2010/12/28 14:46:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:47:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:48:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:48:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:48:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:48:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:51:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:51:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:51:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:51:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:53:09 [error] [exception.CException] exception 'CException' with message 'Псевдоним "application.extensions.elrte.elRTE" неверен. Убедитесь, что он указывает на существующий PHP файл.' in Y:\home\yiinka.yii\www\framework\YiiBase.php:310
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWidgetFactory.php(147): YiiBase::import('application.ext...', true)
+#1 Y:\home\yiinka.yii\www\framework\web\CBaseController.php(139): CWidgetFactory->createWidget(Object(NewsController), 'application.ext...', Array)
+#2 Y:\home\yiinka.yii\www\framework\web\CBaseController.php(165): CBaseController->createWidget('application.ext...', Array)
+#3 Y:\home\yiinka.yii\www\protected\views\news\_form.php(48): CBaseController->widget('application.ext...', Array)
+#4 Y:\home\yiinka.yii\www\framework\web\CBaseController.php(119): require('Y:\home\yiinka....')
+#5 Y:\home\yiinka.yii\www\framework\web\CBaseController.php(88): CBaseController->renderInternal('Y:\home\yiinka....', Array, true)
+#6 Y:\home\yiinka.yii\www\framework\web\CController.php(833): CBaseController->renderFile('Y:\home\yiinka....', Array, true)
+#7 Y:\home\yiinka.yii\www\protected\views\news\create.php(12): CController->renderPartial('_form', Array)
+#8 Y:\home\yiinka.yii\www\framework\web\CBaseController.php(119): require('Y:\home\yiinka....')
+#9 Y:\home\yiinka.yii\www\framework\web\CBaseController.php(88): CBaseController->renderInternal('Y:\home\yiinka....', Array, true)
+#10 Y:\home\yiinka.yii\www\framework\web\CController.php(833): CBaseController->renderFile('Y:\home\yiinka....', Array, true)
+#11 Y:\home\yiinka.yii\www\framework\web\CController.php(746): CController->renderPartial('create', Array, true)
+#12 Y:\home\yiinka.yii\www\protected\controllers\NewsController.php(74): CController->render('create', Array)
+#13 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): NewsController->actionCreate()
+#14 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#15 Y:\home\yiinka.yii\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 Y:\home\yiinka.yii\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#17 Y:\home\yiinka.yii\www\framework\web\CController.php(1084): CFilter->filter(Object(CFilterChain))
+#18 Y:\home\yiinka.yii\www\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 Y:\home\yiinka.yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 Y:\home\yiinka.yii\www\framework\web\CController.php(283): CFilterChain->run()
+#21 Y:\home\yiinka.yii\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(324): CController->run('create')
+#23 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('news/create')
+#24 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#25 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#26 {main} REQUEST_URI=/news/create
+2010/12/28 14:53:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:53:11 [error] [exception.CException] exception 'CException' with message 'Псевдоним "application.extensions.elrte.elRTE" неверен. Убедитесь, что он указывает на существующий PHP файл.' in Y:\home\yiinka.yii\www\framework\YiiBase.php:310
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWidgetFactory.php(147): YiiBase::import('application.ext...', true)
+#1 Y:\home\yiinka.yii\www\framework\web\CBaseController.php(139): CWidgetFactory->createWidget(Object(NewsController), 'application.ext...', Array)
+#2 Y:\home\yiinka.yii\www\framework\web\CBaseController.php(165): CBaseController->createWidget('application.ext...', Array)
+#3 Y:\home\yiinka.yii\www\protected\views\news\_form.php(48): CBaseController->widget('application.ext...', Array)
+#4 Y:\home\yiinka.yii\www\framework\web\CBaseController.php(119): require('Y:\home\yiinka....')
+#5 Y:\home\yiinka.yii\www\framework\web\CBaseController.php(88): CBaseController->renderInternal('Y:\home\yiinka....', Array, true)
+#6 Y:\home\yiinka.yii\www\framework\web\CController.php(833): CBaseController->renderFile('Y:\home\yiinka....', Array, true)
+#7 Y:\home\yiinka.yii\www\protected\views\news\create.php(12): CController->renderPartial('_form', Array)
+#8 Y:\home\yiinka.yii\www\framework\web\CBaseController.php(119): require('Y:\home\yiinka....')
+#9 Y:\home\yiinka.yii\www\framework\web\CBaseController.php(88): CBaseController->renderInternal('Y:\home\yiinka....', Array, true)
+#10 Y:\home\yiinka.yii\www\framework\web\CController.php(833): CBaseController->renderFile('Y:\home\yiinka....', Array, true)
+#11 Y:\home\yiinka.yii\www\framework\web\CController.php(746): CController->renderPartial('create', Array, true)
+#12 Y:\home\yiinka.yii\www\protected\controllers\NewsController.php(74): CController->render('create', Array)
+#13 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): NewsController->actionCreate()
+#14 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#15 Y:\home\yiinka.yii\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 Y:\home\yiinka.yii\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#17 Y:\home\yiinka.yii\www\framework\web\CController.php(1084): CFilter->filter(Object(CFilterChain))
+#18 Y:\home\yiinka.yii\www\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 Y:\home\yiinka.yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 Y:\home\yiinka.yii\www\framework\web\CController.php(283): CFilterChain->run()
+#21 Y:\home\yiinka.yii\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(324): CController->run('create')
+#23 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('news/create')
+#24 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#25 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#26 {main} REQUEST_URI=/news/create
+2010/12/28 14:53:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:53:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:53:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:53:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:53:31 [error] [exception.CException] exception 'CException' with message 'Псевдоним "application.extensions.elrte.elRTE" неверен. Убедитесь, что он указывает на существующий PHP файл.' in Y:\home\yiinka.yii\www\framework\YiiBase.php:310
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWidgetFactory.php(147): YiiBase::import('application.ext...', true)
+#1 Y:\home\yiinka.yii\www\framework\web\CBaseController.php(139): CWidgetFactory->createWidget(Object(NewsController), 'application.ext...', Array)
+#2 Y:\home\yiinka.yii\www\framework\web\CBaseController.php(165): CBaseController->createWidget('application.ext...', Array)
+#3 Y:\home\yiinka.yii\www\protected\views\news\_form.php(48): CBaseController->widget('application.ext...', Array)
+#4 Y:\home\yiinka.yii\www\framework\web\CBaseController.php(119): require('Y:\home\yiinka....')
+#5 Y:\home\yiinka.yii\www\framework\web\CBaseController.php(88): CBaseController->renderInternal('Y:\home\yiinka....', Array, true)
+#6 Y:\home\yiinka.yii\www\framework\web\CController.php(833): CBaseController->renderFile('Y:\home\yiinka....', Array, true)
+#7 Y:\home\yiinka.yii\www\protected\views\news\create.php(12): CController->renderPartial('_form', Array)
+#8 Y:\home\yiinka.yii\www\framework\web\CBaseController.php(119): require('Y:\home\yiinka....')
+#9 Y:\home\yiinka.yii\www\framework\web\CBaseController.php(88): CBaseController->renderInternal('Y:\home\yiinka....', Array, true)
+#10 Y:\home\yiinka.yii\www\framework\web\CController.php(833): CBaseController->renderFile('Y:\home\yiinka....', Array, true)
+#11 Y:\home\yiinka.yii\www\framework\web\CController.php(746): CController->renderPartial('create', Array, true)
+#12 Y:\home\yiinka.yii\www\protected\controllers\NewsController.php(74): CController->render('create', Array)
+#13 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): NewsController->actionCreate()
+#14 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#15 Y:\home\yiinka.yii\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 Y:\home\yiinka.yii\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#17 Y:\home\yiinka.yii\www\framework\web\CController.php(1084): CFilter->filter(Object(CFilterChain))
+#18 Y:\home\yiinka.yii\www\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 Y:\home\yiinka.yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 Y:\home\yiinka.yii\www\framework\web\CController.php(283): CFilterChain->run()
+#21 Y:\home\yiinka.yii\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(324): CController->run('create')
+#23 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('news/create')
+#24 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#25 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#26 {main} REQUEST_URI=/news/create
+2010/12/28 14:53:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:53:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:53:39 [error] [exception.CException] exception 'CException' with message 'Псевдоним "application.extensions.elrte.elRTE" неверен. Убедитесь, что он указывает на существующий PHP файл.' in Y:\home\yiinka.yii\www\framework\YiiBase.php:310
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWidgetFactory.php(147): YiiBase::import('application.ext...', true)
+#1 Y:\home\yiinka.yii\www\framework\web\CBaseController.php(139): CWidgetFactory->createWidget(Object(NewsController), 'application.ext...', Array)
+#2 Y:\home\yiinka.yii\www\framework\web\CBaseController.php(165): CBaseController->createWidget('application.ext...', Array)
+#3 Y:\home\yiinka.yii\www\protected\views\news\_form.php(48): CBaseController->widget('application.ext...', Array)
+#4 Y:\home\yiinka.yii\www\framework\web\CBaseController.php(119): require('Y:\home\yiinka....')
+#5 Y:\home\yiinka.yii\www\framework\web\CBaseController.php(88): CBaseController->renderInternal('Y:\home\yiinka....', Array, true)
+#6 Y:\home\yiinka.yii\www\framework\web\CController.php(833): CBaseController->renderFile('Y:\home\yiinka....', Array, true)
+#7 Y:\home\yiinka.yii\www\protected\views\news\update.php(12): CController->renderPartial('_form', Array)
+#8 Y:\home\yiinka.yii\www\framework\web\CBaseController.php(119): require('Y:\home\yiinka....')
+#9 Y:\home\yiinka.yii\www\framework\web\CBaseController.php(88): CBaseController->renderInternal('Y:\home\yiinka....', Array, true)
+#10 Y:\home\yiinka.yii\www\framework\web\CController.php(833): CBaseController->renderFile('Y:\home\yiinka....', Array, true)
+#11 Y:\home\yiinka.yii\www\framework\web\CController.php(746): CController->renderPartial('update', Array, true)
+#12 Y:\home\yiinka.yii\www\protected\controllers\NewsController.php(98): CController->render('update', Array)
+#13 [internal function]: NewsController->actionUpdate('1')
+#14 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(54): ReflectionMethod->invokeArgs(Object(NewsController), Array)
+#15 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#16 Y:\home\yiinka.yii\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 Y:\home\yiinka.yii\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#18 Y:\home\yiinka.yii\www\framework\web\CController.php(1084): CFilter->filter(Object(CFilterChain))
+#19 Y:\home\yiinka.yii\www\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#20 Y:\home\yiinka.yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 Y:\home\yiinka.yii\www\framework\web\CController.php(283): CFilterChain->run()
+#22 Y:\home\yiinka.yii\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(324): CController->run('update')
+#24 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('news/update')
+#25 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#26 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#27 {main} REQUEST_URI=/news/update/1
+2010/12/28 14:53:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:53:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:53:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:53:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:53:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:54:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:54:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:54:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:54:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:55:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:55:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:55:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:55:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:55:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:57:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:57:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:57:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:57:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:57:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:57:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:57:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:58:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 14:59:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 15:05:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 15:07:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 15:07:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 15:07:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 15:07:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 15:07:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 15:07:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 15:07:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 15:08:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 15:08:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 15:08:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 15:08:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 15:08:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 15:08:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 15:09:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 15:09:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 15:09:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 15:09:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 15:09:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 15:09:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 15:09:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 15:09:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 15:11:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 15:11:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2010/12/28 15:14:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico

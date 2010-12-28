@@ -63,7 +63,7 @@ class UsersController extends Controller
 		$model=new Users;
 
 		// Uncomment the following line if AJAX validation is needed
-		// $this->performAjaxValidation($model);
+		$this->performAjaxValidation($model);
 		
 		if(isset($_POST['Users']))
 		{
@@ -73,7 +73,7 @@ class UsersController extends Controller
 				
 				$model->password = $model->hashPassword($model->password , $model->salt);
 				if($model->save())
-					$this->redirect(array('view','id'=>$model->id));
+					$this->redirect(($_POST['referer']!='') ? $_POST['referer'] : array('view','id'=>$model->id));
 			}
 		}
 
@@ -92,7 +92,7 @@ class UsersController extends Controller
 		$model=$this->loadModel($id);
 
 		// Uncomment the following line if AJAX validation is needed
-		// $this->performAjaxValidation($model);
+		$this->performAjaxValidation($model);
 
 		if(isset($_POST['Users']))
 		{

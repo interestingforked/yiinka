@@ -60,7 +60,7 @@ class PagesController extends Controller
 		$model=new Pages;
 
 		// Uncomment the following line if AJAX validation is needed
-		// $this->performAjaxValidation($model);
+		$this->performAjaxValidation($model);
 
 		if(isset($_POST['Pages']))
 		{
@@ -72,7 +72,7 @@ class PagesController extends Controller
 				$model->url = Translite::rusencode($model->url);
 				
 			if($model->save())
-				$this->redirect(array('view','url'=>$model->url));
+				$this->redirect(($_POST['referer']!='') ? $_POST['referer'] : array('view','url'=>$model->url));
 		}
 
 		$this->render('create',array(
@@ -90,7 +90,7 @@ class PagesController extends Controller
 		$model=$this->loadModel($id);
 
 		// Uncomment the following line if AJAX validation is needed
-		// $this->performAjaxValidation($model);
+		$this->performAjaxValidation($model);
 
 		if(isset($_POST['Pages']))
 		{
