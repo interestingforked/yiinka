@@ -148,14 +148,9 @@ class PagesController extends Controller
 	 */
 	public function actionAdmin()
 	{
-		$model=new Pages('search');
-		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Pages']))
-			$model->attributes=$_GET['Pages'];
+		//$model=new Pages('findAdminPages');
 
-		$this->render('admin',array(
-			'model'=>$model,
-		));
+		$this->render('admin');
 	}
 
 	/**

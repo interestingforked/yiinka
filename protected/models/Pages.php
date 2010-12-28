@@ -120,4 +120,14 @@ class Pages extends CActiveRecord
 			'order'=>'number',
 		));
 	}
+
+        public function findAdminPages($parentPage)
+        {
+               return self::model()->findAll(array(
+			'select'=>'id, title, url',
+			'condition'=>'parent=:parent',
+			'params'=>array(':parent'=>$parentPage),
+			'order'=>'number',
+		));
+        }
 }
