@@ -28,24 +28,20 @@
  * ) ); ?>
  */
 ?>
-<div class="FileManagerWidgetNav">Navigation String</div>
-<div class="FileManagerWidgetWorkArea">
-	<div class="FileManagerWidgetWorkAreaLeft">
-	&nbsp;
-	</div>
-	<div class="FileManagerWidgetWorkAreaRight">
-	&nbsp;
-	</div>
-	<div class="FileManagerWidgetWorkAreaCenter">
-		<?php
-		$dir = opendir ($path);
-		while ($file = readdir ($dir))  {
-			if (( $file != ".") && ($file != "..")) {
-				echo ("<div class='FileManagerWidgetOne'>".$file."</div>");
-			}
-		}
-		closedir ($dir);
-		?>
-	</div>
+<div id="importCsvFirstStep">
+    <?php echo CHtml::beginForm(); ?>
+
+    <strong>CSV File</strong><br/>
+    <?php echo CHtml::fileField("csvfile"); ?><br/><br/>
+
+    <strong>Delimiter</strong><br/>
+    <?php echo CHtml::textField("delimiter"); ?><br/><br/>
+
+    <strong>Table</strong><br/>
+    <?php echo CHtml::dropDownList('table', '', $this->tablesArray);?><br/><br/>
+
+    <?php echo CHtml::submitButton('Step 2'); ?>
+    
+    <?php echo CHtml::endForm(); ?>
 </div>
-<div class="FileManagerWidgetOption">Option String</div>
+<div id="importCsvSecondStep">&nbsp;</div>

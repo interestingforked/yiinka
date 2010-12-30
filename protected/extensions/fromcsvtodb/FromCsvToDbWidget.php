@@ -28,35 +28,24 @@
  * ) ); ?>
  */
 
-class FileManagerWidget extends CWidget
+class FromCsvToDbWidget extends CWidget
 {
 	public $path;
-	public $language;
-	public $theme;
-	public $cssFile;
-	protected $baseUrl;
-	
-	/*protected function registerClientScript()
-    {
-		$file = dirname(__FILE__).DIRECTORY_SEPARATOR."css/".$this->theme.'.css';
-   		$this->cssFile = Yii::app()->getAssetManager()->publish($file);
-        $cs=Yii::app()->clientScript;
-        $cs->registerCssFile($this->cssFile);
-    }*/
-
+        public $tablesArray = array();
+        
 	public function init()
 	{
-        $this->baseUrl = Yii::app()->getAssetManager()->publish(dirname(__FILE__).DIRECTORY_SEPARATOR."css");
-        $cs = Yii::app()->getClientScript();
-        $cs->registerCssFile($this->baseUrl.'/'.$this->theme.'.css');
-				
-		/*$file = dirname(__FILE__).DIRECTORY_SEPARATOR."css/".$this->theme.'.css';
-   		$this->cssFile = Yii::app()->getAssetManager()->publish($file);*/
-	
-		$this->render('fileManagerWidget',array(
-			"path"     => $this->path,
-			"language" => $this->language,
-		));
+           $tables = Yii::app()->getDb()->getSchema()->getTableNames();
+
+           $tablesLength = sizeof($tables);
+           
+           for($i=0; $i<$tablesLength; $i++) {
+                $this->tablesArray[$tables[$i]] = $tables[$i];
+           }
+           
+            $this->render('fromCsvToDb',array(
+		"path"     => $this->path,
+            ));
 	}
 }
 ?>

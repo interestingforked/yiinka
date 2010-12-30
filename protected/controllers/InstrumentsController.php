@@ -16,7 +16,7 @@ class InstrumentsController extends Controller
 	{
 		return array(
 			array('allow', // allow admin user to perform 'index' actions
-				'actions'=>array('index', 'phpinfo'),
+				'actions'=>array('index', 'phpinfo', 'importcsv'),
 				'expression'=>'!$user->isGuest && $user->role==1',
 			),
 			array('deny',  // deny all users
@@ -40,5 +40,13 @@ class InstrumentsController extends Controller
 	{
 		$this->layout='//layouts/clear';
 		$this->render('phpinfo');
+	}
+
+        /**
+	 * Lists all instruments
+	 */
+	public function actionImportCsv()
+	{
+		$this->render('importcsv');
 	}
 }
