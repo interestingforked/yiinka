@@ -41,12 +41,4 @@ class InstrumentsController extends Controller
 		$this->layout='//layouts/clear';
 		$this->render('phpinfo');
 	}
-
-        /**
-	 * Lists all instruments
-	 */
-	public function actionImportCsv()
-	{
-		$this->render('importcsv');
-	}
 }

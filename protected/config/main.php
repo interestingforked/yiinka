@@ -29,6 +29,10 @@ return array(
 			'class'=>'system.gii.GiiModule',
 			'password'=>'parole',
 		),
+                'importcsv'=>array(
+			'path'=>'/upload',
+			'delimiter'=>';',
+		),
 	),
 
 	// application components
