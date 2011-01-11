@@ -30,8 +30,7 @@ return array(
 			'password'=>'parole',
 		),
                 'importcsv'=>array(
-			'path'=>'/upload',
-			'delimiter'=>';',
+			'path'=>'upload/',
 		),
 	),
 

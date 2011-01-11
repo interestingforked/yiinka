@@ -3,7 +3,6 @@
 class ImportcsvModule extends CWebModule
 {
 	public $path;
-        public $delimiter;
 
 	public function init()
 	{

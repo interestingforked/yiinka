@@ -1,3 +1,7 @@
-div#importCsvSecondStep{
+div#importCsvSecondStep, div#importCsvThirdStep{
     display: none;
+}
+
+span.importCsvError{
+    color:#ff0404;
 }

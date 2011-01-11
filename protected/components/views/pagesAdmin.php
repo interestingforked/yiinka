@@ -17,8 +17,8 @@ foreach($this->getPagesAdmin() as $page) {
 
 	$this->widget('zii.widgets.CMenu', array(
 		'items'=>array(
-			array('url'=>array('view', 'url'=>$page->url), 'itemOptions'=>array('class'=>'adminList', 'title'=>Yii::t('yiinka', 'View'))),
-			array('url'=>array($controllerId.'/update', 'id'=>$page->id), 'itemOptions'=>array('class'=>'adminUpdate', 'title'=>Yii::t('yiinka', 'Update'))),
+			array('url'=>array('/view', 'url'=>$page->url), 'itemOptions'=>array('class'=>'adminList', 'title'=>Yii::t('yiinka', 'View'))),
+			array('url'=>array('/'.$controllerId.'/update', 'id'=>$page->id), 'itemOptions'=>array('class'=>'adminUpdate', 'title'=>Yii::t('yiinka', 'Update'))),
 			array('url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$page->id),'confirm'=>Yii::t('zii', 'Are you sure you want to delete this item?')), 'itemOptions'=>array('class'=>'adminDelete', 'title'=>Yii::t('yiinka', 'Delete'))),
 		),
 		'htmlOptions'=>array('class'=>'adminUl'),
@@ -39,7 +39,7 @@ foreach($this->getPagesAdmin() as $page) {
 
             $this->widget('zii.widgets.CMenu', array(
                     'items'=>array(
-                            array('url'=>array($controllerId.'/create'), 'itemOptions'=>array('class'=>'adminCreate', 'title'=>Yii::t('yiinka', 'Create'))),
+                            array('url'=>array('/'.$controllerId.'/create'), 'itemOptions'=>array('class'=>'adminCreate', 'title'=>Yii::t('yiinka', 'Create'))),
                     ),
                     'htmlOptions'=>array('class'=>'adminUl'),
                     'linkLabelWrapper'=>'div',

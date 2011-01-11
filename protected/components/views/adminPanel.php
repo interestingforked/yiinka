@@ -23,25 +23,25 @@
 			</form>
 		</div>
 		<?php 
-			echo (CHtml::link('<div class="adminPanelAbout" title="'.Yii::t('yiinka', 'About Yiinka').'"></div>', array('site/about')));
-			echo (CHtml::link('<div class="adminPanelGii" title="'.Yii::t('yiinka', 'Gii').'"></div>', array('gii/')));
-			echo (CHtml::link('<div class="adminPanelInstruments" title="'.Yii::t('yiinka', 'Instruments').'"></div>', array('instruments/')));
-			echo (CHtml::link('<div class="adminPanelFiles" title="'.Yii::t('yiinka', 'User files').'"></div>', array('files/')));
+			echo (CHtml::link('<div class="adminPanelAbout" title="'.Yii::t('yiinka', 'About Yiinka').'"></div>', array('/site/about')));
+			echo (CHtml::link('<div class="adminPanelGii" title="'.Yii::t('yiinka', 'Gii').'"></div>', array('/gii/')));
+			echo (CHtml::link('<div class="adminPanelInstruments" title="'.Yii::t('yiinka', 'Instruments').'"></div>', array('/instruments/')));
+			echo (CHtml::link('<div class="adminPanelFiles" title="'.Yii::t('yiinka', 'User files').'"></div>', array('/files/')));
 			if(Yii::app()->user->getState('mode')==0) {
-			    echo (CHtml::link('<div class="adminPanelEdit" title="'.Yii::t('yiinka', 'Edit mode').'"></div>', array('users/mode', "id"=>1)));
+			    echo (CHtml::link('<div class="adminPanelEdit" title="'.Yii::t('yiinka', 'Edit mode').'"></div>', array('/users/mode', "id"=>1)));
 			}
 			else {
-				echo (CHtml::link('<div class="adminPanelView" title="'.Yii::t('yiinka', 'View mode').'"></div>', array('users/mode', "id"=>0)));
+				echo (CHtml::link('<div class="adminPanelView" title="'.Yii::t('yiinka', 'View mode').'"></div>', array('/users/mode', "id"=>0)));
 			}
 		?>
 	</div>
 	<div class="adminPanelCenter">
 		<?php
-			echo (CHtml::link('<div class="adminPanelUsers" title="'.Yii::t('yiinka', 'Users list').'"></div>', array('users/view', 'id'=>Yii::app()->user->id)));
+			echo (CHtml::link('<div class="adminPanelUsers" title="'.Yii::t('yiinka', 'Users list').'"></div>', array('/users/view', 'id'=>Yii::app()->user->id)));
 		?>
 		<div class="adminPanelUsersName">
 			<?php
-				echo (CHtml::link(Yii::app()->user->name, array('users/view', 'id'=>Yii::app()->user->id)));
+				echo (CHtml::link(Yii::app()->user->name, array('/users/view', 'id'=>Yii::app()->user->id)));
 				echo (CHtml::link(Yii::t('yiinka', 'Exit'), array('/site/logout'), array("class"=>"adminPanelExit")));
 			?>
 		</div>
