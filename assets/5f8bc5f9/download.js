@@ -1,4 +1,7 @@
 $(document).ready(function() {
+
+     /* First Step: file upload */
+
     var button = $('input#importStep1'), interval;
     
     $.ajax_upload(button, {
@@ -14,15 +17,41 @@ $(document).ready(function() {
             $("div#importCsvFirstStepResult").html(response);
         }
     });
+
+    /* */
+    
+    /* Breadcrumbs */
+
+    $("a#importCsvA2").click(function() {
+        $("div#importCsvFirstStep").hide(500);
+        $("div#importCsvSecondStep").show(500);
+        $("div#importCsvThirdStep").hide(500);
+        $("span#importCsvBread2").css({"display" : "none"});
+    });
+
+    /* */
 });
 
-function toSecondStep() {
+/* Going to Second Step*/
+
+function toSecondStep(uploadfile) {
+       $("span#importCsvForFile").text(uploadfile);
+       $("input#thirdFile").val(uploadfile);
+       $("span#importCsvBread1").css({"display" : "inline"});
        $("div#importCsvSecondStep").show(500);
        $("div#importCsvFirstStep").hide(500);
 }
 
-function toThirdStep(content) {
-       $("div#importCsvThirdStep").html(content);
+/* Going toThird Step*/
+
+function toThirdStep(content, delimiter, table) {
+       $("span#importCsvForDelimiter").text(delimiter);
+       $("span#importCsvForTable").text(table);
+       $("input#thirdDelimiter").val(delimiter);
+       $("input#thirdTable").val(table);
+
+       $("span#importCsvBread2").css({"display" : "inline"});
+       $("div#importCsvThirdStepPoles").html(content);
        $("div#importCsvThirdStep").show(500);
        $("div#importCsvSecondStep").hide(500);
 }

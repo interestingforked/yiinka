@@ -26,7 +26,7 @@ foreach($this->tableSchema->columns as $column)
 		continue;
 ?>
 	<div class="row">
-		<?php echo "<?php echo ".$this->generateActiveLabel($this->modelClass,$column)."; ?>\n"; ?>
+		<?php echo "<?php echo ".$this->generateActiveLabel($this->modelClass,$column)."; ?>\n"; ?><br/>
 		<?php echo "<?php echo ".$this->generateActiveField($this->modelClass,$column)."; ?>\n"; ?>
 		<?php echo "<?php echo \$form->error(\$model,'{$column->name}'); ?>\n"; ?>
 	</div>

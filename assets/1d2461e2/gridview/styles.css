@@ -27,14 +27,14 @@
 
 .grid-view table.items th a
 {
-	color: #EEE;
+	color: #121212;
 	font-weight: bold;
 	text-decoration: none;
 }
 
 .grid-view table.items th a:hover
 {
-	color: #FFF;
+	color: #474747;
 }
 
 .grid-view table.items th a.asc
@@ -56,7 +56,7 @@
 
 .grid-view table.items tr.odd
 {
-	background: #ECFBD4;
+	background: #f5f5eb;
 }
 
 .grid-view table.items tr.selected

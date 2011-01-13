@@ -9,7 +9,7 @@ foreach($this->getPagesAdmin() as $page) {
         <th width='100%' align='left'><?php echo CHtml::encode($page->getAttributeLabel('title')); ?></th>
         <th nowrap width='40px' align='left'><?php echo CHtml::encode($page->getAttributeLabel('id')); ?></th>
         <th nowrap width='100px' align='left'><?php echo CHtml::encode($page->getAttributeLabel('url')); ?></th>
-        <th nowrap width='70px'><?=Yii::t('yiinka', 'Options');?></th>
+        <th nowrap width='70px'><div style='width:54px'><?=Yii::t('yiinka', 'Options');?></div></th>
     </tr>
 <?php
    }

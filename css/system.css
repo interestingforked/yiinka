@@ -193,12 +193,12 @@ a.search-button{
 /* begin pages admin */
 
 table.pagesAdminAll{
-    border: 1px solid #c8caca;
+    border: 1px solid #e4e4cc;
     border-bottom: none;
 }
 
 table.pagesAdminAll th{
-    background-color: #c8caca;
+    background-color: #e4e4cc;
 }
 
 table.pagesAdminAll td{

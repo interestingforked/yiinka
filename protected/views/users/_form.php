@@ -14,13 +14,13 @@
 	<?php echo $form->errorSummary($model); ?>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'name'); ?>
+		<?php echo $form->labelEx($model,'name'); ?><br/>
 		<?php echo $form->textField($model,'name',array('size'=>60,'maxlength'=>128)); ?>
 		<?php echo $form->error($model,'name'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'password'); ?>
+		<?php echo $form->labelEx($model,'password'); ?><br/>
 		<?php
 			if(Yii::app()->controller->action->id == "update" && !isset($_POST['Users']))
 				echo $form->passwordField($model,'password',array('size'=>60,'maxlength'=>128,'value'=>'')); 
@@ -31,19 +31,19 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'email'); ?>
+		<?php echo $form->labelEx($model,'email'); ?><br/>
 		<?php echo $form->textField($model,'email',array('size'=>60,'maxlength'=>128)); ?>
 		<?php echo $form->error($model,'email'); ?>
 	</div>
 	
 	<div class="row">
-		<?php echo $form->labelEx($model,'visible'); ?>
+		<?php echo $form->labelEx($model,'visible'); ?><br/>
 		<?php  echo CHtml::activeDropDownList($model, 'visible', array(Yii::t('yiinka', 'Noactive'), Yii::t('yiinka', 'Active'))); ?>
 		<?php echo $form->error($model,'visible'); ?>
 	</div>
 	
 	<div class="row">
-		<?php echo $form->labelEx($model,'role'); ?>
+		<?php echo $form->labelEx($model,'role'); ?><br/>
 		<?php  echo CHtml::activeDropDownList($model, 'role', array(Yii::t('yiinka', 'User'), Yii::t('yiinka', 'Administrator'))); ?>
 		<?php echo $form->error($model,'role'); ?>
 	</div>

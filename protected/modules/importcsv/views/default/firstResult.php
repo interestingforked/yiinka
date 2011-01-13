@@ -8,7 +8,7 @@ elseif ($error==2) {
 elseif ($error==0) {
     ?>
     <script type="text/javascript">
-        window.parent.toSecondStep();
+        window.parent.toSecondStep("<?php echo $uploadfile;?>");
     </script>
     <?php
 }
