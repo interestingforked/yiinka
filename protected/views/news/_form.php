@@ -24,7 +24,10 @@ $form=$this->beginWidget('CActiveForm', array(
 	'enableAjaxValidation'=>true,
         'clientOptions' => array(
           'validateOnSubmit' => true,
-          'validateOnChange' => false,
+          'validateOnChange' => true,
+        ),
+        'htmlOptions'=>array(
+            'enctype'=>'multipart/form-data'
         ),
 )); 
 ?>
@@ -34,25 +37,46 @@ $form=$this->beginWidget('CActiveForm', array(
 	<?php echo $form->errorSummary($model); ?>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'title'); ?><br/>
+		<strong><?php echo $form->labelEx($model,'title'); ?></strong><br/>
 		<?php echo $form->textField($model,'title',array('size'=>60,'maxlength'=>255)); ?>
 		<?php echo $form->error($model,'title'); ?>
 	</div>
 	
 	<div class="row">
-		<?php echo $form->labelEx($model,'date'); ?><br/>
+		<strong><?php echo $form->labelEx($model,'date'); ?></strong><br/>
 		<?php echo $form->textField($model,'date'); ?>
 		<?php echo $form->error($model,'date'); ?>
 	</div>
+        <div class="row">
+		<strong><?php echo $form->labelEx($model,'photo'); ?></strong>
+                <br/>
+                <div class="photoLeft">
+                    <?php
+                        if($model->photo=='') {
+                            echo (Yii::t('yiinka', 'Upload file'));
+                        }
+                        else {
+                            echo(CHtml::link(CHtml::image("/upload/news/".$model->photo, $model->title, array("class"=>"photoImage")), "/upload/news/".$model->photo, array("target"=>"_blank")));
+                            echo("<br/>");
+                            echo Chtml::checkBox('delete_photo')." ".Yii::t('yiinka', 'Delete file');
+                        }
+                    ?>
+                </div>
+                <div class="photoRight">
+                    <?php echo $form->fileField($model, 'photo'); ?>
+                </div>
+                <div class="photoClear">&nbsp;</div>
+		<?php echo $form->error($model,'photo'); ?>
+	</div>
 	
 	<div class="row">
-		<?php echo $form->labelEx($model,'visible'); ?><br/>
+		<strong><?php echo $form->labelEx($model,'visible'); ?></strong><br/>
 		<?php  echo CHtml::activeDropDownList($model, 'visible', array(Yii::t('yiinka', 'Noactive'), Yii::t('yiinka', 'Active'))); ?>
 		<?php echo $form->error($model,'visible'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'text'); ?><br/>
+		<strong><?php echo $form->labelEx($model,'text'); ?></strong><br/>
 		<?php $this->widget('application.extensions.ckeditor.ECKEditor', array(
 				'model'=>$model,
 				'attribute'=>'text',

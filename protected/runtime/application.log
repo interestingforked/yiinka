@@ -10345,3 +10345,97 @@ Stack trace:
 REQUEST_URI=/importcsv
 in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (80)
 in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/14 13:24:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/01/14 13:24:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/01/14 18:40:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "upload/news/photo_5.jpg".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('upload/news/pho...')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/upload/news/photo_5.jpg
+2011/01/14 18:41:12 [error] [php] Cannot modify header information - headers already sent by (output started at Y:\home\yiinka.yii\www\protected\controllers\NewsController.php:105) (Y:\home\yiinka.yii\www\framework\web\CHttpRequest.php:592)
+Stack trace:
+#0 Y:\home\yiinka.yii\www\protected\controllers\NewsController.php(133): NewsController->redirect()
+#1 unknown(0): NewsController->actionUpdate()
+#2 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(54): ReflectionMethod->invokeArgs()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#4 Y:\home\yiinka.yii\www\framework\web\filters\CFilterChain.php(133): NewsController->runAction()
+#5 Y:\home\yiinka.yii\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#6 Y:\home\yiinka.yii\www\framework\web\CController.php(1084): CAccessControlFilter->filter()
+#7 Y:\home\yiinka.yii\www\framework\web\filters\CInlineFilter.php(59): NewsController->filterAccessControl()
+#8 Y:\home\yiinka.yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 Y:\home\yiinka.yii\www\framework\web\CController.php(283): CFilterChain->run()
+#10 Y:\home\yiinka.yii\www\framework\web\CController.php(257): NewsController->runActionWithFilters()
+#11 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(324): NewsController->run()
+#12 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#13 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#14 Y:\home\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/news/update/5
+in Y:\home\yiinka.yii\www\protected\controllers\NewsController.php (133)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/14 18:45:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "upload/news/photo_4.jpg".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('upload/news/pho...')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/upload/news/photo_4.jpg
+2011/01/14 18:45:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "upload/news/photo_4.jpg".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('upload/news/pho...')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/upload/news/photo_4.jpg
+2011/01/14 18:46:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "upload/news/photo_4.jpg".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('upload/news/pho...')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/upload/news/photo_4.jpg
+2011/01/14 18:46:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "upload/news/photo_4.jpg".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('upload/news/pho...')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/upload/news/photo_4.jpg
+2011/01/14 18:46:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "upload/news/photo_4.jpg".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('upload/news/pho...')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/upload/news/photo_4.jpg
+2011/01/14 18:46:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "upload/news/photo_4.jpg".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('upload/news/pho...')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/upload/news/photo_4.jpg
+2011/01/14 18:47:48 [error] [php] Cannot modify header information - headers already sent by (output started at Y:\home\yiinka.yii\www\protected\controllers\NewsController.php:121) (Y:\home\yiinka.yii\www\framework\web\CHttpRequest.php:592)
+Stack trace:
+#0 Y:\home\yiinka.yii\www\protected\controllers\NewsController.php(133): NewsController->redirect()
+#1 unknown(0): NewsController->actionUpdate()
+#2 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(54): ReflectionMethod->invokeArgs()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#4 Y:\home\yiinka.yii\www\framework\web\filters\CFilterChain.php(133): NewsController->runAction()
+#5 Y:\home\yiinka.yii\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#6 Y:\home\yiinka.yii\www\framework\web\CController.php(1084): CAccessControlFilter->filter()
+#7 Y:\home\yiinka.yii\www\framework\web\filters\CInlineFilter.php(59): NewsController->filterAccessControl()
+#8 Y:\home\yiinka.yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 Y:\home\yiinka.yii\www\framework\web\CController.php(283): CFilterChain->run()
+#10 Y:\home\yiinka.yii\www\framework\web\CController.php(257): NewsController->runActionWithFilters()
+#11 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(324): NewsController->run()
+#12 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#13 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#14 Y:\home\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/news/update/4
+in Y:\home\yiinka.yii\www\protected\controllers\NewsController.php (133)
+in Y:\home\yiinka.yii\www\index.php (13)

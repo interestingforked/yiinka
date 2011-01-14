@@ -30,8 +30,8 @@ $('.search-form form').submit(function(){
 <h1><?php echo "<?php "; ?> echo(Yii::t('yiinka', 'Manage'));?> <?php echo $this->pluralize($this->class2name($this->modelClass)); ?></h1>
 
 <p>
-<?php echo "<?php "; ?>echo(Yii::t('yiinka', 'You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
-or <b>=</b>) at the beginning of each of your search values to specify how the comparison should be done'));?>
+<?php echo "<?php "; ?>echo(Yii::t('yiinka', 'You may optionally enter a comparison operator')." (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
+or <b>=</b>) ."Yii::t('yiinka', 'at the beginning of each of your search values to specify how the comparison should be done'));?>
 </p>
 
 <?php echo "<?php echo CHtml::link(Yii::t('yiinka', 'Advanced Search'),'#',array('class'=>'search-button')); ?>"; ?>

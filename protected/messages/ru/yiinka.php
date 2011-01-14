@@ -5,8 +5,10 @@ return array (
 	'Active' => 'Да',
 	'Administrator' => 'Администратор',
         'Advanced Search' => 'Расширенный поиск',
+        'at the beginning of each of your search values to specify how the comparison should be done' => 'в начале каждой строки поиска',
 	'Create' => 'Создать элемент',
 	'Delete' => 'Удалить элемент',
+        'Delete file' => 'Удалить файл',
 	'Edit mode' => 'Включить режим редактирования',
 	'Exit' => 'Выйти',
         'Fields with <span class="required">*</span> are required' => 'Поля, помеченные знаком <span class="required">*</span> обязательны для заполнения',
@@ -23,13 +25,13 @@ return array (
 	'Save' => 'Сохранить изменения',
 	'Search' => 'Найти',
 	'Select Model' => 'Выберите модель',
+        'Submit' => 'Отправить',
 	'Update' => 'Редактировать элемент',
+        'Upload file' => 'Загрузите файл',
 	'User' => 'Пользователь',
 	'User files' => 'Файлы пользователя',
 	'View' => 'Просмотр элемента',
 	'View mode' => 'Включить режим просмотра',
-	'You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
-or <b>=</b>) at the beginning of each of your search values to specify how the comparison should be done' => 'Вы можете использовать операторы сравнения (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
-or <b>=</b>) в начале каждой строки поиска',
+	'You may optionally enter a comparison operator' => 'Вы можете использовать операторы сравнения',
 	'Users list' => 'Список пользователей',
   );

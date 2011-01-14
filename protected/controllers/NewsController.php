@@ -65,9 +65,25 @@ class NewsController extends Controller
 		if(isset($_POST['News']))
 		{
 			$model->attributes=$_POST['News'];
-			if($model->save())
-				$this->redirect(($_POST['referer']!='') ? $_POST['referer'] : array('view','id'=>$model->id));
-		}
+			if($model->save()) {
+                            if(CUploadedFile::getInstance($model,'photo')!='') {
+                                //
+                                 // replace name for file
+                                 //
+                                $downloadPhoto = CUploadedFile::getInstance($model,'photo');
+                                $model->photo = 'photo_'.$model->id.'.'.end(explode(".", $downloadPhoto));
+                                $fullname = Yii::app()->basePath.'/../upload/news/'.$model->photo;
+                                $model->saveAttributes(array("photo"));
+                                //
+                                 // download file
+                                 //
+                                 $downloadPhoto->saveAs($fullname);
+                            }
+
+                            $this->redirect(($_POST['referer']!='') ? $_POST['referer'] : array('view','id'=>$model->id));
+                        }
+
+                }
 
 		$this->render('create',array(
 			'model'=>$model,
@@ -85,13 +101,41 @@ class NewsController extends Controller
 
 		// Uncomment the following line if AJAX validation is needed
 		$this->performAjaxValidation($model);
-
+ 
 		if(isset($_POST['News']))
 		{
-			$model->attributes=$_POST['News'];
-			if($model->save())
-				$this->redirect(($_POST['referer']!='') ? $_POST['referer'] : array('view','id'=>$model->id));
-		}
+                    $model->attributes=$_POST['News'];
+                    
+                     if(CUploadedFile::getInstance($model,'photo')!='') {
+                            /*
+                             * replace name for file
+                             */
+                            $downloadPhoto = CUploadedFile::getInstance($model,'photo');
+                            $model->photo = 'photo_'.$model->id.'.'.end(explode(".", $downloadPhoto));
+                            $fullname = Yii::app()->basePath.'/../upload/news/'.$model->photo;
+                     }
+                     else {
+                           if($_POST['delete_photo']!=1){
+                              /*
+                               * if file not upload, replace file from array
+                               */
+                                unset($model->photo);
+                            }
+                     }
+                     
+			
+			if($model->save()) {
+                            if($downloadPhoto!='') {
+                                    /*
+                                     * update file
+                                     */
+                                    $downloadPhoto->saveAs($fullname);
+                            }
+
+                            $this->redirect(($_POST['referer']!='') ? $_POST['referer'] : array('view','id'=>$model->id));
+                        }
+
+                }
 
 		$this->render('update',array(
 			'model'=>$model,

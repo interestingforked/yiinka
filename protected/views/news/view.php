@@ -9,6 +9,7 @@ $this->breadcrumbs=array(
 if(!Yii::app()->user->isGuest && Yii::app()->user->getState('role')==1 && Yii::app()->user->getState('mode')==1) echo ('<div class="adminDiv">');
 
 echo('<h1>'.$model->title.'</h1>');
+if($model->photo!='') echo(CHtml::image("/upload/news/".$model->photo, $model->title)."<br/><br/>");
 echo('<em>'.CHtml::encode($model->getAttributeLabel('date')).'</em>:<span class="date">'.$model->date.'</span><br/>'.$model->text.'<br/><br/>');
 echo (CHtml::link("К списку новостей", array('news/index')).'<br /><br />');
 

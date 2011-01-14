@@ -8,6 +8,7 @@
  * @property string $title
  * @property string $text
  * @property string $date
+ * @property string $photo
  */
 class News extends CActiveRecord
 {
@@ -39,10 +40,11 @@ class News extends CActiveRecord
 			array('title, text, date', 'required'),
 			array('title', 'length', 'max'=>255),
 			array('visible', 'numerical', 'integerOnly'=>true),
+                        array('photo', 'file', 'types'=>'jpg, gif, png', 'allowEmpty'=>true),
 			array('text', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, title, text, date, visible', 'safe', 'on'=>'search'),
+			array('id, title, text, date, visible, photo', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -68,6 +70,7 @@ class News extends CActiveRecord
 			'text' => 'Текст новости',
 			'date' => 'Дата',
 			'visible' => 'Видимость',
+                        'photo' => 'Фото',
 		);
 	}
 
@@ -86,6 +89,7 @@ class News extends CActiveRecord
 		$criteria->compare('title',$this->title,true);
 		$criteria->compare('text',$this->text,true);
 		$criteria->compare('date',$this->date,true);
+                $criteria->compare('photo',$this->photo,true);
 		$criteria->compare('visible', ($this->visible=='') ? $this->visible : (($this->visible==Yii::t("yiinka", "Noactive")) ? 0 : 1), true);
 
 		return new CActiveDataProvider(get_class($this), array(

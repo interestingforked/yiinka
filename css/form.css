@@ -55,7 +55,6 @@ div.form fieldset
 
 div.form label
 {
-	font-weight: bold;
 	font-size: 0.9em;
 }
 
@@ -156,4 +155,26 @@ div.wide.form .buttons, div.wide.form .hint, div.wide.form .errorMessage
 {
 	clear: left;
 	padding-left: 110px;
+}
+
+div.photoClear{
+    clear: both;
+}
+
+div.photoLeft{
+    float:left;
+    width:100px;
+    padding-top: 10px;
+}
+
+div.photoRight{
+    float: left;
+    width: 300px;
+}
+
+img.photoImage{
+    padding:5px;
+    width:60px;
+    border:1px solid #999999;
+    margin-bottom:5px;
 }
