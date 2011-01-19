@@ -10439,3 +10439,27 @@ Stack trace:
 REQUEST_URI=/news/update/4
 in Y:\home\yiinka.yii\www\protected\controllers\NewsController.php (133)
 in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/18 14:59:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/01/18 14:59:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:328
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/01/19 14:50:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:332
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/01/19 14:51:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:332
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico

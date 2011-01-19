@@ -8,9 +8,9 @@
  *
  * @author Qiang Xue <qiang.xue@gmail.com>
  * @link http://www.yiiframework.com/
- * @copyright Copyright &copy; 2008-2010 Yii Software LLC
+ * @copyright Copyright &copy; 2008-2011 Yii Software LLC
  * @license http://www.yiiframework.com/license/
- * @version $Id: index.php 2518 2010-09-30 11:34:09Z mdomba $
+ * @version $Id: index.php 2800 2011-01-01 19:36:52Z qiang.xue $
  * @package system
  * @since 1.0
  */
@@ -52,7 +52,7 @@ $requirements=array(
 		t('yii','DOM extension'),
 		false,
 		class_exists("DOMDocument",false),
-		'<a href="http://www.yiiframework.com/doc/api/CWsdlGenerator">CWsdlGenerator</a>',
+		'<a href="http://www.yiiframework.com/doc/api/CHtmlPurifier">CHtmlPurifier</a>, <a href="http://www.yiiframework.com/doc/api/CWsdlGenerator">CWsdlGenerator</a>',
 		''),
 	array(
 		t('yii','PDO extension'),

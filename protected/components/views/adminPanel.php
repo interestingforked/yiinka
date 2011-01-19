@@ -1,3 +1,7 @@
+<?php
+    $cs=Yii::app()->clientScript;
+    $cs->registerCoreScript('jquery');
+?>
 <div class="adminPanel">
 	<div class="adminPanelLeft"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/system/logo.gif" alt="" border="0"/></div>
 	<div class="adminPanelRight">

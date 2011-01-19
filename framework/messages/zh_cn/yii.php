@@ -13,7 +13,7 @@
  *
  * NOTE, this file must be saved in UTF-8 encoding.
  *
- * @version $Id: yii.php 2657 2010-11-15 01:30:25Z qiang.xue $
+ * @version $Id: yii.php 2880 2011-01-16 23:14:04Z qiang.xue $
  */
 return array (
   'Active record class "{class}" does not have a scope named "{scope}".' => 'AR类 "{class}" 没有名为 "{scope}" 的命名范围。',
