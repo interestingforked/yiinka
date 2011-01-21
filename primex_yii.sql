@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Jan 14, 2011 at 07:30 PM
+-- Generation Time: Jan 21, 2011 at 06:02 PM
 -- Server version: 5.1.40
 -- PHP Version: 5.2.12
 
@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS `yiinka_news` (
   `visible` tinyint(1) NOT NULL DEFAULT '1',
   `photo` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=10 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=17 ;
 
 --
 -- Dumping data for table `yiinka_news`
@@ -43,7 +43,14 @@ INSERT INTO `yiinka_news` (`id`, `title`, `text`, `date`, `visible`, `photo`) VA
 (1, 'услуги ЖКХ с января подорожают на 10-20%', '<p>\r\n	Тарифы на услуги ЖКХ в Москве с 1 января 2011 года вырастут в среднем на 10-20%, сообщил РИА &quot;Новости&quot; источник в городской администрации, соответствующее постановление подписал мэр Сергей Собянин.</p>\r\n', '2010-12-06', 1, ''),
 (2, 'В.Путин поручил разобраться с высокими ценами на авиаперевозки', '<p>\r\n	Глава российского правительства Владимир Путин поручил Минфину и Минтрансу разобраться в причинах высоких цен на авиабилеты внутри РФ, сообщает РИА &laquo;Новости&raquo;.</p>\r\n', '2010-12-10', 1, ''),
 (3, 'Путин поставил "Единой России" задачу', 'Премьер-министр России Владимир Путин на встрече с членами партии "Единая Россия" призвал их при формировании политики думать не о результатах выборов, а о людях, избегать пустых инициатив и популистских предложений. При этом глава правительства отметил, что региональные стратегии "Единой России"', '2010-12-06', 0, ''),
-(9, 'sdfsdf', '<p>\r\n	sdfsdfsdf</p>\r\n', '2011-01-08', 1, 'photo_9.jpg');
+(11, 'sdfsdf', '<p>\r\n	sdfsdfsdfsdf</p>\r\n', '2011-01-08', 1, ''),
+(9, 'sdfsdf', '<p>\r\n	sdfsdfsdf</p>\r\n', '2011-01-08', 1, 'photo_9.jpg'),
+(10, 'sdfsdf', '<p>\r\n	sdfsdfsdf</p>\r\n', '2011-01-07', 1, ''),
+(12, 'sdfsdf', '<p>\r\n	sdfsdfsdfsdf</p>\r\n', '2011-01-02', 1, ''),
+(13, 'sdfsdf', 'sdfsdfsdf', '2011-01-02', 1, ''),
+(14, 'sdfsdf', '<p>\r\n	sdfsdfsdf</p>\r\n', '2011-01-08', 1, ''),
+(15, 'sdfsdf', '<p>\r\n	sdfsdfsdf</p>\r\n', '2011-01-10', 1, ''),
+(16, 'sdfsdf', '<p>\r\n	sdfsdf</p>\r\n', '2011-01-08', 1, '');
 
 -- --------------------------------------------------------
 
@@ -93,16 +100,23 @@ CREATE TABLE IF NOT EXISTS `yiinka_test` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `text` text NOT NULL,
   `title` varchar(255) NOT NULL,
+  `code` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=180 ;
 
 --
 -- Dumping data for table `yiinka_test`
 --
 
-INSERT INTO `yiinka_test` (`id`, `text`, `title`) VALUES
-(1, 'text1', 'title1'),
-(2, 'text2', 'title2');
+INSERT INTO `yiinka_test` (`id`, `text`, `title`, `code`) VALUES
+(173, '&quot;&#039;текст 2', 'Название 2', '02\r'),
+(172, 'текст 1', '&quot;&#039;Название 1', '01\r'),
+(174, 'текст 3', '&quot;&#039;Название 3', '03\r'),
+(175, '&quot;&#039;текст 4\r', 'Название 4', ''),
+(176, 'текст 5\r', '&quot;&#039;Название 5', ''),
+(177, '&quot;&#039;текст 6', 'Название 6', '04\r'),
+(178, 'текст 7\r', '&quot;&#039;Название 7', ''),
+(179, '&quot;&#039;текст 8', 'Название 8', '');
 
 -- --------------------------------------------------------
 

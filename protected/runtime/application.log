@@ -10463,3 +10463,661 @@ Stack trace:
 #1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
 #2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
 #3 {main} REQUEST_URI=/favicon.ico
+2011/01/20 14:51:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:332
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/01/20 14:51:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:332
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/01/20 15:20:24 [error] [php] include(ImportCsv.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Y:\home\yiinka.yii\www\framework\YiiBase.php:395)
+Stack trace:
+#0 Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php(105): spl_autoload_call()
+#1 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#2 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(278): DefaultController->runAction()
+#4 Y:\home\yiinka.yii\www\framework\web\CController.php(257): DefaultController->runActionWithFilters()
+#5 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): DefaultController->run()
+#6 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#7 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#8 Y:\home\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/importcsv
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (105)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/20 15:21:57 [error] [php] include(ImportCsv.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Y:\home\yiinka.yii\www\framework\YiiBase.php:395)
+Stack trace:
+#0 Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php(105): spl_autoload_call()
+#1 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#2 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(278): DefaultController->runAction()
+#4 Y:\home\yiinka.yii\www\framework\web\CController.php(257): DefaultController->runActionWithFilters()
+#5 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): DefaultController->run()
+#6 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#7 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#8 Y:\home\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/importcsv
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (105)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/20 15:22:39 [error] [php] include(ImportCsv.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Y:\home\yiinka.yii\www\framework\YiiBase.php:395)
+Stack trace:
+#0 Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php(105): spl_autoload_call()
+#1 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#2 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(278): DefaultController->runAction()
+#4 Y:\home\yiinka.yii\www\framework\web\CController.php(257): DefaultController->runActionWithFilters()
+#5 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): DefaultController->run()
+#6 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#7 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#8 Y:\home\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/importcsv
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (105)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/20 15:23:25 [error] [php] include(ImportCsv.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Y:\home\yiinka.yii\www\framework\YiiBase.php:395)
+Stack trace:
+#0 Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php(105): spl_autoload_call()
+#1 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#2 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(278): DefaultController->runAction()
+#4 Y:\home\yiinka.yii\www\framework\web\CController.php(257): DefaultController->runActionWithFilters()
+#5 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): DefaultController->run()
+#6 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#7 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#8 Y:\home\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/importcsv
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (105)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/20 15:24:37 [error] [php] include(ImportCsv.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Y:\home\yiinka.yii\www\framework\YiiBase.php:395)
+Stack trace:
+#0 Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php(105): spl_autoload_call()
+#1 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#2 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(278): DefaultController->runAction()
+#4 Y:\home\yiinka.yii\www\framework\web\CController.php(257): DefaultController->runActionWithFilters()
+#5 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): DefaultController->run()
+#6 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#7 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#8 Y:\home\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/importcsv
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (105)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/20 15:24:53 [error] [php] include(ImportCsv.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Y:\home\yiinka.yii\www\framework\YiiBase.php:395)
+Stack trace:
+#0 Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php(105): spl_autoload_call()
+#1 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#2 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(278): DefaultController->runAction()
+#4 Y:\home\yiinka.yii\www\framework\web\CController.php(257): DefaultController->runActionWithFilters()
+#5 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): DefaultController->run()
+#6 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#7 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#8 Y:\home\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/importcsv
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (105)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/20 17:17:09 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (Y:\home\yiinka.yii\www\framework\web\helpers\CHtml.php:66)
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#1 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#2 Y:\home\yiinka.yii\www\framework\web\CController.php(278): DefaultController->runAction()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(257): DefaultController->runActionWithFilters()
+#4 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): DefaultController->run()
+#5 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#6 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#7 Y:\home\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/importcsv
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (94)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/20 17:17:12 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (Y:\home\yiinka.yii\www\framework\web\helpers\CHtml.php:66)
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#1 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#2 Y:\home\yiinka.yii\www\framework\web\CController.php(278): DefaultController->runAction()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(257): DefaultController->runActionWithFilters()
+#4 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): DefaultController->run()
+#5 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#6 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#7 Y:\home\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/importcsv
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (94)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/20 17:17:42 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (Y:\home\yiinka.yii\www\framework\web\helpers\CHtml.php:66)
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#1 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#2 Y:\home\yiinka.yii\www\framework\web\CController.php(278): DefaultController->runAction()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(257): DefaultController->runActionWithFilters()
+#4 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): DefaultController->run()
+#5 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#6 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#7 Y:\home\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/importcsv
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (94)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/20 17:17:44 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (Y:\home\yiinka.yii\www\framework\web\helpers\CHtml.php:66)
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#1 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#2 Y:\home\yiinka.yii\www\framework\web\CController.php(278): DefaultController->runAction()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(257): DefaultController->runActionWithFilters()
+#4 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): DefaultController->run()
+#5 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#6 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#7 Y:\home\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/importcsv
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (94)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/20 17:19:03 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (Y:\home\yiinka.yii\www\framework\web\helpers\CHtml.php:66)
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#1 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#2 Y:\home\yiinka.yii\www\framework\web\CController.php(278): DefaultController->runAction()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(257): DefaultController->runActionWithFilters()
+#4 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): DefaultController->run()
+#5 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#6 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#7 Y:\home\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/importcsv
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (94)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/20 17:19:18 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (Y:\home\yiinka.yii\www\framework\web\helpers\CHtml.php:66)
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#1 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#2 Y:\home\yiinka.yii\www\framework\web\CController.php(278): DefaultController->runAction()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(257): DefaultController->runActionWithFilters()
+#4 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): DefaultController->run()
+#5 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#6 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#7 Y:\home\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/importcsv
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (94)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/20 17:19:19 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (Y:\home\yiinka.yii\www\framework\web\helpers\CHtml.php:66)
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#1 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#2 Y:\home\yiinka.yii\www\framework\web\CController.php(278): DefaultController->runAction()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(257): DefaultController->runActionWithFilters()
+#4 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): DefaultController->run()
+#5 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#6 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#7 Y:\home\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/importcsv
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (94)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/20 17:19:21 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (Y:\home\yiinka.yii\www\framework\web\helpers\CHtml.php:66)
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#1 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#2 Y:\home\yiinka.yii\www\framework\web\CController.php(278): DefaultController->runAction()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(257): DefaultController->runActionWithFilters()
+#4 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): DefaultController->run()
+#5 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#6 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#7 Y:\home\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/importcsv
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (94)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/20 17:19:21 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (Y:\home\yiinka.yii\www\framework\web\helpers\CHtml.php:66)
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#1 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#2 Y:\home\yiinka.yii\www\framework\web\CController.php(278): DefaultController->runAction()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(257): DefaultController->runActionWithFilters()
+#4 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): DefaultController->run()
+#5 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#6 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#7 Y:\home\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/importcsv
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (94)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/20 17:19:38 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (Y:\home\yiinka.yii\www\framework\web\helpers\CHtml.php:66)
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#1 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#2 Y:\home\yiinka.yii\www\framework\web\CController.php(278): DefaultController->runAction()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(257): DefaultController->runActionWithFilters()
+#4 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): DefaultController->run()
+#5 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#6 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#7 Y:\home\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/importcsv
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (95)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/20 17:19:49 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (Y:\home\yiinka.yii\www\framework\web\helpers\CHtml.php:66)
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#1 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#2 Y:\home\yiinka.yii\www\framework\web\CController.php(278): DefaultController->runAction()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(257): DefaultController->runActionWithFilters()
+#4 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): DefaultController->run()
+#5 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#6 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#7 Y:\home\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/importcsv
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (95)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/20 17:20:02 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (Y:\home\yiinka.yii\www\framework\web\helpers\CHtml.php:66)
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#1 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#2 Y:\home\yiinka.yii\www\framework\web\CController.php(278): DefaultController->runAction()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(257): DefaultController->runActionWithFilters()
+#4 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): DefaultController->run()
+#5 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#6 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#7 Y:\home\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/importcsv
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (95)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/20 17:26:16 [error] [system.db.CDbCommand] Error in executing SQL: INSERT INTO yiinka_test(2, 2) VALUES(﻿Название1, текст 1)
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\models\ImportCsv.php (24)
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (114)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/20 17:26:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2, 2) VALUES(﻿Название1, текст 1)' at line 1' in Y:\home\yiinka.yii\www\framework\db\CDbCommand.php:316
+Stack trace:
+#0 Y:\home\yiinka.yii\www\protected\modules\importcsv\models\ImportCsv.php(24): CDbCommand->execute()
+#1 Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php(114): ImportCsv->Import('yiinka_test', Array, Array, '1')
+#2 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#4 Y:\home\yiinka.yii\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#5 Y:\home\yiinka.yii\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): CController->run('')
+#7 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('importcsv')
+#8 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#9 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/importcsv
+2011/01/20 18:04:36 [error] [exception.CException] exception 'CException' with message 'ImportCsv не содержит метода "Import".' in Y:\home\yiinka.yii\www\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('Import', Array)
+#1 Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php(114): ImportCsv->Import('yiinka_test', Array, Array, '1', Array)
+#2 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#4 Y:\home\yiinka.yii\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#5 Y:\home\yiinka.yii\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): CController->run('')
+#7 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('importcsv')
+#8 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#9 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/importcsv
+2011/01/20 18:04:55 [error] [exception.CException] exception 'CException' with message 'ImportCsv не содержит метода "Import".' in Y:\home\yiinka.yii\www\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('Import', Array)
+#1 Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php(114): ImportCsv->Import('yiinka_test', Array, Array, '1', Array)
+#2 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#4 Y:\home\yiinka.yii\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#5 Y:\home\yiinka.yii\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): CController->run('')
+#7 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('importcsv')
+#8 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#9 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/importcsv
+2011/01/20 18:05:00 [error] [exception.CException] exception 'CException' with message 'ImportCsv не содержит метода "Import".' in Y:\home\yiinka.yii\www\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('Import', Array)
+#1 Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php(114): ImportCsv->Import('yiinka_test', Array, Array, '1', Array)
+#2 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#4 Y:\home\yiinka.yii\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#5 Y:\home\yiinka.yii\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): CController->run('')
+#7 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('importcsv')
+#8 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#9 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/importcsv
+2011/01/20 18:05:04 [error] [exception.CException] exception 'CException' with message 'ImportCsv не содержит метода "Import".' in Y:\home\yiinka.yii\www\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('Import', Array)
+#1 Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php(114): ImportCsv->Import('yiinka_test', Array, Array, '1', Array)
+#2 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#4 Y:\home\yiinka.yii\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#5 Y:\home\yiinka.yii\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): CController->run('')
+#7 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('importcsv')
+#8 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#9 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/importcsv
+2011/01/20 18:22:25 [error] [system.db.CDbCommand] Error in executing SQL: INSERT INTO yiinka_test() VALUES(текст 2, Название 2)
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\models\ImportCsv.php (29)
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (114)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/20 18:22:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2, Название 2)' at line 1' in Y:\home\yiinka.yii\www\framework\db\CDbCommand.php:316
+Stack trace:
+#0 Y:\home\yiinka.yii\www\protected\modules\importcsv\models\ImportCsv.php(29): CDbCommand->execute()
+#1 Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php(114): ImportCsv->InsertAll('yiinka_test', Array, Array, '1', Array)
+#2 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#4 Y:\home\yiinka.yii\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#5 Y:\home\yiinka.yii\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): CController->run('')
+#7 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('importcsv')
+#8 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#9 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/importcsv
+2011/01/20 18:22:41 [error] [system.db.CDbCommand] Error in executing SQL: INSERT INTO yiinka_test(text, title) VALUES(текст 2, Название 2)
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\models\ImportCsv.php (29)
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (114)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/20 18:22:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2, Название 2)' at line 1' in Y:\home\yiinka.yii\www\framework\db\CDbCommand.php:316
+Stack trace:
+#0 Y:\home\yiinka.yii\www\protected\modules\importcsv\models\ImportCsv.php(29): CDbCommand->execute()
+#1 Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php(114): ImportCsv->InsertAll('yiinka_test', Array, Array, '1', Array)
+#2 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#4 Y:\home\yiinka.yii\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#5 Y:\home\yiinka.yii\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): CController->run('')
+#7 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('importcsv')
+#8 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#9 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/importcsv
+2011/01/20 18:23:02 [error] [system.db.CDbCommand] Error in executing SQL: INSERT INTO yiinka_test(text, title) VALUES(текст 2, Название 2)
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\models\ImportCsv.php (29)
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (114)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/20 18:23:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2, Название 2)' at line 1' in Y:\home\yiinka.yii\www\framework\db\CDbCommand.php:316
+Stack trace:
+#0 Y:\home\yiinka.yii\www\protected\modules\importcsv\models\ImportCsv.php(29): CDbCommand->execute()
+#1 Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php(114): ImportCsv->InsertAll('yiinka_test', Array, Array, '1', Array)
+#2 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#4 Y:\home\yiinka.yii\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#5 Y:\home\yiinka.yii\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): CController->run('')
+#7 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('importcsv')
+#8 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#9 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/importcsv
+2011/01/20 18:27:48 [error] [system.db.CDbCommand] Error in executing SQL: INSERT INTO yiinka_test(text, title) VALUES('"'Название 2', 'текст 2')
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\models\ImportCsv.php (29)
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (114)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/20 18:27:48 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Название 2', 'текст 2')' at line 1' in Y:\home\yiinka.yii\www\framework\db\CDbCommand.php:316
+Stack trace:
+#0 Y:\home\yiinka.yii\www\protected\modules\importcsv\models\ImportCsv.php(29): CDbCommand->execute()
+#1 Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php(114): ImportCsv->InsertAll('yiinka_test', Array, Array, '1', Array)
+#2 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#4 Y:\home\yiinka.yii\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#5 Y:\home\yiinka.yii\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): CController->run('')
+#7 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('importcsv')
+#8 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#9 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/importcsv
+2011/01/20 18:30:33 [error] [php] preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: No ending delimiter '&quot;' found (Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php:109)
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#1 Y:\home\yiinka.yii\www\framework\web\CController.php(278): DefaultController->runAction()
+#2 Y:\home\yiinka.yii\www\framework\web\CController.php(257): DefaultController->runActionWithFilters()
+#3 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): DefaultController->run()
+#4 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#5 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#6 Y:\home\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/importcsv
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (109)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/20 18:45:12 [error] [php] preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: No ending delimiter '&quot;' found (Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php:110)
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#1 Y:\home\yiinka.yii\www\framework\web\CController.php(278): DefaultController->runAction()
+#2 Y:\home\yiinka.yii\www\framework\web\CController.php(257): DefaultController->runActionWithFilters()
+#3 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): DefaultController->run()
+#4 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#5 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#6 Y:\home\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/importcsv
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (110)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/20 18:45:15 [error] [php] preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: No ending delimiter '&quot;' found (Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php:110)
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#1 Y:\home\yiinka.yii\www\framework\web\CController.php(278): DefaultController->runAction()
+#2 Y:\home\yiinka.yii\www\framework\web\CController.php(257): DefaultController->runActionWithFilters()
+#3 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): DefaultController->run()
+#4 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#5 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#6 Y:\home\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/importcsv
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (110)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/20 18:52:14 [error] [php] preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: No ending delimiter '&quot;' found (Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php:111)
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#1 Y:\home\yiinka.yii\www\framework\web\CController.php(278): DefaultController->runAction()
+#2 Y:\home\yiinka.yii\www\framework\web\CController.php(257): DefaultController->runActionWithFilters()
+#3 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): DefaultController->run()
+#4 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#5 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#6 Y:\home\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/importcsv
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (111)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/20 18:52:25 [error] [php] preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: No ending delimiter '&quot;' found (Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php:111)
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#1 Y:\home\yiinka.yii\www\framework\web\CController.php(278): DefaultController->runAction()
+#2 Y:\home\yiinka.yii\www\framework\web\CController.php(257): DefaultController->runActionWithFilters()
+#3 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): DefaultController->run()
+#4 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#5 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#6 Y:\home\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/importcsv
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (111)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/20 18:54:03 [error] [php] preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: No ending delimiter '&quot;' found (Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php:111)
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#1 Y:\home\yiinka.yii\www\framework\web\CController.php(278): DefaultController->runAction()
+#2 Y:\home\yiinka.yii\www\framework\web\CController.php(257): DefaultController->runActionWithFilters()
+#3 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): DefaultController->run()
+#4 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#5 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#6 Y:\home\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/importcsv
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (111)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/20 18:55:04 [error] [php] preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: No ending delimiter '&quot;' found (Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php:107)
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#1 Y:\home\yiinka.yii\www\framework\web\CController.php(278): DefaultController->runAction()
+#2 Y:\home\yiinka.yii\www\framework\web\CController.php(257): DefaultController->runActionWithFilters()
+#3 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): DefaultController->run()
+#4 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#5 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#6 Y:\home\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/importcsv
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (107)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/20 18:55:17 [error] [php] preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: No ending delimiter '&quot;' found (Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php:107)
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#1 Y:\home\yiinka.yii\www\framework\web\CController.php(278): DefaultController->runAction()
+#2 Y:\home\yiinka.yii\www\framework\web\CController.php(257): DefaultController->runActionWithFilters()
+#3 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): DefaultController->run()
+#4 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#5 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#6 Y:\home\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/importcsv
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (107)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/20 18:55:21 [error] [php] preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: No ending delimiter '&quot;' found (Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php:107)
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#1 Y:\home\yiinka.yii\www\framework\web\CController.php(278): DefaultController->runAction()
+#2 Y:\home\yiinka.yii\www\framework\web\CController.php(257): DefaultController->runActionWithFilters()
+#3 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): DefaultController->run()
+#4 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#5 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#6 Y:\home\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/importcsv
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (107)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/21 11:37:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:332
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/01/21 11:37:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:332
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/01/21 14:38:22 [error] [system.db.CDbCommand] Error in executing SQL: INSERT INTO yiinka_test(text, title) VALUES('&quot;&#039;Название 1', 'текст 1', 'Название 2', '&quot;&#039;текст 2', '&quot;&#039;Название 1', 'текст 1')
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\models\ImportCsv.php (40)
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (123)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/21 14:38:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1' in Y:\home\yiinka.yii\www\framework\db\CDbCommand.php:316
+Stack trace:
+#0 Y:\home\yiinka.yii\www\protected\modules\importcsv\models\ImportCsv.php(40): CDbCommand->execute()
+#1 Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php(123): ImportCsv->InsertAll('yiinka_test', Array, Array, '1', Array)
+#2 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#4 Y:\home\yiinka.yii\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#5 Y:\home\yiinka.yii\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): CController->run('')
+#7 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('importcsv')
+#8 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#9 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/importcsv
+2011/01/21 14:38:35 [error] [system.db.CDbCommand] Error in executing SQL: INSERT INTO yiinka_test(text, title) VALUES('текст 1', '&quot;&#039;Название 1', '&quot;&#039;текст 2', 'Название 2', 'текст 1', '&quot;&#039;Название 1')
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\models\ImportCsv.php (40)
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (123)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/21 14:38:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1' in Y:\home\yiinka.yii\www\framework\db\CDbCommand.php:316
+Stack trace:
+#0 Y:\home\yiinka.yii\www\protected\modules\importcsv\models\ImportCsv.php(40): CDbCommand->execute()
+#1 Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php(123): ImportCsv->InsertAll('yiinka_test', Array, Array, '1', Array)
+#2 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#4 Y:\home\yiinka.yii\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#5 Y:\home\yiinka.yii\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): CController->run('')
+#7 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('importcsv')
+#8 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#9 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/importcsv
+2011/01/21 16:55:44 [error] [system.db.CDbCommand] Error in executing SQL: SELECT `1`
+FROM `yiinka_test`
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\models\ImportCsv.php (71)
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (119)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/21 16:55:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S22]: Column not found: 1054 Unknown column '1' in 'field list'' in Y:\home\yiinka.yii\www\framework\db\CDbCommand.php:316
+Stack trace:
+#0 Y:\home\yiinka.yii\www\protected\modules\importcsv\models\ImportCsv.php(71): CDbCommand->execute()
+#1 Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php(119): ImportCsv->selectRows('yiinka_test', '1')
+#2 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#4 Y:\home\yiinka.yii\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#5 Y:\home\yiinka.yii\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): CController->run('')
+#7 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('importcsv')
+#8 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#9 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/importcsv
+2011/01/21 16:55:46 [error] [system.db.CDbCommand] Error in executing SQL: SELECT `1`
+FROM `yiinka_test`
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\models\ImportCsv.php (71)
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (119)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/21 16:55:46 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S22]: Column not found: 1054 Unknown column '1' in 'field list'' in Y:\home\yiinka.yii\www\framework\db\CDbCommand.php:316
+Stack trace:
+#0 Y:\home\yiinka.yii\www\protected\modules\importcsv\models\ImportCsv.php(71): CDbCommand->execute()
+#1 Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php(119): ImportCsv->selectRows('yiinka_test', '1')
+#2 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#4 Y:\home\yiinka.yii\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#5 Y:\home\yiinka.yii\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): CController->run('')
+#7 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('importcsv')
+#8 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#9 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/importcsv
+2011/01/21 16:56:07 [error] [system.db.CDbCommand] Error in executing SQL: SELECT `1`
+FROM `yiinka_test`
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\models\ImportCsv.php (71)
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (119)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/21 16:56:07 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S22]: Column not found: 1054 Unknown column '1' in 'field list'' in Y:\home\yiinka.yii\www\framework\db\CDbCommand.php:316
+Stack trace:
+#0 Y:\home\yiinka.yii\www\protected\modules\importcsv\models\ImportCsv.php(71): CDbCommand->execute()
+#1 Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php(119): ImportCsv->selectRows('yiinka_test', '1')
+#2 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#4 Y:\home\yiinka.yii\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#5 Y:\home\yiinka.yii\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): CController->run('')
+#7 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('importcsv')
+#8 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#9 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/importcsv
+2011/01/21 16:56:10 [error] [system.db.CDbCommand] Error in executing SQL: SELECT `1`
+FROM `yiinka_test`
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\models\ImportCsv.php (71)
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (119)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/21 16:56:10 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S22]: Column not found: 1054 Unknown column '1' in 'field list'' in Y:\home\yiinka.yii\www\framework\db\CDbCommand.php:316
+Stack trace:
+#0 Y:\home\yiinka.yii\www\protected\modules\importcsv\models\ImportCsv.php(71): CDbCommand->execute()
+#1 Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php(119): ImportCsv->selectRows('yiinka_test', '1')
+#2 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#4 Y:\home\yiinka.yii\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#5 Y:\home\yiinka.yii\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): CController->run('')
+#7 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('importcsv')
+#8 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#9 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/importcsv
+2011/01/21 16:58:26 [error] [system.db.CDbCommand] Error in querying SQL: SELECT `1`
+FROM `yiinka_test`
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\models\ImportCsv.php (71)
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (119)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/21 16:58:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S22]: Column not found: 1054 Unknown column '1' in 'field list'' in Y:\home\yiinka.yii\www\framework\db\CDbCommand.php:471
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 Y:\home\yiinka.yii\www\protected\modules\importcsv\models\ImportCsv.php(71): CDbCommand->query()
+#2 Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php(119): ImportCsv->selectRows('yiinka_test', '1')
+#3 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#4 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#5 Y:\home\yiinka.yii\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#6 Y:\home\yiinka.yii\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): CController->run('')
+#8 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('importcsv')
+#9 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#10 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#11 {main} REQUEST_URI=/importcsv
+2011/01/21 17:57:05 [error] [php] in_array() [<a href='function.in-array'>function.in-array</a>]: Wrong datatype for second argument (Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php:156)
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#1 Y:\home\yiinka.yii\www\framework\web\CController.php(278): DefaultController->runAction()
+#2 Y:\home\yiinka.yii\www\framework\web\CController.php(257): DefaultController->runActionWithFilters()
+#3 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): DefaultController->run()
+#4 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#5 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#6 Y:\home\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/importcsv
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (156)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/21 17:57:17 [error] [php] in_array() [<a href='function.in-array'>function.in-array</a>]: Wrong datatype for second argument (Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php:156)
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#1 Y:\home\yiinka.yii\www\framework\web\CController.php(278): DefaultController->runAction()
+#2 Y:\home\yiinka.yii\www\framework\web\CController.php(257): DefaultController->runActionWithFilters()
+#3 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): DefaultController->run()
+#4 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#5 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#6 Y:\home\yiinka.yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/importcsv
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (156)
+in Y:\home\yiinka.yii\www\index.php (13)

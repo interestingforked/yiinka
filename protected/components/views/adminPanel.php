@@ -17,8 +17,14 @@
 							require_once($path.$file);
 							$myfile = Yii::app()->file->set($path.$file, true);
 							$modelName = explode("Controller", $myfile->filename);
-							if(method_exists($myfile->filename, 'actionAdmin'))
-								echo "<option value='".Yii::app()->createUrl(strtolower($modelName[0]).'/admin')."'>".$modelName[0]."</option>\n";
+							if(method_exists($myfile->filename, 'actionAdmin')) {
+                                                            $name = strtolower($modelName[0]);
+                                                            if($name == Yii::app()->controller->id)
+                                                                $selected = "selected='selected'";
+                                                            else
+                                                                $selected = '';
+                                                            echo "<option value='".Yii::app()->createUrl($name.'/admin')."' ".$selected.">".$modelName[0]."</option>\n";
+                                                        }
 						}
 					}
 					closedir ($dir);

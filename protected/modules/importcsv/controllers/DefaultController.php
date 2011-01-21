@@ -68,8 +68,9 @@ class DefaultController extends Controller
                         /*
                          * get all columns from selected table
                          */
-
-                        $tableColumns = $this->tableColumns($table);
+                        
+                         $model=new ImportCsv;
+                         $tableColumns = $model->tableColumns($table);
                     }
 
                     $this->layout='clear';
@@ -87,24 +88,94 @@ class DefaultController extends Controller
                      */
 
                    if(array_sum($_POST['Poles'])>0) {
-                       $error = 0;
-                       $delimiter = CHtml::encode(trim($_POST['thirdDelimiter']));
-                       $table = CHtml::encode($_POST['thirdTable']);
-                       $uploadfile = CHtml::encode(trim($_POST['thirdFile']));
+                      if($_POST['perRequest']!='') {
+                          if(is_numeric($_POST['perRequest'])) {
+                              $tableKey = CHtml::encode($_POST['Tablekey']);
+                              $csvKey   = CHtml::encode($_POST['CSVkey']);
+                              $mode     = CHtml::encode($_POST['Mode']);
 
-                       /*
-                        * import from csv to db
-                        */
-                       
-                       $filecontent  = explode("\n", file_get_contents($uploadfile));
-                       $lengthFile = sizeof($filecontent);
-                       for($i=0; $i<$lengthFile; $i++) {
-                           $csvLine = explode($delimiter, $filecontent[$i]);
+                              if(($mode == 2 || $mode == 3) && ($tableKey == '' || $csvKey == '')) {
+                                    $error = 4;
+                              }
+                              else {
+                                   $error      = 0;
+                                   $delimiter  = CHtml::encode(trim($_POST['thirdDelimiter']));
+                                   $table      = CHtml::encode($_POST['thirdTable']);
+                                   $uploadfile = CHtml::encode(trim($_POST['thirdFile']));
+                                   $poles      = $_POST['Poles'];
+                                   $perRequest = CHtml::encode($_POST['perRequest']);
+
+                                   /*
+                                    * import from csv to db
+                                    */
+
+                                   $model=new ImportCsv;
+                                   $tableColumns = $model->tableColumns($table);
+
+                                   /*
+                                    * select old rows from table
+                                    */
+                                   if($mode == 2 || $mode == 3) {
+                                       $oldItems = $model->selectRows($table, $tableKey);
+                                   }
+
+
+                                   $replace     = addslashes(file_get_contents($uploadfile));
+                                   $filecontent = explode("\n", $replace);
+                                   $lengthFile  = sizeof($filecontent);
+                                   $strCounter  = 0;
+                                   $linesArray  = array();
+                                   $error_array = array();
+                                   $stepsOk = 0;
+
+                                   for($i=0; $i<$lengthFile; $i++) {
+                                       if($i!=0 && $filecontent[$i]!='') {
+                                           $csvLine = explode($delimiter, $filecontent[$i]);
+
+                                           /*
+                                            * insert All
+                                            */
+
+                                           if($mode==1) {
+                                               $linesArray[] =  $csvLine;
+                                               $strCounter++;
+                                               if($strCounter == $perRequest || $i == $lengthFile-1) {
+                                                    $import = $model->InsertAll($table, $linesArray, $poles, $mode, $tableColumns);
+                                                    $strCounter = 0;
+                                                    $linesArray = array();
+
+                                                    if($import != 1)
+                                                        $arrays[] = $i;
+                                               }
+                                           }
+
+                                           /*
+                                            * Insert new
+                                            */
+                                           if($mode==2) {
+                                                //if(in_array($csvLine[$csvKey-1], $oldItems[$tableKey])) echo("yes");
+                                                echo($csvLine[$csvKey-1]."<pre>");
+                                                print_r($oldItems);
+                                                echo("</pre>");
+                                           }
+
+                                           /*
+                                            * Insert new and replace old
+                                            */
+                                           if($mode==3) {
+
+                                           }
+                                       }
+                                   }
+                              }
+                           }
+                           else {
+                               $error = 3;
+                           }
                        }
-
-                       $sql="INSERT INTO ".$table."(text, title) VALUES(1, 2)";
-                       $command=Yii::app()->db->createCommand($sql);
-                       $command->execute();
+                       else {
+                           $error = 2;
+                       }
                    }
                    else {
                        $error = 1;
@@ -116,6 +187,7 @@ class DefaultController extends Controller
                         'delimiter'=>$delimiter,
                         'table'=>$table,
                         'uploadfile'=>$uploadfile,
+                        'error_array'=>$error_array,
                     ));
                }
 
@@ -163,14 +235,5 @@ class DefaultController extends Controller
                  'error'=>$importError,
                  'uploadfile'=>$uploadfile,
             ));
-        }
-
-        /*
-         * get poles from selected table 
-         */
-        
-        public function tableColumns($table)
-        {
-            return Yii::app()->getDb()->getSchema()->getTable($table)->getColumnNames();
         }
 }

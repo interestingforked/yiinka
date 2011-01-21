@@ -23,11 +23,11 @@ $this->breadcrumbs=array(
         <div id="importCsvSecondStepResult">
             &nbsp;
         </div>
-        <strong><?php echo Yii::t('importcsvModule.importcsv', 'Delimiter'); ?></strong><br/>
+        <strong><?php echo Yii::t('importcsvModule.importcsv', 'Delimiter'); ?></strong> <span class="require">*</span><br/>
         <?php echo CHtml::textField("delimiter", $delimiter); ?>
         <br/><br/>
 
-        <strong><?php echo Yii::t('importcsvModule.importcsv', 'Table'); ?></strong><br/>
+        <strong><?php echo Yii::t('importcsvModule.importcsv', 'Table'); ?></strong> <span class="require">*</span><br/>
         <?php echo CHtml::dropDownList('table', '', $tablesArray);?><br/><br/>
 
         <?php
@@ -47,12 +47,14 @@ $this->breadcrumbs=array(
             <div id="importCsvThirdStepResult">
                 &nbsp;
             </div>
-            <div id="importCsvThirdStepPoles">&nbsp;</div><br/>
-            <?php
-                echo CHtml::ajaxSubmitButton(Yii::t('importcsvModule.importcsv', 'Import'), '', array(
-                    'update' => '#importCsvThirdStepResult',
-                ));
-            ?>
+            <div id="importCsvThirdStepPolesAndForm">
+                <div id="importCsvThirdStepPoles">&nbsp;</div><br/>
+                <?php
+                    echo CHtml::ajaxSubmitButton(Yii::t('importcsvModule.importcsv', 'Import'), '', array(
+                        'update' => '#importCsvThirdStepResult',
+                    ));
+                ?>
+            </div>
         <?php echo CHtml::endForm(); ?>
     </div>
     <br/>
