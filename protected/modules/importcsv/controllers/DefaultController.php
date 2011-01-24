@@ -2,6 +2,8 @@
 
 class DefaultController extends Controller
 {
+        public $colsArray = array();
+        
         /*
          * action for form
          */
@@ -123,8 +125,8 @@ class DefaultController extends Controller
                                    $replace     = addslashes(file_get_contents($uploadfile));
                                    $filecontent = explode("\n", $replace);
                                    $lengthFile  = sizeof($filecontent);
-                                   $strCounter  = 0;
-                                   $linesArray  = array();
+                                   $insertCounter  = 0;
+                                   $insertArray  = array();
                                    $error_array = array();
                                    $stepsOk = 0;
 
@@ -137,12 +139,12 @@ class DefaultController extends Controller
                                             */
 
                                            if($mode==1) {
-                                               $linesArray[] =  $csvLine;
-                                               $strCounter++;
-                                               if($strCounter == $perRequest || $i == $lengthFile-1) {
-                                                    $import = $model->InsertAll($table, $linesArray, $poles, $mode, $tableColumns);
-                                                    $strCounter = 0;
-                                                    $linesArray = array();
+                                               $insertArray[] =  $csvLine;
+                                               $insertCounter++;
+                                               if($insertCounter == $perRequest || $i == $lengthFile-1) {
+                                                    $import = $model->InsertAll($table, $insertArray, $poles, $tableColumns);
+                                                    $insertCounter = 0;
+                                                    $insertArray = array();
 
                                                     if($import != 1)
                                                         $arrays[] = $i;
@@ -153,10 +155,18 @@ class DefaultController extends Controller
                                             * Insert new
                                             */
                                            if($mode==2) {
-                                                //if(in_array($csvLine[$csvKey-1], $oldItems[$tableKey])) echo("yes");
-                                                echo($csvLine[$csvKey-1]."<pre>");
-                                                print_r($oldItems);
-                                                echo("</pre>");
+                                                if($csvLine[$csvKey-1]=='' || !$this->searchInOld($oldItems, $csvLine[$csvKey-1], $tableKey)){
+                                                    $insertArray[] =  $csvLine;
+                                                    $insertCounter++;
+                                                    if($insertCounter == $perRequest || $i == $lengthFile-1) {
+                                                        $import = $model->InsertAll($table, $insertArray, $poles, $tableColumns);
+                                                        $insertCounter = 0;
+                                                        $insertArray = array();
+
+                                                        if($import != 1)
+                                                            $arrays[] = $i;
+                                                    }
+                                                }
                                            }
 
                                            /*
@@ -164,9 +174,42 @@ class DefaultController extends Controller
                                             */
                                            if($mode==3) {
 
+                                                if($csvLine[$csvKey-1]=='' || !$this->searchInOld($oldItems, $csvLine[$csvKey-1], $tableKey)){
+                                                    /*
+                                                     * insert new
+                                                     */
+
+                                                    $linesArray[] =  $csvLine;
+                                                    $strCounter++;
+                                                    if($strCounter == $perRequest || $i == $lengthFile-1) {
+                                                        $import = $model->InsertAll($table, $linesArray, $poles, $tableColumns);
+                                                        $strCounter = 0;
+                                                        $linesArray = array();
+
+                                                        if($import != 1)
+                                                            $arrays[] = $i;
+                                                    }
+                                                }
+                                                else {
+                                                    /*
+                                                     * replace old
+                                                     */
+                                                     $import = $model->updateOld($table, $csvLine, $poles, $tableColumns, $csvLine[$csvKey-1], $tableKey);
+
+                                                     if($import != 1)
+                                                         $arrays[] = $i;
+                                                }
                                            }
                                        }
                                    }
+
+                                   if($insertCounter!=0) $model->InsertAll($table, $insertArray, $poles, $tableColumns);
+                              
+                                   /*
+                                    * save params in file
+                                    */
+                                   
+                                   $this->saveInFile($table, $delimiter, $mode, $perRequest, $csvKey, $tableKey, $tableColumns, $poles, $uploadfile);
                               }
                            }
                            else {
@@ -235,5 +278,56 @@ class DefaultController extends Controller
                  'error'=>$importError,
                  'uploadfile'=>$uploadfile,
             ));
+        }
+
+        /*
+         * search needle in old rows 
+         */
+        
+        public function searchInOld($array, $needle, $key)
+        {
+            $return = false;
+            $arrayLength = sizeof($array);
+            for($i=0; $i<$arrayLength; $i++)
+            {
+                if($array[$i][$key]==$needle) $return = true;
+            }
+
+            return $return;
+        }
+
+        /*
+         * save params in file
+         */
+
+        public function saveInFile($table, $delimiter, $mode, $perRequest, $csvKey, $tableKey, $tableColumns, $poles, $uploadfile)
+        {
+            $columnsSize = sizeof($tableColumns);
+            $columns     = '';
+            for($i=0; $i<$columnsSize; $i++) {
+                $columns = ($i!=0) ? $columns.', "'.$tableColumns[$i].'"=>'.$poles[$i] : '"'.$tableColumns[$i].'"=>'.$poles[$i] ;
+            }
+            
+            $arrayToFile = '<?php
+                $paramsArray = (
+                    "table"=>"'.$table.'",
+                    "delimiter"=>"'.$delimiter.'",
+                    "mode"=>'.$mode.',
+                    "perRequest"=>'.$perRequest.',
+                    "csvKey"=>"'.$csvKey.'",
+                    "tableKey"=>"'.$tableKey.'",
+                    "columns"=>array(
+                        '.$columns.'
+                    ),
+                );
+            ?>';
+
+            $uploadfileArray = explode(".", $uploadfile);
+            $uploadfileArray[sizeof($uploadfileArray)-1] = "php";
+            $uploadfileNew = implode(".", $uploadfileArray);
+
+            $fileForWrite = fopen($uploadfileNew,"w+");
+            fwrite($fileForWrite, $arrayToFile);
+            fclose($fileForWrite);
         }
 }

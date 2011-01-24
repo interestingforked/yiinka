@@ -24,11 +24,10 @@ elseif($error==0) {
     
     echo "<span class='importCsvNoError'>".Yii::t('importcsvModule.importcsv', 'Import was carried out')."</span>.<br/>".Yii::t('importcsvModule.importcsv', 'Errors in rows').": ".$strings;
 
-    /*?>
+    ?>
     <script type="text/javascript">
         toEnd();
     </script>
-    <?php*/
+    <?php
 }
-
 ?>

@@ -11121,3 +11121,89 @@ Stack trace:
 REQUEST_URI=/importcsv
 in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (156)
 in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/24 10:31:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:332
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/01/24 10:31:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:332
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/01/24 10:31:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin".' in Y:\home\yiinka.yii\www\framework\web\CWebApplication.php:332
+Stack trace:
+#0 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('admin')
+#1 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/admin
+2011/01/24 15:06:56 [error] [system.db.CDbCommand] Error in executing SQL: UPDATE yiinka_test SET text=, title=, code= WHERE code=01
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\models\ImportCsv.php (81)
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (195)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/24 15:06:56 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' title=, code= WHERE code=01' at line 1' in Y:\home\yiinka.yii\www\framework\db\CDbCommand.php:316
+Stack trace:
+#0 Y:\home\yiinka.yii\www\protected\modules\importcsv\models\ImportCsv.php(81): CDbCommand->execute()
+#1 Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php(195): ImportCsv->updateOld('yiinka_test', NULL, Array, Array, '01?', 'code')
+#2 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#4 Y:\home\yiinka.yii\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#5 Y:\home\yiinka.yii\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): CController->run('')
+#7 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('importcsv')
+#8 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#9 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/importcsv
+2011/01/24 15:21:23 [error] [system.db.CDbCommand] Error in executing SQL: UPDATE yiinka_test SET text=текст новый 1, title=\"\'Название новое 1, code=01 WHERE code=01
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\models\ImportCsv.php (81)
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (196)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/24 15:21:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'новый 1, title=\"\'Название новое 1, code=01 WHERE code=01' at line 1' in Y:\home\yiinka.yii\www\framework\db\CDbCommand.php:316
+Stack trace:
+#0 Y:\home\yiinka.yii\www\protected\modules\importcsv\models\ImportCsv.php(81): CDbCommand->execute()
+#1 Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php(196): ImportCsv->updateOld('yiinka_test', Array, Array, Array, '01?', 'code')
+#2 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#4 Y:\home\yiinka.yii\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#5 Y:\home\yiinka.yii\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): CController->run('')
+#7 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('importcsv')
+#8 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#9 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/importcsv
+2011/01/24 15:26:22 [error] [system.db.CDbCommand] Error in executing SQL: UPDATE yiinka_test SET text=текст новый 1, title=\"\'Название новое 1, code=01 WHERE code=01
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\models\ImportCsv.php (81)
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (196)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/24 15:26:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'новый 1, title=\"\'Название новое 1, code=01 WHERE code=01' at line 1' in Y:\home\yiinka.yii\www\framework\db\CDbCommand.php:316
+Stack trace:
+#0 Y:\home\yiinka.yii\www\protected\modules\importcsv\models\ImportCsv.php(81): CDbCommand->execute()
+#1 Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php(196): ImportCsv->updateOld('yiinka_test', Array, Array, Array, '01?', 'code')
+#2 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#4 Y:\home\yiinka.yii\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#5 Y:\home\yiinka.yii\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): CController->run('')
+#7 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('importcsv')
+#8 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#9 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/importcsv
+2011/01/24 15:26:53 [error] [system.db.CDbCommand] Error in executing SQL: UPDATE yiinka_test SET text=текст новый 1, title=\"\'Название новое 1, code=01 WHERE code=01
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\models\ImportCsv.php (81)
+in Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php (196)
+in Y:\home\yiinka.yii\www\index.php (13)
+2011/01/24 15:26:53 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'новый 1, title=\"\'Название новое 1, code=01 WHERE code=01' at line 1' in Y:\home\yiinka.yii\www\framework\db\CDbCommand.php:316
+Stack trace:
+#0 Y:\home\yiinka.yii\www\protected\modules\importcsv\models\ImportCsv.php(81): CDbCommand->execute()
+#1 Y:\home\yiinka.yii\www\protected\modules\importcsv\controllers\DefaultController.php(196): ImportCsv->updateOld('yiinka_test', Array, Array, Array, '01?', 'code')
+#2 Y:\home\yiinka.yii\www\framework\web\actions\CInlineAction.php(57): DefaultController->actionIndex()
+#3 Y:\home\yiinka.yii\www\framework\web\CController.php(300): CInlineAction->run()
+#4 Y:\home\yiinka.yii\www\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#5 Y:\home\yiinka.yii\www\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(328): CController->run('')
+#7 Y:\home\yiinka.yii\www\framework\web\CWebApplication.php(121): CWebApplication->runController('importcsv')
+#8 Y:\home\yiinka.yii\www\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#9 Y:\home\yiinka.yii\www\index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/importcsv

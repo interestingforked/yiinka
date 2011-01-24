@@ -3,10 +3,10 @@
 class ImportCsv extends CFormModel
 {
     /*
-     *  Insert All
+     *  Insert
      */
 
-    public function InsertAll($table, $linesArray, $poles, $mode, $tableColumns)
+    public function InsertAll($table, $linesArray, $poles, $tableColumns)
     {
             $polesLength   = sizeof($poles);
             $tableString = '';
@@ -42,12 +42,40 @@ class ImportCsv extends CFormModel
             print_r($linesArray);
             echo("</pre>");*/
             $sql="INSERT INTO ".$table."(".$tableString.") VALUES ".$csvString."";
+            
             $command=Yii::app()->db->createCommand($sql);
 
             if($command->execute()) 
                  return (1);
             else
                  return (0);
+    }
+
+    /*
+     *  Update
+     */
+
+    public function updateOld($table, $csvLine, $poles, $tableColumns, $needle, $tableKey)
+    {
+        $polesLength = sizeof($poles);
+        $tableString = '';
+        $n           = 0;
+        
+        for($i=0; $i<$polesLength; $i++) {
+            if($poles[$i]!='') {
+                $tableString = ($n!=0) ? $tableString.", ".$tableColumns[$i]."='".CHtml::encode(stripslashes($csvLine[$poles[$i]-1]))."'" : $tableColumns[$i]."='".CHtml::encode(stripslashes($csvLine[$poles[$i]-1]))."'";
+
+                $n++;
+            }
+        }
+                
+        $sql="UPDATE ".$table." SET ".$tableString." WHERE ".$tableKey."='".$needle."'";
+        $command=Yii::app()->db->createCommand($sql);
+
+        if($command->execute())
+             return (1);
+        else
+             return (0);
     }
 
     /*
