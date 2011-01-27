@@ -1,0 +1,209 @@
+/* begin admin panel styles */
+
+div.adminPanel{
+    height:50px;
+    background:#fff;
+	border-bottom:1px solid #999999;
+}
+
+div.adminPanelLeft{
+    height:39px;
+    float:left;
+    padding:9px 0 0 15px;
+    width:200px;
+}
+
+div.adminPanelRight{
+    height:32px;
+    float:right;
+    text-align:right;
+    padding:16px 15px 0 0;
+    width:300px;
+}
+
+div.adminPanelCenter{
+    margin:0 315px 0 215px;
+    padding:16px 0 0 0;
+}
+
+div.adminPanelClear{
+    height:2px;
+    line-height:2px;
+    font-size:2px;
+    clear:both;
+}
+
+div.adminPanelUsers{
+    background:url('../images/system/icons.gif') left top no-repeat #fff;
+    width:13px;
+    height:14px;
+    cursor:pointer;
+    margin-right:10px;
+    float:left;
+}
+
+div.adminPanelUsersName{
+    float:left;
+}
+
+div.adminPanelGii{
+    float:right;
+    background:url('../images/system/icons.gif') -13px top no-repeat #fff;
+    width:15px;
+    height:14px;
+    cursor:pointer;
+    margin-right:10px;
+}
+
+div.adminPanelEdit{
+    float:right;
+    background:url('../images/system/icons.gif') -28px top no-repeat #fff;
+    width:14px;
+    height:14px;
+    cursor:pointer;
+    margin-right:10px;
+}
+
+div.adminPanelView{
+    float:right;
+    background:url('../images/system/icons.gif') -42px top no-repeat #fff;
+    width:12px;
+    height:14px;
+    cursor:pointer;
+    margin-right:10px;
+}
+
+div.adminPanelFiles{
+    float:right;
+    background:url('../images/system/icons.gif') -54px top no-repeat #fff;
+    width:15px;
+    height:14px;
+    cursor:pointer;
+    margin-right:10px;
+}
+
+div.adminPanelInstruments{
+    float:right;
+    background:url('../images/system/icons.gif') -77px top no-repeat #fff;
+    width:16px;
+    height:14px;
+    cursor:pointer;
+    margin-right:10px;
+}
+
+div.adminPanelAbout{
+    float:right;
+    background:url('../images/system/icons.gif') -69px top no-repeat #fff;
+    width:8px;
+    height:14px;
+    cursor:pointer;
+}
+
+a.adminPanelExit{
+    margin-left:20px;
+}
+
+div.adminPanelModelsList{
+    float:right;
+    width:140px;
+    text-align:left;
+    padding-left:10px;
+}
+
+select.adminPanelSelect{
+    width:140px;
+}
+
+span.redVisible{
+    color:#FF0000;
+}
+
+div.adminPanelOneInstrument{
+    float:left;
+    width:150px;
+    text-align:left;
+}
+
+div.adminPanelClear{
+    clear:both;
+    font-size:1px;
+    height:1px;
+    line-height:1px;
+}
+
+img.adminPanelInstrumentImage{
+    padding:2px;
+    border:1px solid #CCCCCC;
+}
+
+/* end admin panel styles */
+
+/* begin admin models menu */
+div.adminDiv{
+    border:1px dashed #338dfd;
+}
+
+ul.adminUl{
+    padding:0;
+    list-style:none;
+    position:absolute;
+    //margin-top:-1px;
+}
+
+ul.adminUl li{
+    float:left;
+    width:15px;
+    background:red;
+    height:15px;
+    margin-right:1px;
+    border:1px solid #c7c7c7;
+}
+
+ul.adminUl li a div{
+    width:15px;
+    height:15px;
+    cursor:pointer;
+}
+
+ul.adminUl li.adminCreate{
+    background:url('../images/system/create.png') left top no-repeat;
+}
+
+ul.adminUl li.adminDelete{
+    background:url('../images/system/delete.png') left top no-repeat;
+}
+
+ul.adminUl li.adminManage{
+    background:url('../images/system/manage.png') left top no-repeat;
+}
+
+ul.adminUl li.adminList{
+    background:url('../images/system/list.png') left top no-repeat;
+}
+
+ul.adminUl li.adminUpdate{
+    background:url('../images/system/update.png') left top no-repeat;
+}
+
+a.search-button{
+    line-height:25px;
+}
+
+/* end admin models menu */
+
+/* begin pages admin */
+
+table.pagesAdminAll{
+    border: 1px solid #e4e4cc;
+    border-bottom: none;
+}
+
+table.pagesAdminAll th{
+    background-color: #e4e4cc;
+}
+
+table.pagesAdminAll td{
+    border-bottom: 1px solid #c8caca;
+}
+
+/* end pages admin */
